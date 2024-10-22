@@ -57,10 +57,11 @@ local randomItems = Action()
 
 function randomItems.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	local rewardBag = rewardBags[item.itemid]
+	
 	if not rewardBag then
 		return false
 	end
-
+	
 	local randomIndex = math.random(1, #rewardBag)
 	local rewardItem = rewardBag[randomIndex]
 	player:addItem(rewardItem.id, 1)

@@ -1,5 +1,5 @@
 local config_aura = {
-    effect = 4; -- efeito que vai ficar girando no player
+    effect = 5; -- efeito que vai ficar girando no player
     effect_health = 162; -- efeito qnd curar o player
     level_use = { -- level que vai ser usado (min/max)
         min = 1,

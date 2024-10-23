@@ -133,7 +133,7 @@ function levelReward.onAdvance(player, skill, oldLevel, newLevel)
                 return false
             end
 
-            player:sendTextMessage("[Level Reward][" .. level .. "] " .. MESSAGE_EVENT_ADVANCE, table[level].msg)
+            player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "[Lvl Reward][" .. level .. "] " .. table[level].msg)
             player:setStorageValue(storage, level)
         end
     end

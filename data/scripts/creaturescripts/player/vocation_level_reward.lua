@@ -32,7 +32,8 @@ function rewardLevel.onAdvance(player, skill, oldLevel, newLevel)
                     for _, item in ipairs(reward.items) do
                         player:addItem(item.itemid, item.count)
                     end
-                    player:sendTextMessage(MESSAGE_EVENT_ADVANCE, reward.msg)
+                    player:sendTextMessage(MESSAGE_EVENT_ADVANCE,
+                        "[Vocation Lvl Reward][" .. level .. "] " .. reward.msg)
                     player:setStorageValue(playerStorage, level)
                 end
             end

@@ -78,7 +78,7 @@ local function aurea(player_uid)
     end
 
     -- player:addHealth(config_aura.health)
-    player:getPosition():sendMagicEffect(config_aura.effect_health)
+    --player:getPosition():sendMagicEffect(config_aura.effect_health)
 
     local position = posAurea(player_uid)
     position:sendMagicEffect(config_aura.effect)

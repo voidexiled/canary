@@ -36,6 +36,10 @@ function playerLoginGlobal.onLogin(player)
 	end
 	player:sendTextMessage(MESSAGE_LOGIN, loginStr)
 
+	-- Aura
+	player:setStorageValue(165477963, 0)
+	player:setStorageValue(1547637649, 0)
+
 	-- Promotion
 	local vocation = player:getVocation()
 	local promotion = vocation:getPromotion()

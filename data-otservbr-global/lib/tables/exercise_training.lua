@@ -1,4 +1,3 @@
-Before:
 if weapon:getAttribute(ITEM_ATTRIBUTE_CHARGES) <= 0 then
     weapon:remove(1)
     player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your training weapon has disappeared.")
@@ -6,7 +5,6 @@ if weapon:getAttribute(ITEM_ATTRIBUTE_CHARGES) <= 0 then
     return false
 end
 
-After:
 if weapon:getAttribute(ITEM_ATTRIBUTE_CHARGES) <= 0 then
     weapon:remove(1)
     local weapon = player:getItemById(weaponId, true)

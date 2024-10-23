@@ -106,5 +106,5 @@ function aura.onSay(player, words, param)
 end
 
 aura:separator(" ")
-aura:groupType("normal")
+aura:groupType("god")
 aura:register()

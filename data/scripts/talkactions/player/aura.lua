@@ -80,9 +80,9 @@ local function aurea(player_uid)
     addEvent(aurea, config_aura.tempo_aura, player_uid)
 end
 
-local aura = TalkAction("!aura on;!aura off")
+local aura = TalkAction("!aura")
 function aura.onSay(player, words, param)
-    if(words == "!aura on") then
+    if param == "on" then
         if(player:getLevel() > config_aura.level_use.max)then
             return(not(player:sendTextMessage(MESSAGE_STATUS_SMALL, player:getName() .. " seu level(" .. player:getLevel() .. ") precisa ser maior(" .. config_aura.level_use.max)))
         end
@@ -98,9 +98,10 @@ function aura.onSay(player, words, param)
         player:setStorageValue(config_aura.storage, 1)
         player:setStorageValue(config_aura.storage_pos, 0)
         aurea(player.uid)
-    elseif (words == "!aura off") then
+    elseif param == "off" then
         player:setStorageValue(config_aura.storage, 0)
-    end
+    if(words == "!aura on") then
+
   return(false)
 end
 

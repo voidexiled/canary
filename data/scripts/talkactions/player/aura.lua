@@ -1,5 +1,5 @@
 local config_aura = {
-    effect = 5; -- efeito que vai ficar girando no player
+    effect = 67; -- efeito que vai ficar girando no player
     effect_health = 162; -- efeito qnd curar o player
     level_use = { -- level que vai ser usado (min/max)
         min = 1,
@@ -19,6 +19,12 @@ local config_aura = {
     storage_pos = 1547637649; -- não mexa e nem repita esse valor em outro script!!
     storage = 165477963; -- não mexa e nem repita esse valor em outro script!!
     tempo_aura = 100; -- tempo da aurea para passar em cada posição
+}
+
+local aura_table = {
+    [1] = {
+        effect = CONST_ME_MAGIC_BLUE,
+    }
 }
 
 local function calculePosAurea(player_uid)
@@ -54,8 +60,7 @@ local function posAurea(player_uid)
     local pos_z = player:getPosition().z
 
     local aa = calculePosAurea(player_uid)
-
-    local pos = Position(pos_x + config_aura.pos_aura[aa].x, pos_y + config_aura.pos_aura[aa].y, pos_z)
+    local pos = Position(pos_x, pos_y, pos_z)
     if(not(pos))then
         return(nil)
     end
@@ -72,7 +77,7 @@ local function aurea(player_uid)
         return(nil)
     end
 
-    player:addHealth(config_aura.health)
+    -- player:addHealth(config_aura.health)
     player:getPosition():sendMagicEffect(config_aura.effect_health)
 
     local position = posAurea(player_uid)
@@ -80,8 +85,9 @@ local function aurea(player_uid)
     addEvent(aurea, config_aura.tempo_aura, player_uid)
 end
 
-local aura = TalkAction("!aura")
+local aura = TalkAction("/aura")
 function aura.onSay(player, words, param)
+    local player_level = player:getLevel()
     if param == "on" then
         if(player:getLevel() > config_aura.level_use.max)then
             return(not(player:sendTextMessage(MESSAGE_STATUS_SMALL, player:getName() .. " seu level(" .. player:getLevel() .. ") precisa ser maior(" .. config_aura.level_use.max)))

@@ -428,7 +428,7 @@ maxMessageBuffer = 4
 emoteSpells = false
 allowWalkthrough = true
 coinPacketSize = 25
-coinImagesURL = "http://127.0.0.1/images/store/"
+coinImagesURL = "http://34.45.32.148/images/store/"
 classicAttackSpeed = false
 showScriptsLogInConsole = false
 -- time to suppress negative conditions after being affected by them (ms)
@@ -484,7 +484,7 @@ rateUseStages = true
 lowLevelBonusExp = 100
 rateExp = 1
 rateSkill = 1
-rateLoot = 1.2
+rateLoot = 1.6
 rateMagic = 1
 rateSpawn = 1
 
@@ -503,7 +503,7 @@ rateSoulRegenSpeed = 4.0
 rateSpellCooldown = 1.0
 rateAttackSpeed = 1.0
 rateOfflineTrainingSpeed = 3
-rateExerciseTrainingSpeed = 200
+rateExerciseTrainingSpeed = 10
 
 -- Monster rates
 rateMonsterHealth = 1.0

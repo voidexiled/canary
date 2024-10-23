@@ -18,7 +18,7 @@ local config_aura = {
     };
     storage_pos = 1547637649; -- não mexa e nem repita esse valor em outro script!!
     storage = 165477963; -- não mexa e nem repita esse valor em outro script!!
-    tempo_aura = 100; -- tempo da aurea para passar em cada posição
+    tempo_aura = 2000; -- tempo da aurea para passar em cada posição
 }
 
 local aura_table = {

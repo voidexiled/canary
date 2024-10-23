@@ -82,23 +82,23 @@ end
 
 local aura = TalkAction("!aura on;!aura off")
 function aura.onSay(player, words, param)
-    if(words == "!aura on")then
-    if(player:getLevel() > config_aura.level_use.max)then
-        return(not(player:sendTextMessage(MESSAGE_STATUS_SMALL, player:getName() .. " seu level(" .. player:getLevel() .. ") precisa ser maior(" .. config_aura.level_use.max)))
-    end
+    if(words == "!aura on") then
+        if(player:getLevel() > config_aura.level_use.max)then
+            return(not(player:sendTextMessage(MESSAGE_STATUS_SMALL, player:getName() .. " seu level(" .. player:getLevel() .. ") precisa ser maior(" .. config_aura.level_use.max)))
+        end
 
-    if(player:getLevel() < config_aura.level_use.min)then
-        return(not(player:sendTextMessage(MESSAGE_STATUS_SMALL, player:getName() .. " seu level(" .. player:getLevel() .. ") precisa ser menor(" .. config_aura.level_use.max)))
-    end
+        if(player:getLevel() < config_aura.level_use.min)then
+            return(not(player:sendTextMessage(MESSAGE_STATUS_SMALL, player:getName() .. " seu level(" .. player:getLevel() .. ") precisa ser menor(" .. config_aura.level_use.max)))
+        end
 
-    if(player:getStorageValue(config_aura.storage) >= 1)then
-        return(not(player:sendTextMessage(MESSAGE_STATUS_SMALL, player:getName() .. " Você ja esta com a aurea ligada")))
-    end
+        if(player:getStorageValue(config_aura.storage) >= 1)then
+            return(not(player:sendTextMessage(MESSAGE_STATUS_SMALL, player:getName() .. " Você ja esta com a aurea ligada")))
+        end
 
-    player:setStorageValue(config_aura.storage, 1)
-    player:setStorageValue(config_aura.storage_pos, 0)
-    aurea(player.uid)
-    elseif(words == "!aura off")then
+        player:setStorageValue(config_aura.storage, 1)
+        player:setStorageValue(config_aura.storage_pos, 0)
+        aurea(player.uid)
+    elseif (words == "!aura off") then
         player:setStorageValue(config_aura.storage, 0)
     end
   return(false)

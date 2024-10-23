@@ -144,10 +144,10 @@ forgeTierLossReduction = 50
 forgeAmountMultiplier = 3
 forgeMinSlivers = 3
 forgeMaxSlivers = 7
-forgeInfluencedLimit = 300
-forgeFiendishLimit = 3
-forgeFiendishIntervalType = "hour"
-forgeFiendishIntervalTime = "1"
+forgeInfluencedLimit = 500
+forgeFiendishLimit = 80
+forgeFiendishIntervalType = "minute"
+forgeFiendishIntervalTime = "10"
 
 ruseChanceFormulaA = 0.0307576
 ruseChanceFormulaB = 0.440697
@@ -294,14 +294,14 @@ allowReload = true
 -- Stamina in Trainers
 staminaTrainer = true
 staminaTrainerDelay = 5
-staminaTrainerGain = 1
+staminaTrainerGain = 3
 -- Stamina in PZ
 staminaPz = false
 staminaOrangeDelay = 1
 staminaGreenDelay = 5
-staminaPzGain = 1
+staminaPzGain = 2
 -- Max players allowed on a dummy.
-maxAllowedOnADummy = 4
+maxAllowedOnADummy = 6
 
 -- Save interval per time
 -- NOTE: toggleSaveInterval: true = enable the save interval, false = disable the save interval
@@ -324,7 +324,7 @@ toggleImbuementNonAggressiveFightOnly = false
 -- NOTE: Only quests that are in the "freequests.lua" script table will work
 -- toggleFreeQuest = enable/disable the system
 -- freeQuestStage = if you add more quests to the table, change this value to run freeQuest again
-toggleFreeQuest = false
+toggleFreeQuest = true
 freeQuestStage = 1
 
 -- Deaths
@@ -503,7 +503,7 @@ rateSoulRegenSpeed = 4.0
 rateSpellCooldown = 1.0
 rateAttackSpeed = 1.0
 rateOfflineTrainingSpeed = 3
-rateExerciseTrainingSpeed = 10
+rateExerciseTrainingSpeed = 5
 
 -- Monster rates
 rateMonsterHealth = 1.0

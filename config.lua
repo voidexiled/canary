@@ -54,7 +54,7 @@ cleanProtectionZones = false
 -- NOTE: maxPlayers set to 0 means no limit
 -- NOTE: MaxPacketsPerSeconds if you change you will be subject to bugs by WPE, keep the default value of 25, 
 -- It's recommended to use a range like min 50 in this function, otherwise you will be disconnected after equipping two-handed distance weapons.
-ip = "10.128.0.2"
+ip = "34.45.32.148"
 allowOldProtocol = false
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171

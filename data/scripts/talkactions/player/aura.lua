@@ -100,7 +100,7 @@ function aura.onSay(player, words, param)
         aurea(player.uid)
     elseif param == "off" then
         player:setStorageValue(config_aura.storage, 0)
-    if(words == "!aura on") then
+    end
 
   return(false)
 end

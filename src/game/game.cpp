@@ -2653,7 +2653,7 @@ void Game::addMoney(std::shared_ptr<Cylinder> cylinder, uint64_t money, uint32_t
 	}
 
 	uint32_t nuggetCoins = money / 1000000;
-	money -= nuggetCoins;
+	money -= nuggetCoins * 1000000;
 
 	while (nuggetCoins > 0) {
 		const uint16_t count = std::min<uint32_t>(100, nuggetCoins);

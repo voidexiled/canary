@@ -76,10 +76,12 @@ local config = {
     } -- golden boots
     },
 
-    roulettePositions = {Position(27324, 25047, 7), Position(27325, 25047, 7), Position(27326, 25047, 7),
-                         Position(27327, 25047, 7), Position(27328, 25047, 7), Position(27329, 25047, 7), -- position 11 in this list is hard-coded to be the reward location, which is the item given to the player
-                         Position(27330, 25047, 7), Position(27331, 25047, 7), Position(27332, 25047, 7),
-                         Position(27333, 25047, 7), Position(27334, 25047, 7)}
+    -- {x = 32528, y = 32373, z = 7}
+    -- {x = 32529, y = 32373, z = 7}
+    roulettePositions = {Position(32528, 32373, 7), Position(32529, 32373, 7), Position(32530, 32373, 7),
+                         Position(32531, 32373, 7), Position(32532, 32373, 7), Position(32533, 32373, 7), -- position 11 in this list is hard-coded to be the reward location, which is the item given to the player
+                         Position(32534, 32373, 7), Position(32535, 32373, 7), Position(32536, 32373, 7),
+                         Position(32537, 32373, 7), Position(32538, 32373, 7)}
 }
 
 local chancedItems = {}

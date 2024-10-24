@@ -464,7 +464,7 @@ public:
 		return items[id].hitChance;
 	}
 
-	uint32_t getWorth() const;
+	uint64_t getWorth() const;
 	uint32_t getForgeSlivers() const;
 	uint32_t getForgeCores() const;
 	LightInfo getLightInfo() const;

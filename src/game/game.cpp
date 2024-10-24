@@ -2570,7 +2570,7 @@ bool Game::removeMoney(std::shared_ptr<Cylinder> cylinder, uint64_t money, uint3
 		return true;
 	}
 	std::vector<std::shared_ptr<Container>> containers;
-	std::multimap<uint32_t, std::shared_ptr<Item>> moneyMap;
+	std::multimap<uint64_t, std::shared_ptr<Item>> moneyMap;
 	uint64_t moneyCount = 0;
 	for (size_t i = cylinder->getFirstIndex(), j = cylinder->getLastIndex(); i < j; ++i) {
 		std::shared_ptr<Thing> thing = cylinder->getThing(i);
@@ -2585,7 +2585,7 @@ bool Game::removeMoney(std::shared_ptr<Cylinder> cylinder, uint64_t money, uint3
 		if (container) {
 			containers.push_back(container);
 		} else {
-			const uint32_t worth = item->getWorth();
+			const uint64_t worth = item->getWorth();
 			if (worth != 0) {
 				moneyCount += worth;
 				moneyMap.emplace(worth, item);
@@ -2600,7 +2600,7 @@ bool Game::removeMoney(std::shared_ptr<Cylinder> cylinder, uint64_t money, uint3
 			if (tmpContainer) {
 				containers.push_back(tmpContainer);
 			} else {
-				const uint32_t worth = item->getWorth();
+				const uint64_t worth = item->getWorth();
 				if (worth != 0) {
 					moneyCount += worth;
 					moneyMap.emplace(worth, item);
@@ -2625,8 +2625,8 @@ bool Game::removeMoney(std::shared_ptr<Cylinder> cylinder, uint64_t money, uint3
 			internalRemoveItem(item);
 			money -= moneyEntry.first;
 		} else if (moneyEntry.first > money) {
-			const uint32_t worth = moneyEntry.first / item->getItemCount();
-			const uint32_t removeCount = std::ceil(money / static_cast<double>(worth));
+			const uint64_t worth = moneyEntry.first / item->getItemCount();
+			const uint64_t removeCount = std::ceil(money / static_cast<double>(worth));
 			addMoney(cylinder, (worth * removeCount) - money, flags);
 			internalRemoveItem(item, removeCount);
 			return true;
@@ -2652,20 +2652,29 @@ void Game::addMoney(std::shared_ptr<Cylinder> cylinder, uint64_t money, uint32_t
 		return;
 	}
 
+	uint32_t nuggetCoins = money / 1000000;
+	money -= nuggetCoins;
 
-	uint32_t crystalCoins = money / 10000;
-	money -= crystalCoins * 10000;
-	while (crystalCoins > 0) {
-		const uint16_t count = std::min<uint32_t>(100, crystalCoins);
+	while (nuggetCoins > 0) {
+		const uint16_t count = std::min<uint32_t>(100, nuggetCoins);
 
-		std::shared_ptr<Item> remaindItem = Item::CreateItem(ITEM_CRYSTAL_COIN, count);
-
+		std::shared_ptr<Item> remaindItem = Item::CreateItem(ITEM_NUGGET_COIN, count);
 		ReturnValue ret = internalAddItem(cylinder, remaindItem, INDEX_WHEREEVER, flags);
 		if (ret != RETURNVALUE_NOERROR) {
 			internalAddItem(cylinder->getTile(), remaindItem, INDEX_WHEREEVER, FLAG_NOLIMIT);
 		}
+		nuggetCoins -= count;
+	}
+	
+	uint32_t crystalCoins = money / 10000;
 
-		crystalCoins -= count;
+	if (crystalCoins != 0) {
+		std::shared_ptr<Item> remaindItem = Item::CreateItem(ITEM_CRYSTAL_COIN, crystalCoins);
+		ReturnValue ret = internalAddItem(cylinder, remaindItem, INDEX_WHEREEVER, flags);
+		if (ret != RETURNVALUE_NOERROR) {
+			internalAddItem(cylinder->getTile(), remaindItem, INDEX_WHEREEVER, FLAG_NOLIMIT);
+		}
+		money -= crystalCoins * 10000;
 	}
 
 	uint16_t platinumCoins = money / 100;

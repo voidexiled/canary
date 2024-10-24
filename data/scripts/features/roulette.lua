@@ -25,53 +25,50 @@ local config = {
     },
 
     prizePool = {{
-        itemId = 2160,
-        count = {1, 10},
+        itemId = 3043,
+        count = {1, 100},
         chance = 10000
     }, -- {itemId = itemid, count = {min, max}, chance = chance/10000} (crystal coins)
     {
-        itemId = 2488,
+        itemId = 3079, -- boots of haste
         count = {1, 1},
         chance = 9000
-    }, -- crown legs
-    {
-        itemId = 2195,
+    }, {
+        itemId = 5898, -- bonelord eye
         count = {1, 1},
         chance = 8500
-    }, -- boots of haste
-    {
-        itemId = 2498,
+    }, {
+        itemId = 50000, -- noctera boots
         count = {1, 1},
         chance = 7500
-    }, -- royal helmet
+    }, {
+        itemId = 49999,
+        count = {1, 2},
+        chance = 6000
+    }, -- nugget coin     -- items with 'charges' and have 'showCharges' in items.xml will be given charges
     {
-        itemId = 5226,
-        count = {1, 70},
-        chance = 6500
-    }, -- old sudden death rune -- runes are given as stackable items, even tho they have 'charges'
-    {
-        itemId = 5184,
-        count = {50, 100},
+        itemId = 49999,
+        count = {1, 5},
         chance = 5000
-    }, -- loot seller chest     -- items with 'charges' and have 'showCharges' in items.xml will be given charges
+    }, -- nugget coin     -- items with 'charges' and have 'showCharges' in items.xml will be given charges
     {
-        itemId = 5197,
+        itemId = 19082,
         count = {1, 3},
         chance = 4000
     }, -- roulette token
     {
-        itemId = 2470,
+        itemId = 34109,
         count = {1, 1},
         chance = 3000
-    }, -- golden legs
+    }, -- bag you desire
     {
-        itemId = 2472,
+        itemId = 43898,
         count = {1, 1},
         chance = 1500
-    }, -- magic plate armor
+    }, -- bag you covet
     {
-        itemId = 2646,
-        count = {1, 1},
+        itemId = 49999,
+        count = {60, 100},
         chance = 500
     } -- golden boots
     },

@@ -18,6 +18,7 @@ local config = {
 		},
 
 		container = {
+			{ 16277, 1 }, -- stone
 			{ 3003, 1 }, -- rope
 			{ 5710, 1 }, -- light shovel
 			{ 268, 10 }, -- mana potion
@@ -36,6 +37,7 @@ local config = {
 		},
 
 		container = {
+			{ 16277, 1 }, -- stone
 			{ 3003, 1 }, -- rope
 			{ 5710, 1 }, -- light shovel
 			{ 268, 10 }, -- mana potion
@@ -54,6 +56,7 @@ local config = {
 		},
 
 		container = {
+			{ 16277, 1 }, -- stone
 			{ 3003, 1 }, -- rope
 			{ 5710, 1 }, -- light shovel
 			{ 266, 10 }, -- health potion
@@ -74,6 +77,7 @@ local config = {
 		},
 
 		container = {
+			{ 16277, 1 }, -- stone
 			{ 7774, 1 }, -- jagged sword
 			{ 3327, 1 }, -- daramanian mace
 			{ 3003, 1 }, -- rope

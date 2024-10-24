@@ -411,15 +411,15 @@ std::vector<uint16_t> IOBestiary::getBestiaryFinished(const std::shared_ptr<Play
 }
 
 int8_t IOBestiary::calculateDifficult(uint32_t chance) const {
-	float chanceInPercent = chance / 1000;
+	float chanceInPercent = chance / 1000.0f;
 
-	if (chanceInPercent < 0.2) {
+	if (chanceInPercent < 0.2f) {
 		return 4;
-	} else if (chanceInPercent < 1) {
+	} else if (chanceInPercent < 1.0f) {
 		return 3;
-	} else if (chanceInPercent < 5) {
+	} else if (chanceInPercent < 5.0f) {
 		return 2;
-	} else if (chanceInPercent < 25) {
+	} else if (chanceInPercent < 25.0f) {
 		return 1;
 	}
 	return 0;

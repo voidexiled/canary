@@ -6,7 +6,7 @@
 
 return {
     slots = {
-        [50000] = Slot {
+        [56371] = Slot {
             needItem = {
                 id = 19082,
                 count = 1

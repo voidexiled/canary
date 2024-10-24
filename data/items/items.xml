@@ -76351,6 +76351,10 @@ Granted by TibiaGoals.com"/>
 		<attribute key="containersize" value="10"/>
 		<attribute key="decayTo" value="0"/>
 	</item>
+	<item id="49999" article="a" name="nugget coin">
+		<attribute key="primarytype" value="valuables"/>
+		<attribute key="weight" value="50"/>
+	</item>
 	<item id="50000" article="a" name="pair of Noctera Boots">
 		<attribute key="armor" value="2" />
 		<attribute key="showduration" value="1"/>

@@ -27,6 +27,7 @@ function Animation:moveDummies(slot, speed)
 end
 
 function Animation:createDummy(slot, defaultSpeed, lookTypeEx)
+    print(defaultSpeed)
     local dummy = Game.createMonster(Constants.ROULETTE_DUMMY_NAME, slot.endPosition, false, true)
     if dummy then
         dummy:setBaseSpeed(defaultSpeed)

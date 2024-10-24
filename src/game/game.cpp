@@ -2652,6 +2652,7 @@ void Game::addMoney(std::shared_ptr<Cylinder> cylinder, uint64_t money, uint32_t
 		return;
 	}
 
+
 	uint32_t crystalCoins = money / 10000;
 	money -= crystalCoins * 10000;
 	while (crystalCoins > 0) {

@@ -263,7 +263,7 @@ end
 casinoRoulette:uid(config.uniqueId)
 casinoRoulette:register()
 
-local disableMovingItemsToRoulettePositions = EventCallback()
+local disableMovingItemsToRoulettePositions = EventCallback("disableMovingItemsToRoulettePositions")
 
 disableMovingItemsToRoulettePositions.playerOnMoveItem = function(self, item, count, fromPosition, toPosition,
     fromCylinder, toCylinder)

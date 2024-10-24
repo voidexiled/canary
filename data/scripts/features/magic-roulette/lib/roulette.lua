@@ -27,7 +27,7 @@ function Roulette:roll(player, slot)
 
     local reward = slot:generateReward()
     if not reward then
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_RED, Strings.GENERATE_REWARD_FAILURE)
+        player:sendTextMessage(MESSAGE_STATUS, Strings.GENERATE_REWARD_FAILURE)
         return false
     end
 

@@ -20,7 +20,41 @@ return {
                 chance = 0.1,
                 rare = true
             }, {
+                id = 43898,
+                count = 1,
+                chance = 0.3,
+                rare = true
+            }, {
+                id = 34109,
+                count = 1,
+                chance = 0.6,
+                rare = true
+            }, {
                 id = 19082,
+                count = 2,
+                chance = 9
+            }, {
+                id = 19082,
+                count = 1,
+                chance = 9
+            }, {
+                id = 49999,
+                count = 5,
+                chance = 9
+            }, {
+                id = 49999,
+                count = 2,
+                chance = 9
+            }, {
+                id = 50000,
+                count = 1,
+                chance = 9
+            }, {
+                id = 5898,
+                count = 1,
+                chance = 9
+            }, {
+                id = 3079,
                 count = 1,
                 chance = 9
             }, {
@@ -28,8 +62,16 @@ return {
                 count = 1,
                 chance = 9
             }, {
+                id = 3278,
+                count = 1,
+                chance = 9
+            }, {
                 id = 5903,
                 count = 1,
+                chance = 9
+            }, {
+                id = 3043,
+                count = 50,
                 chance = 9
             }}
         }

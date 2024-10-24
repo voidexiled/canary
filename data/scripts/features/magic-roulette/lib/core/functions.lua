@@ -15,7 +15,7 @@ function Functions:giveReward(player, reward)
     end
 
     if player:addItemEx(item) ~= RETURNVALUE_NOERROR then
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_RED, Strings.GIVE_REWARD_FAILURE)
+        player:sendTextMessage(MESSAGE_STATUS, Strings.GIVE_REWARD_FAILURE)
         DatabaseRoulettePlays:update(reward.uuid, Constants.PLAY_STATUS_PENDING)
         return false
     end

@@ -19,7 +19,7 @@ toggleMaintainMode = false
 --- Message displayed during maintenance mode.
 -- Should inform the expected downtime or resumption details succinctly.
 -- @field [parent=#global] #string maintainModeMessage an empty string by default, set a custom message if needed.
-maintainModeMessage = ""
+maintainModeMessage = "Servidor en mantenimiento"
 
 -- Combat settings
 -- NOTE: valid values for worldType are: "pvp", "no-pvp" and "pvp-enforced"
@@ -172,7 +172,7 @@ transcendanceAvatarDuration = 7000
 -- NOTE: bosstiaryKillMultiplier, multiplier value of boss killed, default 1
 bestiaryKillMultiplier = 1
 bosstiaryKillMultiplier = 1
-bestiaryRateCharmShopPrice  = 1.0
+bestiaryRateCharmShopPrice = 1.0
 boostedBossSlot = true
 boostedBossLootBonus = 250
 boostedBossKillBonus = 3
@@ -403,14 +403,14 @@ mysqlSock = ""
 passwordType = "sha1"
 
 -- NOTE: memoryConst: This is the memory cost for the Argon2 hash algorithm. It specifies the amount of memory that the algorithm will use when calculating a hash.
---The memory cost is measured in units of KiB (1024 bytes). A higher memory cost makes the algorithm more resistant to brute-force and hash-table attacks, but also consumes more memory.
+-- The memory cost is measured in units of KiB (1024 bytes). A higher memory cost makes the algorithm more resistant to brute-force and hash-table attacks, but also consumes more memory.
 -- NOTE: temporaryConst: This is the time cost for the Argon2 hash algorithm. It specifies the amount of computational time that the algorithm will spend when calculating a hash.
---A higher time cost makes the algorithm more secure but also slower.
+-- A higher time cost makes the algorithm more secure but also slower.
 -- NOTE: parallelism: This is the parallelism factor for the Argon2 hash algorithm. It specifies the number of parallel threads that the algorithm will use when calculating a hash.
---In general, a higher level of parallelism can make the algorithm faster on systems with multiple CPU cores, but it can also increase memory usage.
+-- In general, a higher level of parallelism can make the algorithm faster on systems with multiple CPU cores, but it can also increase memory usage.
 -- NOTE: These settings have to be the same on the site and server.
 memoryConst = "1<<16"
-temporaryConst= 2
+temporaryConst = 2
 parallelism = 2
 
 -- Session Auth

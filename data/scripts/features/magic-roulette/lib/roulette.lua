@@ -66,6 +66,7 @@ function Roulette:roll(player, slot)
 end
 
 function Roulette:getSlot(actionid)
+    print(self.slots[actionid])
     return self.slots[actionid]
 end
 

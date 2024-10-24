@@ -6,144 +6,75 @@
 
 return {
     slots = {
-        [17320] = Slot {
+        [50000] = Slot {
             needItem = {
-                id = 8978,
+                id = 19082,
                 count = 1
             },
             tilesPerSlot = 11,
-            centerPosition = Position(863, 928, 7),
+            centerPosition = Position(32533, 32372, 7),
 
             items = {{
-                id = 8870,
-                count = 1,
-                chance = 0.2,
+                id = 49999,
+                count = 100,
+                chance = 0.1,
                 rare = true
             }, {
-                id = 7730,
+                id = 43898,
                 count = 1,
                 chance = 0.3,
                 rare = true
             }, {
-                id = 7892,
+                id = 34109,
                 count = 1,
-                chance = 0.5,
+                chance = 0.6,
                 rare = true
             }, {
-                id = 12640,
+                id = 19082,
+                count = 2,
+                chance = 9
+            }, {
+                id = 19082,
                 count = 1,
                 chance = 9
             }, {
-                id = 12411,
+                id = 49999,
+                count = 5,
+                chance = 9
+            }, {
+                id = 49999,
+                count = 2,
+                chance = 9
+            }, {
+                id = 50000,
                 count = 1,
                 chance = 9
             }, {
-                id = 12662,
+                id = 5898,
                 count = 1,
                 chance = 9
             }, {
-                id = 8981,
+                id = 3079,
                 count = 1,
                 chance = 9
             }, {
-                id = 7443,
+                id = 50001,
                 count = 1,
                 chance = 9
             }, {
-                id = 8978,
+                id = 3278,
                 count = 1,
                 chance = 9
             }, {
-                id = 11401,
+                id = 5903,
                 count = 1,
                 chance = 9
             }, {
-                id = 10760,
-                count = 1,
+                id = 3043,
+                count = 50,
                 chance = 9
-            }, {
-                id = 12466,
-                count = 1,
-                chance = 9
-            }, {
-                id = 9693,
-                count = 1,
-                chance = 9
-            }, {
-                id = 8474,
-                count = 1,
-                chance = 9
-            }}
-        },
-
-        [17322] = Slot {
-            needItem = {
-                id = 8978,
-                count = 1
-            },
-            tilesPerSlot = 11,
-            centerPosition = Position(875, 928, 7),
-
-            items = {{
-                id = 8870,
-                count = 1,
-                chance = 0.02,
-                rare = true
-            }, {
-                id = 7730,
-                count = 1,
-                chance = 0.03,
-                rare = true
-            }, {
-                id = 7892,
-                count = 1,
-                chance = 0.05,
-                rare = true
-            }, {
-                id = 12640,
-                count = 1,
-                chance = 9
-            }, {
-                id = 12411,
-                count = 1,
-                chance = 9
-            }, {
-                id = 12662,
-                count = 1,
-                chance = 9
-            }, {
-                id = 8981,
-                count = 1,
-                chance = 9
-            }, {
-                id = 7443,
-                count = 1,
-                chance = 9
-            }, {
-                id = 8978,
-                count = 1,
-                chance = 9
-            }, {
-                id = 11401,
-                count = 1,
-                chance = 9
-            }, {
-                id = 10760,
-                count = 1,
-                chance = 9
-            }, {
-                id = 12466,
-                count = 1,
-                chance = 9
-            }, {
-                id = 9693,
-                count = 1,
-                chance = 9
-            }, {
-                id = 8474,
-                count = 1,
-                chance = 9.91
             }}
         }
+
     }
 }

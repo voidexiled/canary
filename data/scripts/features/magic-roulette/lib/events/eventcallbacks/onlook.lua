@@ -9,4 +9,4 @@ ec.onLook = function(self, thing, position, distance, description)
     end
     return description
 end
-ec:register(1)
+ec:register()

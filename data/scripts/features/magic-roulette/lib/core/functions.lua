@@ -21,7 +21,7 @@ function Functions:giveReward(player, reward)
     end
 
     DatabaseRoulettePlays:update(reward.uuid, Constants.PLAY_STATUS_DELIVERED)
-    player:sendTextMessage(MESSAGE_INFO_DESCR,
+    player:sendTextMessage(MESSAGE_GAME_HIGHLIGHT,
         Strings.GIVE_REWARD_SUCCESS:format(reward.count, ItemType(reward.id):getName()))
 
     return true

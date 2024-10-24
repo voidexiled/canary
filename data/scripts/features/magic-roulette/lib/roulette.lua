@@ -35,7 +35,7 @@ function Roulette:roll(player, slot)
     local needItemName = ItemType(needItem.id):getName()
 
     if not player:removeItem(needItem.id, needItem.count) then
-        player:sendTextMessage(MESSAGE_EVENT_DEFAULT, Strings.NEEDITEM_TO_SPIN:format(needItem.count, needItemName))
+        player:sendTextMessage(MESSAGE_STATUS, Strings.NEEDITEM_TO_SPIN:format(needItem.count, needItemName))
         return false
     end
 

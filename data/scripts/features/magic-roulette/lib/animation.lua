@@ -27,7 +27,6 @@ function Animation:moveDummies(slot, speed)
 end
 
 function Animation:createDummy(slot, defaultSpeed, lookTypeEx)
-    print(defaultSpeed)
     local dummy = Game.createMonster(Constants.ROULETTE_DUMMY_NAME, slot.endPosition, false, true)
     if dummy then
         dummy:setSpeed(defaultSpeed)
@@ -124,8 +123,23 @@ function Animation:drawRewardHighlight(slot, rewardId)
                 dummy:setOutfit{
                     lookTypeEx = rewardId
                 }
-                dummy:getPosition():sendMagicEffect(38)
-                dummy:getPosition():sendMagicEffect(57)
+                -- only horizontal
+                local minus = (slot.tilesPerSlot - 1) / 2
+                local leftPosition = Position(slot.centerPosition.x - minus, slot.centerPosition.y,
+                    slot.centerPosition.z)
+                local rightPosition = Position(slot.centerPosition.x + minus, slot.centerPosition.y,
+                    slot.centerPosition.z)
+
+                -- send distance effect from edges to center
+                leftPosition:sendMagicEffect(slot.centerPosition, slot.winEffects[1])
+                rightPosition:sendMagicEffect(slot.centerPosition, slot.winEffects[1])
+                local randomEffect = random(0, #slot.winEffects)
+                while randomEffect == slot.winEffects[1] do
+                    randomEffect = random(0, #slot.winEffects)
+                end
+
+                -- Reward Effect at dummy position
+                dummy:getPosition():sendMagicEffect(randomEffect)
             end
         end
     end

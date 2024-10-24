@@ -4,15 +4,19 @@
 	Discord: Ly�#8767
 ]] local Slot = require('data/scripts/features/magic-roulette/lib/classes/slot')
 
+local defaultWinEffects = {CONST_ANI_FIRE, CONST_ME_SOUND_YELLOW, CONST_ME_SOUND_PURPLE, CONST_ME_SOUND_BLUE,
+                           CONST_ME_SOUND_WHITE}
+
 return {
     slots = {
         [56371] = Slot {
+            winEffects = defaultWinEffects,
             needItem = {
                 id = 19082,
                 count = 1
             },
             tilesPerSlot = 11,
-            centerPosition = Position(32533, 32372, 7),
+            centerPosition = Position(32533, 32373, 7),
 
             items = {{
                 id = 49999,

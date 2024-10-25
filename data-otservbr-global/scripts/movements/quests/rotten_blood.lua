@@ -4,8 +4,8 @@ local config = {
         [61000] = {
             name = "RottenBloodEnter",
             reqStorage = {Storage.RottenBlood.Entrance},
-            from = Position(32953, 32398, 94),
-            to = Position(33714, 32797, 14),
+            from = Position(32953, 32398, 9),
+            to = Position(34070, 31975, 14),
             failMessage = "You need to talk with Torkada to enter."
         }
     }

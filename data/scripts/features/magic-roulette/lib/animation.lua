@@ -19,6 +19,8 @@ function Animation:moveDummies(slot, speed)
                 else
                     dummy:setSpeed(speed)
                     dummy:move(DIRECTION_WEST)
+                    -- ?? sound
+                    slot.centerPosition:sendSingleSoundEffect(17)
                 end
             end
             position.x = position.x + 1
@@ -75,8 +77,6 @@ function Animation:start(args)
                 slot.startPosition:sendDistanceEffect(slot.centerPosition, 38)
                 slot.endPosition:sendDistanceEffect(slot.centerPosition, 38)
                 slot.centerPosition:sendMagicEffect(7)
-                -- ?? sound
-                slot.centerPosition:sendSingleSoundEffect(17)
 
                 addEvent(function()
                     args.onFinish()

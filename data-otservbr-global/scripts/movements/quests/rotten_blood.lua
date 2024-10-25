@@ -1,9 +1,11 @@
-local consts = {}
+local consts = {
+    Entrance = 61000
+}
 local config = {
     tiles = {
         [61000] = {
             name = "RottenBloodEnter",
-            reqStorage = Storage.RottenBlood.Entrance,
+            reqStorage = consts.Entrance,
             minValue = 1,
             from = Position(32953, 32398, 9),
             to = Position(34070, 31975, 14),

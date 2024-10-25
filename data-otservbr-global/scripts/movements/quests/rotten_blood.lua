@@ -1,12 +1,19 @@
 local consts = {
-    Entrance = 61000
+
+    Entrance = {
+        storageId = 61000,
+        uid = 61000
+    },
+    EntranceExit = {
+        uid = 61001
+    }
 }
 
 local config = {
     tiles = {
         [61000] = {
             name = "RottenBloodEnter",
-            reqStorage = consts.Entrance,
+            reqStorage = consts.Entrance.storageId,
             minValue = 1,
             from = Position(32953, 32398, 9),
             to = Position(34070, 31975, 14),
@@ -19,9 +26,9 @@ local config = {
     }
 }
 
-local rottenBloodMoveEvent = MoveEvent()
+local rottenBloodEntranceMoveEvent = MoveEvent()
 
-function rottenBloodMoveEvent.onStepIn(creature, item, position, fromPosition)
+function rottenBloodEntranceMoveEvent.onStepIn(creature, item, position, fromPosition)
     local player = creature:getPlayer()
     if not player then
         return false
@@ -47,10 +54,27 @@ function rottenBloodMoveEvent.onStepIn(creature, item, position, fromPosition)
     return true
 end
 
-rottenBloodMoveEvent:type("stepin")
+local rottenBloodEntranceExitMoveEvent = MoveEvent()
 
-for uid, _ in pairs(config.tiles) do
-    rottenBloodMoveEvent:uid(uid)
+function rottenBloodEntranceExitMoveEvent.onStepIn(creature, item, position, fromPosition)
+    local player = creature:getPlayer()
+    if not player then
+        return false
+    end
+
+    local mission = config.tiles[item.uid]
+    if not mission then
+        return false
+    end
+
+    player:teleportTo(mission.to)
+    return true
 end
 
-rottenBloodMoveEvent:register()
+rottenBloodEntranceMoveEvent:type("stepin")
+rottenBloodEntranceMoveEvent:uid(consts.Entrance.storageId)
+rottenBloodEntranceMoveEvent:register()
+
+rottenBloodEntranceExitMoveEvent:type("stepin")
+rottenBloodEntranceExitMoveEvent:uid(consts.EntranceExit.uid)
+rottenBloodEntranceExitMoveEvent:register()

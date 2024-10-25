@@ -12,14 +12,14 @@ function rottenBloodEntranceExitMoveEvent.onStepIn(creature, item, position, fro
         return false
     end
 
-    if not config[item.aid] then
+    if not config[item.uid] then
         return false
     end
 
-    player:teleportTo(config[item.aid].to)
+    player:teleportTo(config[item.uid].to)
     return true
 end
 
 rottenBloodEntranceExitMoveEvent:type("stepin")
-rottenBloodEntranceExitMoveEvent:aid(63000)
+rottenBloodEntranceExitMoveEvent:uid(63000)
 rottenBloodEntranceExitMoveEvent:register()

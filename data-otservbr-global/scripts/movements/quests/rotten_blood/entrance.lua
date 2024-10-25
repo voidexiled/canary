@@ -16,12 +16,12 @@ function rottenBloodEntranceMoveEvent.onStepIn(creature, item, position, fromPos
         return false
     end
 
-    local mission = config[item.aid]
+    local mission = config[item.uid]
     if not mission then
         return false
     end
 
-    if config[item.aid].storage and player:getStorageValue(config[item.uid].storage) < config[item.aid].minValue then
+    if config[item.uid].storage and player:getStorageValue(config[item.uid].storage) < config[item.uid].minValue then
         player:sendTextMessage(MESSAGE_EVENT_ADVANCE, config[item.uid].failMessage)
         player:teleportTo(fromPosition)
         return false
@@ -32,6 +32,6 @@ function rottenBloodEntranceMoveEvent.onStepIn(creature, item, position, fromPos
 end
 
 rottenBloodEntranceMoveEvent:type("stepin")
-rottenBloodEntranceMoveEvent:aid(62000)
+rottenBloodEntranceMoveEvent:uid(62000)
 rottenBloodEntranceMoveEvent:register()
 

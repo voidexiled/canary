@@ -84,6 +84,7 @@ function Animation:start(args)
                         self:drawFireworks(slot)
                         self:drawRewardHighlight(slot, rewardId)
                     end
+                    slot.centerPosition:sendSingleSoundEffect(18)
                 end, 500)
             end, 700)
         else
@@ -141,10 +142,10 @@ function Animation:drawRewardHighlight(slot, rewardId)
                 end
 
                 -- ?? sound reward
-                slot.centerPosition:sendSingleSoundEffect(18, true)
 
                 -- Reward Effect at dummy position
                 dummy:getPosition():sendMagicEffect(randomEffect)
+                dummy:getPosition():sendSingleSoundEffect(9, true)
 
             end
         end

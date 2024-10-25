@@ -40,3 +40,7 @@ function rottenBloodMoveEvent.onStepIn(creature, item, position, fromPosition)
     player:teleportTo(destPosition)
     return true
 end
+
+rottenBloodMoveEvent:type("stepin")
+rottenBloodMoveEvent:uid(61000)
+rottenBloodMoveEvent:register()

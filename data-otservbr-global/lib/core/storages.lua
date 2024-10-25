@@ -75,6 +75,9 @@ Reserved player action storage key ranges (const.h)
 	Questline = Storage through the Quest
 ]] Storage = {
     -- General storages
+    RottenBlood = {
+        Entrance = 61000
+    },
     Dragonfetish = 30003,
     EdronRopeQuest = 30004,
     OrcKingGreeting = 30006,
@@ -2901,10 +2904,8 @@ GlobalStorage = {
     Yasir = 65014,
     IceCrack = 65016,
     UglyMonster = 65017,
-    KeysUpdate = 40000, -- Reserved storage from 40000 - 40000
-    RottenBlood = {
-        Entrance = 61000
-    }
+    KeysUpdate = 40000 -- Reserved storage from 40000 - 40000
+
 }
 
 startupGlobalStorages = {Storage.Quest.U7_4.TheAncientTombs.AshmunrahSwitchesGlobalStorage,

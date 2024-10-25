@@ -7,9 +7,12 @@ local config = {
             name = "RottenBloodEnter",
             reqStorage = consts.Entrance,
             minValue = 1,
-            from = Position(32953, 32398, 9),
             to = Position(34070, 31975, 14),
             failMessage = "You need to talk with Torkada to enter."
+        },
+        [61001] = {
+            name = "RottenBloodEntranceExit",
+            to = Position(32953, 32398, 9)
         }
     }
 }
@@ -24,6 +27,11 @@ function rottenBloodMoveEvent.onStepIn(creature, item, position, fromPosition)
 
     if not config.tiles[item.uid] then
         return false
+    end
+    -- Teleport to destination positions if no storage requeriments
+    if not config.tiles[item.uid].reqStorage then
+        player:teleportTo(config.tiles[item.uid].to)
+        return true
     end
 
     local destPosition = config.tiles[item.uid].to

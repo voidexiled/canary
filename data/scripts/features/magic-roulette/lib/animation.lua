@@ -140,10 +140,12 @@ function Animation:drawRewardHighlight(slot, rewardId)
                     randomEffect = random(0, #slot.winEffects)
                 end
 
+                -- ?? sound reward
+                slot.centerPosition:sendSingleSoundEffect(18, true)
+
                 -- Reward Effect at dummy position
                 dummy:getPosition():sendMagicEffect(randomEffect)
-                -- ?? sound reward
-                dummy:getPosition():sendSingleSoundEffect(18)
+
             end
         end
     end

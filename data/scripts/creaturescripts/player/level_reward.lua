@@ -12,8 +12,8 @@ local table = {
     },
     [60] = {
         type = "bank",
-        id = {100000, 0},
-        msg = "Ganaste 10 cc en tu banco como recompensa por subir a nivel 60!"
+        id = {250000, 0},
+        msg = "Ganaste 25 cc en tu banco como recompensa por subir a nivel 60!"
     },
     [100] = {
         type = "addon",

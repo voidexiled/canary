@@ -3,7 +3,8 @@ local config = {
     tiles = {
         [61000] = {
             name = "RottenBloodEnter",
-            reqStorage = {Storage.RottenBlood.Entrance},
+            reqStorage = Storage.RottenBlood.Entrance,
+            minValue = 1,
             from = Position(32953, 32398, 9),
             to = Position(34070, 31975, 14),
             failMessage = "You need to talk with Torkada to enter."
@@ -31,7 +32,7 @@ function rottenBloodMoveEvent.onStepIn(creature, item, position, fromPosition)
         return false
     end
 
-    if not player:getStorageValue(Storage.RottenBlood.Entrance) > 0 then
+    if not player:getStorageValue(config.tiles[item.uid].reqStorage) >= config.tiles[item.uid].minValue then
         player:sendTextMessage(MESSAGE_EVENT_ADVANCE, config.tiles[item.uid].failMessage)
         player:teleportTo(fromPosition)
         return false

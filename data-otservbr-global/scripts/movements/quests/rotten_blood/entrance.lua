@@ -34,3 +34,4 @@ end
 rottenBloodEntranceMoveEvent:type("stepin")
 rottenBloodEntranceMoveEvent:aid(61000)
 rottenBloodEntranceMoveEvent:register()
+

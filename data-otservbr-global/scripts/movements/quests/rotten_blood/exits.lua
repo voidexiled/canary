@@ -12,13 +12,13 @@ function rottenBloodEntranceExitMoveEvent.onStepIn(creature, item, position, fro
         return false
     end
 
-    if not config[item.uid] then
+    if not config[item.aid] then
         return false
     end
-    if not config[item.uid].to then
+    if not config[item.aid].to then
         return false
     end
-    local missionTo = config[item.uid].to
+    local missionTo = config[item.aid].to
 
     player:teleportTo(missionTo.to)
     return true

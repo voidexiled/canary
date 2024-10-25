@@ -2,6 +2,27 @@ local vocationRewards = {
     -- [1,5] = VOCATION ID
     -- [LEVEL] = {items = {{itemid = ITEM_ID, count = COUNT}}, msg = "MESSAGE"}
     -- [Sorcerer]
+    [{1, 2, 3, 4, 5, 6, 7, 8}] = {
+        [40] = {
+            items = {{
+                itemid = 266,
+                count = 15
+            }, {
+                itemid = 268,
+                count = 15
+            }},
+            msg = "Haz recibido pociones como recompensa por subir a nivel 40!"
+        }
+    },
+    [{1, 2, 5, 6}] = {
+        [80] = {
+            items = {{
+                itemid = 238,
+                count = 100
+            }},
+            msg = "Haz recibido 100 Great Mana Potion como recompensa por subir a nivel 80!"
+        }
+    },
     [{1, 5}] = {
         [50] = {
             items = {{
@@ -29,6 +50,16 @@ local vocationRewards = {
                 count = 1
             }},
             msg = "Recibiste un Composite Hornbow por alcanzar el nivel 50!"
+        },
+        [80] = {
+            items = {{
+                itemid = 7642,
+                count = 50
+            }, {
+                itemid = 237,
+                count = 50
+            }},
+            msg = "Haz recibido pociones como recompensa por subir a nivel 80!"
         }
     },
     -- [Knight]
@@ -45,6 +76,16 @@ local vocationRewards = {
                 count = 1
             }},
             msg = "Recibiste armas por alcanzar el nivel 50!"
+        },
+        [80] = {
+            items = {{
+                itemid = 268,
+                count = 100
+            }, {
+                itemid = 239,
+                count = 25
+            }},
+            msg = "Haz recibido pociones como recompensa por subir a nivel 80!"
         }
     }
 }

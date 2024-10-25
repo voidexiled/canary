@@ -5,6 +5,11 @@ local table = {
     -- [level] = type = "coin", id = {QUANTITY, 0}, msg = "MESSAGE"},
     -- [level] = type = "mount", id = {ID_MOUNT, 0}, msg = "MESSAGE"},
 
+    [15] = {
+        type = "item",
+        id = {3059, 0},
+        msg = "Obtuviste un Spellbook como recompensa por subir a nivel 15!"
+    },
     [60] = {
         type = "bank",
         id = {100000, 0},

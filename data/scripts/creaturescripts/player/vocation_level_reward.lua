@@ -1,15 +1,50 @@
 local vocationRewards = {
-
     -- [1,5] = VOCATION ID
     -- [LEVEL] = {items = {{itemid = ITEM_ID, count = COUNT}}, msg = "MESSAGE"}
-
+    -- [Sorcerer]
     [{1, 5}] = {
         [50] = {
             items = {{
-                itemid = 3073,
+                itemid = 8094,
                 count = 1
             }},
-            msg = "Recibiste una Wand of Cosmic Energy por alcanzar el nivel 50!"
+            msg = "Recibiste una Wand of Voodo por alcanzar el nivel 50!"
+        }
+    },
+    -- [Druid]
+    [{2, 6}] = {
+        [50] = {
+            items = {{
+                itemid = 8082,
+                count = 1
+            }},
+            msg = "Recibiste una Underworld Rod por alcanzar el nivel 50!"
+        }
+    },
+    -- [Paladin]
+    [{3, 7}] = {
+        [50] = {
+            items = {{
+                itemid = 8027,
+                count = 1
+            }},
+            msg = "Recibiste un Composite Hornbow por alcanzar el nivel 50!"
+        }
+    },
+    -- [Knight]
+    [{4, 8}] = {
+        [50] = {
+            items = {{
+                itemid = 7383,
+                count = 1
+            }, {
+                itemid = 7411,
+                count = 1
+            }, {
+                itemid = 3312,
+                count = 1
+            }},
+            msg = "Recibiste armas por alcanzar el nivel 50!"
         }
     }
 }

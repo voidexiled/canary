@@ -26,9 +26,9 @@ local table = {
         msg = "Ganaste 25 cc en tu banco como recompensa por subir a nivel 150!"
     },
     [200] = {
-        type = "coin",
-        id = {50, 0},
-        msg = "Ganaste 50 Tibia Coins como recompensa por subir a nivel 200!"
+        type = "bank",
+        id = {250000, 0},
+        msg = "Ganaste 25 cc en tu banco como recompensa por subir a nivel 200!"
     },
     [250] = {
         type = "bank",
@@ -37,8 +37,8 @@ local table = {
     },
     [300] = {
         type = "coin",
-        id = {100, 0},
-        msg = "Ganaste 100 Tibia Coins como recompensa por subir a nivel 300!"
+        id = {50, 0},
+        msg = "Ganaste 50 Tibia Coins como recompensa por subir a nivel 300!"
     },
     [350] = {
         type = "bank",
@@ -47,8 +47,8 @@ local table = {
     },
     [450] = {
         type = "coin",
-        id = {200, 0},
-        msg = "Ganaste 200 Tibia Coins como recompensa por subir a nivel 450!"
+        id = {50, 0},
+        msg = "Ganaste 50 Tibia Coins como recompensa por subir a nivel 450!"
     },
     [500] = {
         type = "bank",
@@ -57,8 +57,8 @@ local table = {
     },
     [550] = {
         type = "coin",
-        id = {300, 0},
-        msg = "Ganaste 300 Tibia Coins como recompensa por subir a nivel 550!"
+        id = {100, 0},
+        msg = "Ganaste 100 Tibia Coins como recompensa por subir a nivel 550!"
     },
     [600] = {
         type = "bank",
@@ -67,8 +67,8 @@ local table = {
     },
     [650] = {
         type = "coin",
-        id = {400, 0},
-        msg = "Ganaste 400 Tibia Coins como recompensa por subir a nivel 650!"
+        id = {100, 0},
+        msg = "Ganaste 100 Tibia Coins como recompensa por subir a nivel 650!"
     },
     [700] = {
         type = "bank",
@@ -77,8 +77,8 @@ local table = {
     },
     [750] = {
         type = "coin",
-        id = {500, 0},
-        msg = "Ganaste 500 Tibia Coins como recompensa por subir a nivel 750!"
+        id = {150, 0},
+        msg = "Ganaste 150 Tibia Coins como recompensa por subir a nivel 750!"
     },
     [800] = {
         type = "bank",
@@ -87,8 +87,8 @@ local table = {
     },
     [850] = {
         type = "coin",
-        id = {600, 0},
-        msg = "Ganaste 600 Tibia Coins como recompensa por subir a nivel 850!"
+        id = {150, 0},
+        msg = "Ganaste 150 Tibia Coins como recompensa por subir a nivel 850!"
     },
     [900] = {
         type = "bank",
@@ -97,13 +97,13 @@ local table = {
     },
     [950] = {
         type = "coin",
-        id = {700, 0},
-        msg = "Ganaste 700 Tibia Coins como recompensa por subir a nivel 950!"
+        id = {150, 0},
+        msg = "Ganaste 150 Tibia Coins como recompensa por subir a nivel 950!"
     },
     [1000] = {
         type = "bank",
-        id = {7000000, 0},
-        msg = "Ganaste 7 kk como recompensa por subir a nivel 1000!"
+        id = {10000000, 0},
+        msg = "Ganaste 10 kk como recompensa por subir a nivel 1000!"
     }
 }
 

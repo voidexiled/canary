@@ -1,6 +1,7 @@
 local consts = {
     Entrance = 61000
 }
+
 local config = {
     tiles = {
         [61000] = {
@@ -26,26 +27,18 @@ function rottenBloodMoveEvent.onStepIn(creature, item, position, fromPosition)
         return false
     end
 
-    if not config.tiles[item.uid] then
+    local mission = config.tiles[item.uid]
+    if not mission then
         return false
     end
-    local mission = config.tiles[item.uid]
 
-    -- Teleport to destination positions if no storage requeriments
-    print(mission.reqStorage)
-    if not mission.reqStorage then
-        player:teleportTo(mission.to)
-        return true
-    end
-
-    local destPosition = config.tiles[item.uid].to
-
+    local destPosition = mission.to
     if not destPosition then
         return false
     end
 
-    if player:getStorageValue(config.tiles[item.uid].reqStorage) < config.tiles[item.uid].minValue then
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, config.tiles[item.uid].failMessage)
+    if mission.reqStorage and player:getStorageValue(mission.reqStorage) < mission.minValue then
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, mission.failMessage)
         player:teleportTo(fromPosition)
         return false
     end
@@ -56,9 +49,8 @@ end
 
 rottenBloodMoveEvent:type("stepin")
 
-for index, value in pairs(config.tiles) do
-    print(index .. " uid registered")
-    rottenBloodMoveEvent:uid(index)
+for uid, _ in pairs(config.tiles) do
+    rottenBloodMoveEvent:uid(uid)
 end
 
 rottenBloodMoveEvent:register()

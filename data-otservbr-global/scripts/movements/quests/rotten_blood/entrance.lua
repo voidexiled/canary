@@ -16,8 +16,8 @@ function rottenBloodEntranceMoveEvent.onStepIn(creature, item, position, fromPos
         return false
     end
 
-    local missionTo = config[item.aid].to
-    if not missionTo then
+    local mission = config[item.aid]
+    if not mission then
         return false
     end
 
@@ -27,7 +27,7 @@ function rottenBloodEntranceMoveEvent.onStepIn(creature, item, position, fromPos
         return false
     end
 
-    player:teleportTo(missionTo.to)
+    player:teleportTo(mission.to)
     return true
 end
 

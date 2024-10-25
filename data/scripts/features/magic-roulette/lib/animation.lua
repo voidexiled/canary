@@ -75,6 +75,8 @@ function Animation:start(args)
                 slot.startPosition:sendDistanceEffect(slot.centerPosition, 38)
                 slot.endPosition:sendDistanceEffect(slot.centerPosition, 38)
                 slot.centerPosition:sendMagicEffect(7)
+                -- ?? sound
+                slot.centerPosition:sendSingleSoundEffect(17)
 
                 addEvent(function()
                     args.onFinish()
@@ -140,6 +142,8 @@ function Animation:drawRewardHighlight(slot, rewardId)
 
                 -- Reward Effect at dummy position
                 dummy:getPosition():sendMagicEffect(randomEffect)
+                -- ?? sound reward
+                slot.centerPosition:sendSingleSoundEffect(18)
             end
         end
     end

@@ -28,9 +28,12 @@ function rottenBloodMoveEvent.onStepIn(creature, item, position, fromPosition)
     if not config.tiles[item.uid] then
         return false
     end
+    local mission = config.tiles[item.uid]
+
     -- Teleport to destination positions if no storage requeriments
-    if not config.tiles[item.uid].reqStorage then
-        player:teleportTo(config.tiles[item.uid].to)
+    print(mission.reqStorage)
+    if not mission.reqStorage then
+        player:teleportTo(mission.to)
         return true
     end
 

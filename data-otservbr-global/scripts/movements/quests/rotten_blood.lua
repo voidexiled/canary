@@ -57,7 +57,7 @@ end
 rottenBloodMoveEvent:type("stepin")
 
 for index, value in pairs(config.tiles) do
-    print(index + "uid registered")
+    print(index .. " uid registered")
     rottenBloodMoveEvent:uid(index)
 end
 

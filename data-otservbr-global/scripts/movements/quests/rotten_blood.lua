@@ -7,6 +7,7 @@ local config = {
             name = "RottenBloodEnter",
             reqStorage = consts.Entrance,
             minValue = 1,
+            from = Position(32953, 32398, 9),
             to = Position(34070, 31975, 14),
             failMessage = "You need to talk with Torkada to enter."
         },
@@ -54,5 +55,10 @@ function rottenBloodMoveEvent.onStepIn(creature, item, position, fromPosition)
 end
 
 rottenBloodMoveEvent:type("stepin")
-rottenBloodMoveEvent:uid(61000)
+
+for index, value in pairs(config.tiles) do
+    print(index + "uid registered")
+    rottenBloodMoveEvent:uid(index)
+end
+
 rottenBloodMoveEvent:register()

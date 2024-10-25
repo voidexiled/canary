@@ -32,12 +32,6 @@ function rottenBloodMoveEvent.onStepIn(creature, item, position, fromPosition)
         return false
     end
 
-    if player:getStorageValue(config.tiles[item.uid].reqStorage) < config.tiles[item.uid].minValue then
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, config.tiles[item.uid].failMessage)
-        player:teleportTo(fromPosition)
-        return false
-    end
-
     if not player:getStorageValue(config.tiles[item.uid].reqStorage) >= config.tiles[item.uid].minValue then
         player:sendTextMessage(MESSAGE_EVENT_ADVANCE, config.tiles[item.uid].failMessage)
         player:teleportTo(fromPosition)

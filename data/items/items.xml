@@ -76355,13 +76355,12 @@ Granted by TibiaGoals.com"/>
 		<attribute key="containersize" value="10"/>
 		<attribute key="decayTo" value="0"/>
 	</item>
-	<item id="49999" article="a" name="nugget coin">
+	<item id="49999" article="a" name="noctera coin">
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="50"/>
 	</item>
-	<item id="50000" article="a" name="pair of Noctera Boots">
+	<item id="50000" article="a" name="pair of noctera Boots">
 		<attribute key="armor" value="2" />
-		<attribute key="showduration" value="1"/>
 		<attribute key="showAttributes" value="1"/>
 		<attribute key="manaticks" value="5000"/>
 		<attribute key="managain" value="80"/>

@@ -12,6 +12,7 @@ local rottenBloodEntranceMoveEvent = MoveEvent()
 
 function rottenBloodEntranceMoveEvent.onStepIn(creature, item, position, fromPosition)
     local player = creature:getPlayer()
+
     if not player then
         return false
     end
@@ -28,6 +29,7 @@ function rottenBloodEntranceMoveEvent.onStepIn(creature, item, position, fromPos
     end
 
     player:teleportTo(mission.to)
+    player:setDirection(DIRECTION_SOUTH)
     return true
 end
 

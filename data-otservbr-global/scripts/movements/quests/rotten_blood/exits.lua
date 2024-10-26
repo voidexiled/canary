@@ -17,6 +17,7 @@ function rottenBloodEntranceExitMoveEvent.onStepIn(creature, item, position, fro
     end
 
     player:teleportTo(config[item.uid].to)
+    player:setDirection(DIRECTION_WEST)
     return true
 end
 

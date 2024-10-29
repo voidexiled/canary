@@ -6357,18 +6357,18 @@ if not Quests then
 							return string.format(
 								"Prevent the raising of twelve lich knights. Sanctify the graves yet untouched and destroy any lich knights that might have been raised. Graves exlored: %d/12",
 								player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Edron)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.DarkCathedral)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Ghostlands)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Cormaya)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.FemorHills)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Ankrahmun)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Kilmaresh)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Vengoth)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Darashia)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Thais)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Orclands)
-									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.IceIslands)
-									- 12
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.DarkCathedral)
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Ghostlands)
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Cormaya)
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.FemorHills)
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Ankrahmun)
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Kilmaresh)
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Vengoth)
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Darashia)
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Thais)
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Orclands)
+								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.IceIslands)
+								- 12
 							)
 						end,
 					},
@@ -6533,5 +6533,37 @@ if not Quests then
 				},
 			},
 		},
+		[49] = {
+			name = "Rotten Blood",
+			startStorageId = Storage.Quest.U13_20.RottenBlood.QuestLine,
+			startStorageValue = 1,
+			missions = {
+				[1] = {
+					name = "Rotten Blood",
+					storageId = Storage.Quest.U13_20.RottenBlood.QuestLine,
+					missionId = 10452,
+					startValue = 0,
+					endValue = 4,
+					states = {
+						[1] = "The inquisitor Torkada gave you the mission to investigate a new threat in the hard to reach, north western areas of Drefia.",
+						[2] = "Find the keeper of sanguine tears and offer his life fluids to the sanguine master of this realm. 0/2",
+						[3] = "Find the keeper of sanguine tears and offer his life fluids to the sanguine master of this realm. 1/2",
+						[4] = "Find the keeper of sanguine tears and offer his life fluids to the sanguine master of this realm. 2/2",
+					}
+				},
+				[2] = {
+					name = "Jaded Roots",
+					storageId = Storage.Quest.U13_20.RottenBlood.Access.JadedRoots,
+					missionId = 10453,
+					startValue = 1,
+					endValue = 2,
+					states = {
+						[1] = "You found the Jaded Roots, a place of great danger. You must find the Jaded Roots and destroy them. 1",
+						[2] = "You found the Jaded Roots, a place of great danger. You must find the Jaded Roots and destroy them. 2",
+					}
+				}
+
+			}
+		}
 	}
 end

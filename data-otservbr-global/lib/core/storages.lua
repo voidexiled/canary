@@ -73,11 +73,10 @@ Reserved player action storage key ranges (const.h)
 	[6010] = key 6010
 
 	Questline = Storage through the Quest
-]] Storage = {
+]]
+Storage = {
     -- General storages
-    RottenBlood = {
-        Entrance = 61000
-    },
+
     Dragonfetish = 30003,
     EdronRopeQuest = 30004,
     OrcKingGreeting = 30006,
@@ -2583,7 +2582,7 @@ Reserved player action storage key ranges (const.h)
                     DarkSunCatcher = 45796,
                     EmptyStarlightVial = 45797
                 },
-                Mission04 = {45798},
+                Mission04 = { 45798 },
                 Mission05 = 45799
             }
         },
@@ -2770,6 +2769,25 @@ Reserved player action storage key ranges (const.h)
                     MutatedAbomination = 47905
                 }
             }
+        },
+        U13_20 = { -- update 13.20 - Reserved Storages 47951 - 48000
+            RottenBlood = {
+                QuestLine = 47951,
+                Access = {
+                    JadedRoots = 47952,
+                    Putrefactory = 47953,
+                    GloomPillars = 47954,
+                    DarklightCore = 47955,
+                    BakragoreAccess = 47956
+                },
+                Bosses = {
+                    Murcion = 47957,
+                    Ichgahal = 47958,
+                    Chagorz = 47959,
+                    Vemiath = 47960,
+                    Bakragore = 47961
+                }
+            },
         }
     },
     -- Reserved storage from 63951 - 63999
@@ -2908,27 +2926,27 @@ GlobalStorage = {
 
 }
 
-startupGlobalStorages = {Storage.Quest.U7_4.TheAncientTombs.AshmunrahSwitchesGlobalStorage,
-                         Storage.Quest.U7_4.TheAncientTombs.DiprathSwitchesGlobalStorage,
-                         Storage.Quest.U7_4.TheAncientTombs.ThalasSwitchesGlobalStorage,
-                         GlobalStorage.HeroRathleton.FirstMachines, GlobalStorage.HeroRathleton.SecondMachines,
-                         GlobalStorage.HeroRathleton.ThirdMachines, GlobalStorage.HeroRathleton.DeepRunning,
-                         GlobalStorage.HeroRathleton.HorrorRunning, GlobalStorage.HeroRathleton.LavaRunning,
-                         GlobalStorage.HeroRathleton.MaxxenRunning, GlobalStorage.HeroRathleton.LavaCounter,
-                         GlobalStorage.HeroRathleton.FourthMachines,
-                         Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal1,
-                         Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal2,
-                         Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal3,
-                         Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal4,
-                         Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal5,
-                         Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal6,
-                         Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal7,
-                         Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal8,
-                         Storage.Quest.U10_90.FerumbrasAscension.Crystals.AllCrystals,
-                         Storage.Quest.U10_90.FerumbrasAscension.FerumbrasEssence, GlobalStorage.Feroxa.Active,
-                         Storage.Quest.U10_90.FerumbrasAscension.Habitats.AllHabitats,
-                         Storage.Quest.U10_90.FerumbrasAscension.Elements.Active,
-                         Storage.Quest.U10_90.FerumbrasAscension.Elements.First,
-                         Storage.Quest.U10_90.FerumbrasAscension.Elements.Second,
-                         Storage.Quest.U10_90.FerumbrasAscension.Elements.Third,
-                         Storage.Quest.U10_90.FerumbrasAscension.Elements.Done}
+startupGlobalStorages = { Storage.Quest.U7_4.TheAncientTombs.AshmunrahSwitchesGlobalStorage,
+    Storage.Quest.U7_4.TheAncientTombs.DiprathSwitchesGlobalStorage,
+    Storage.Quest.U7_4.TheAncientTombs.ThalasSwitchesGlobalStorage,
+    GlobalStorage.HeroRathleton.FirstMachines, GlobalStorage.HeroRathleton.SecondMachines,
+    GlobalStorage.HeroRathleton.ThirdMachines, GlobalStorage.HeroRathleton.DeepRunning,
+    GlobalStorage.HeroRathleton.HorrorRunning, GlobalStorage.HeroRathleton.LavaRunning,
+    GlobalStorage.HeroRathleton.MaxxenRunning, GlobalStorage.HeroRathleton.LavaCounter,
+    GlobalStorage.HeroRathleton.FourthMachines,
+    Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal1,
+    Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal2,
+    Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal3,
+    Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal4,
+    Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal5,
+    Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal6,
+    Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal7,
+    Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal8,
+    Storage.Quest.U10_90.FerumbrasAscension.Crystals.AllCrystals,
+    Storage.Quest.U10_90.FerumbrasAscension.FerumbrasEssence, GlobalStorage.Feroxa.Active,
+    Storage.Quest.U10_90.FerumbrasAscension.Habitats.AllHabitats,
+    Storage.Quest.U10_90.FerumbrasAscension.Elements.Active,
+    Storage.Quest.U10_90.FerumbrasAscension.Elements.First,
+    Storage.Quest.U10_90.FerumbrasAscension.Elements.Second,
+    Storage.Quest.U10_90.FerumbrasAscension.Elements.Third,
+    Storage.Quest.U10_90.FerumbrasAscension.Elements.Done }

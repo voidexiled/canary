@@ -469,7 +469,24 @@ function Player:onReportRuleViolation(targetName, reportType, reportReason, comm
 	return
 end
 
+local function getReportTypeIcon(type)
+	if type == BUG_CATEGORY_MAP then
+		return ":round_pushpin:"
+	elseif type == BUG_CATEGORY_TYPO then
+		return ":pencil:"
+	elseif type == BUG_CATEGORY_OTHER then
+		return ":hammer_and_pick:"
+	elseif type == BUG_CATEGORY_TECHNICAL then
+		return ":desktop:"
+	end
+	return ":hammer_and_pick:"
+end
+
+
 function Player:onReportBug(message, position, category)
+	local discordTitle = ""
+	local discordMessage = ""
+	local discordMessageColor = WEBHOOK_COLOR_WARNING
 	local name = self:getName():gsub("%s+", "_")
 	FS.mkdir_p(string.format("%s/reports/bugs/%s", CORE_DIRECTORY, name))
 	local file = io.open(string.format("%s/reports/bugs/%s/report.txt", CORE_DIRECTORY, name), "a")
@@ -490,7 +507,17 @@ function Player:onReportBug(message, position, category)
 	io.write("Comment: " .. message .. "\n")
 	io.close(file)
 
+	discordTitle = discordTitle .. name .. " [Map Position: " .. position.x .. ", " .. position.y .. ", " .. position.z .. "] [Player Position: " .. playerPosition.x .. ", " .. playerPosition.y .. ", " .. playerPosition.z .. "]"
+	discordMessage = discordMessage .. message
 	self:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your report has been sent to " .. configManager.getString(configKeys.SERVER_NAME) .. ".")
+
+	-- send to discord
+	--local icon = getReportTypeIcon(category)
+	local icon = ""
+
+
+	Webhook.sendMessage(icon .. discordTitle, discordMessage, discordMessageColor, announcementChannels["reports"])
+
 	return true
 end
 

@@ -77492,16 +77492,8 @@ Granted by TibiaGoals.com" />
 		<attribute key="weight" value="50" />
 	</item>
 	<item id="50000" article="a" name="pair of noctera boots">
-		<attribute key="armor" value="2" />
+		<attribute key="armor" value="3" />
 		<attribute key="showAttributes" value="1" />
-		<attribute key="manaticks" value="5000" />
-		<attribute key="managain" value="80" />
-		<attribute key="healthticks" value="5000" />
-		<attribute key="healthgain" value="50" />
-		<attribute key="weight" value="800" />
-		<attribute key="script" value="moveevent">
-			<attribute key="slot" value="feet" />
-		</attribute>
 	</item>
 	<item id="50001" article="an" name="noctera helmet">
 		<attribute key="primarytype" value="helmets" />

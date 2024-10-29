@@ -56,9 +56,7 @@ function Roulette:roll(player, slot)
             if reward.count > 1 then
                 plural = "s"
             end
-            Game.broadcastMessage(string.format("{%d|%s} El jugador %s ganó {%dx|%s} {%dx|%s} {%dx|%s} en la ruleta!",
-                MESSAGE_COLOR_YELLOW, "[ROULETTE WINNER]", playerName, MESSAGE_COLOR_BLUE, reward.count,
-                ItemType(reward.id):getName()), plural, MESSAGE_LOOT)
+            Game.broadcastMessage(string.format("{%d|%s} El jugador %s ganó {%dx|%s} {%dx|%s}{%dx|%s} en la ruleta!", MESSAGE_COLOR_YELLOW, "[ROULETTE WINNER]", playerName, MESSAGE_COLOR_BLUE, reward.count, ItemType(reward.id):getName(), plural), MESSAGE_LOOT)
             --[[Game.broadcastMessage(Strings.GIVE_REWARD_FOUND_RARE:format(playerName, reward.count,
                 ItemType(reward.id):getName()), MESSAGE_EVENT_ADVANCE)
                 ]] --

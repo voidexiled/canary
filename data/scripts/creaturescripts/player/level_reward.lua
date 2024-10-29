@@ -7,107 +7,117 @@ local table = {
 
     [15] = {
         type = "item",
-        id = {3059, 0},
+        id = { 3059, 1 },
         msg = "Obtuviste un Spellbook como recompensa por subir a nivel 15!"
+    },
+    [30] = {
+        type = "item",
+        id = { 3725, 100 },
+        msg = "Obtuviste un 100 Brown Mushrooms como recompensa por subir a nivel 30!"
     },
     [60] = {
         type = "bank",
-        id = {250000, 0},
+        id = { 250000, 0 },
         msg = "Ganaste 25 cc en tu banco como recompensa por subir a nivel 60!"
     },
     [100] = {
         type = "addon",
-        id = {136, 128},
+        id = { 136, 128 },
         msg = "Obtuviste Citizen Full Addon como recompensa por subir a nivel 100!"
     },
     [110] = {
         type = "mount",
-        id = {19, 0},
+        id = { 19, 0 },
         msg = "Obtuviste Tamed Panda Mount como recompensa por subir a nivel 110!"
+    },
+    [120] = {
+        type = "item",
+        id = { 3079, 1 },
+        msg = "Obtuviste Boots of Haste como recompensa por subir a nivel 120!"
     },
     [150] = {
         type = "bank",
-        id = {250000, 0},
+        id = { 250000, 0 },
         msg = "Ganaste 25 cc en tu banco como recompensa por subir a nivel 150!"
     },
     [200] = {
         type = "bank",
-        id = {250000, 0},
+        id = { 250000, 0 },
         msg = "Ganaste 25 cc en tu banco como recompensa por subir a nivel 200!"
     },
     [250] = {
         type = "bank",
-        id = {500000, 0},
+        id = { 500000, 0 },
         msg = "Ganaste 50 cc en tu banco como recompensa por subir a nivel 250!"
     },
     [300] = {
         type = "coin",
-        id = {50, 0},
+        id = { 50, 0 },
         msg = "Ganaste 50 Tibia Coins como recompensa por subir a nivel 300!"
     },
     [350] = {
         type = "bank",
-        id = {1000000, 0},
+        id = { 1000000, 0 },
         msg = "Ganaste 1 kk como recompensa por subir a nivel 350!"
     },
     [450] = {
         type = "coin",
-        id = {50, 0},
+        id = { 50, 0 },
         msg = "Ganaste 50 Tibia Coins como recompensa por subir a nivel 450!"
     },
     [500] = {
         type = "bank",
-        id = {2000000, 0},
+        id = { 2000000, 0 },
         msg = "Ganaste 2 kk como recompensa por subir a nivel 500!"
     },
     [550] = {
         type = "coin",
-        id = {100, 0},
+        id = { 100, 0 },
         msg = "Ganaste 100 Tibia Coins como recompensa por subir a nivel 550!"
     },
     [600] = {
         type = "bank",
-        id = {3000000, 0},
+        id = { 3000000, 0 },
         msg = "Ganaste 3 kk como recompensa por subir a nivel 600!"
     },
     [650] = {
         type = "coin",
-        id = {100, 0},
+        id = { 100, 0 },
         msg = "Ganaste 100 Tibia Coins como recompensa por subir a nivel 650!"
     },
     [700] = {
         type = "bank",
-        id = {4000000, 0},
+        id = { 4000000, 0 },
         msg = "Ganaste 4 kk como recompensa por subir a nivel 700!"
     },
     [750] = {
         type = "coin",
-        id = {150, 0},
+        id = { 150, 0 },
         msg = "Ganaste 150 Tibia Coins como recompensa por subir a nivel 750!"
     },
     [800] = {
         type = "bank",
-        id = {5000000, 0},
+        id = { 5000000, 0 },
         msg = "Ganaste 5 kk como recompensa por subir a nivel 800!"
     },
     [850] = {
         type = "coin",
-        id = {150, 0},
+        id = { 150, 0 },
         msg = "Ganaste 150 Tibia Coins como recompensa por subir a nivel 850!"
     },
     [900] = {
         type = "bank",
-        id = {6000000, 0},
+        id = { 6000000, 0 },
         msg = "Ganaste 6 kk como recompensa por subir a nivel 900!"
     },
     [950] = {
         type = "coin",
-        id = {150, 0},
+        id = { 150, 0 },
         msg = "Ganaste 150 Tibia Coins como recompensa por subir a nivel 950!"
     },
     [1000] = {
         type = "bank",
-        id = {10000000, 0},
+        id = { 10000000, 0 },
         msg = "Ganaste 10 kk como recompensa por subir a nivel 1000!"
     }
 }
@@ -116,7 +126,6 @@ local storage = 15005
 
 local levelReward = CreatureEvent("Level Reward")
 function levelReward.onAdvance(player, skill, oldLevel, newLevel)
-
     if skill ~= SKILL_LEVEL or newLevel <= oldLevel then
         return true
     end

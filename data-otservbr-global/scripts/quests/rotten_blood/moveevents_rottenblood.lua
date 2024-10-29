@@ -22,7 +22,7 @@ function bloodTile.onStepIn(creature, item, position, fromPosition)
     if not player then
         return false
     end
-    
+
     print("Storage: " .. player:getStorageValue(Storage.Quest.U13_20.RottenBlood.QuestLine))
     if player:getStorageValue(Storage.Quest.U13_20.RottenBlood.QuestLine) == 4 then
         player:teleportTo(bossesRoom)
@@ -56,3 +56,5 @@ end
 teleportDoorExit:type("stepin")
 teleportDoorExit:uid(62001)
 teleportDoorExit:register()
+
+

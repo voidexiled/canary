@@ -1,6 +1,16 @@
 -- Functions from The Forgotten Server
 local foodCondition = Condition(CONDITION_REGENERATION, CONDITIONID_DEFAULT)
 
+local colors = {
+    grey = 3003,
+    blue = 3043,
+    green = 3415,
+    purple = 36792,
+    yellow = 34021
+}
+
+
+
 function Player.feed(self, food)
 	local condition = self:getCondition(CONDITION_REGENERATION, CONDITIONID_DEFAULT)
 	if condition then

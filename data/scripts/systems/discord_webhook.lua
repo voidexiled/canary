@@ -6,9 +6,9 @@ if not announcementChannels then
 	announcementChannels = {
 		["serverAnnouncements"] = "", -- Used for an announcement channel on your discord
 		["raids"] = "", -- Used to isolate raids on your discord
-		["player-kills"] = "", -- Self-explaining
+		["player-kills"] = "https://discord.com/api/webhooks/1300692033387761686/0ABLRN-3KuQWujnpvC8tZyRMjD4pyoznn5PkcVLxHQMAFrkozNZPISVUcgCbtvRd3J2b", -- Self-explaining
 		["player-levels"] = "", -- Self-explaining
-		["reports"] = "",
+		["reports"] = "https://discord.com/api/webhooks/1300688870773624892/quxF3vP124Q4AqDnQzT1MQihBqgAZ17FinW9AZ_kUlduotCJTYYe0xkdh4E7b47MUrZx",
 	}
 end
 

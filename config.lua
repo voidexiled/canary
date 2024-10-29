@@ -54,7 +54,7 @@ cleanProtectionZones = false
 -- NOTE: maxPlayers set to 0 means no limit
 -- NOTE: MaxPacketsPerSeconds if you change you will be subject to bugs by WPE, keep the default value of 25,
 -- It's recommended to use a range like min 50 in this function, otherwise you will be disconnected after equipping two-handed distance weapons.
--- ip = "127.0.0.1" -- for local dev
+--ip = "127.0.0.1" -- for local dev
 ip = "34.45.32.148"
 allowOldProtocol = false
 bindOnlyGlobalAddress = false
@@ -476,7 +476,7 @@ globalServerSaveTime = "06:00:00"
 -- rateLoot to avoid losing all rare items when
 -- the corpse size is less than the total of loots
 -- the monster can drop
-sortLootByChance = false
+sortLootByChance = true
 
 -- Rates
 -- NOTE: rateExp, rateSkill and rateMagic is used when 'rateUseStages = false' - or a fallback only
@@ -486,7 +486,7 @@ rateUseStages = true
 lowLevelBonusExp = 100
 rateExp = 1
 rateSkill = 1
-rateLoot = 1.6
+rateLoot = 5
 rateMagic = 1
 rateSpawn = 1
 
@@ -550,7 +550,8 @@ location = "South America"
 -- Sends Discord webhook notifications on startup, raids and shutdown.
 -- The URL layout is https://discord.com/api/webhooks/:id/:token
 -- Leave empty if you wish to disable.
-discordWebhookURL = ""
+
+discordWebhookURL = "https://discord.com/api/webhooks/1300691015241433138/rmesFROwmJWEO6wlkV6kxWdOBSQ3mqNL-kbOwqOHplxnQqQCKNuckRQyIF_33Il2_cr3"
 discordSendFooter = true
 discordWebhookDelayMs = 1000
 
@@ -567,7 +568,7 @@ discordWebhookDelayMs = 1000
 -- 		If you use 'vipFamiliarTimeCooldownReduction' greater than half of 'familiarTime', it will get the highest possible value, in this case 15
 -- NOTE: GainCoin function, please configure script: data-otservbr-global/scripts/globalevents/vip/online_coins.lua
 -- NOTE: GainToken function, please configure script: data-otservbr-global/scripts/globalevents/vip/online_tokens.lua
-vipSystemEnabled = true
+vipSystemEnabled = false
 vipBonusExp = 6
 vipBonusLoot = 9
 vipBonusSkill = 9

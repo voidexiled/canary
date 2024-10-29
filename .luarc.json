@@ -1,6 +1,39 @@
 {
-    "workspace.maxPreload": 10000,
-    "diagnostics.globals": [
-        "MoveEvent"
-    ]
+  "workspace.maxPreload": 10000,
+
+  "diagnostics.globals": [
+    "tfm",
+    "ui",
+    "system",
+    "MoveEvent",
+    "Player",
+    "Item",
+    "Position",
+    "MoveEvent",
+    "Condition"
+  ],
+  "workspace.library": [
+    "${workspaceFolder}/data",
+    "${workspaceFolder}/data/libs",
+    "${workspaceFolder}/data/scripts",
+    "${workspaceFolder}/data/scripts/movements",
+    "${workspaceFolder}/data/scripts/spells",
+    "${workspaceFolder}/data/scripts/actions",
+    "${workspaceFolder}/data/scripts/talkactions",
+    "${workspaceFolder}/data/scripts/weapons",
+    "${workspaceFolder}/data/scripts/eventcallbacks",
+    "${workspaceFolder}/data/scripts/creaturescripts",
+    "${workspaceFolder}/data/scripts/globalevents",
+    "${workspaceFolder}/data/scripts/systems",
+    "${workspaceFolder}/data/scripts/runes",
+    "${workspaceFolder}/data/npclib",
+    "${workspaceFolder}/data-otservbr-global/lib",
+    "${workspaceFolder}/data-otservbr-global/scripts/lib"
+  ],
+  "runtime.version": "Lua 5.2",
+  "runtime.builtin": {
+    "debug": "disable",
+    "io": "disable",
+    "os": "disable"
+  }
 }

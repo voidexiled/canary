@@ -1,7 +1,7 @@
 local config = {
 	enabled = false,
 	storage = Storage.VipSystem.OnlineTokensGain,
-	checkDuplicateIps = false,
+	checkDuplicateIps = true,
 
 	tokenItemId = 14112, -- bar of gold
 

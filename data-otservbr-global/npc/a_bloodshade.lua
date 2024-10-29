@@ -49,8 +49,13 @@ local function greetCallback(npc, creature)
     local playerId = creature:getId()
     local player = Player(creature)
     -- if lvl is enought for quest
-    if player:getStorageValue(Storage.Quest.U13_20.RottenBlood.QuestLine) > 1 and player:getStorageValue(Storage.Quest.U13_20.RottenBlood.QuestLine) < 4 then
+    if player:getStorageValue(Storage.Quest.U13_20.RottenBlood.QuestLine) < 1 then
+        npcHandler:setMessage(MESSAGE_GREET, "?") -- IDK
+        return true
+    end
+    if player:getStorageValue(Storage.Quest.U13_20.RottenBlood.QuestLine) > 0 and player:getStorageValue(Storage.Quest.U13_20.RottenBlood.QuestLine) < 4 then
         npcHandler:setMessage(MESSAGE_GREET, "Mortal! If you are on a {quest} to serve the blood god, my master - be greeted!")
+        return true
     else
         npcHandler:setMessage(MESSAGE_GREET, "Go now and search the ancient temple in the north-west part of the drefian ruins. Slay the evil that lurks there and cleanse the foul place from its taint!")
     end
@@ -86,7 +91,7 @@ local function creatureSayCallback(npc, creature, type, message)
             end
         elseif npcHandler:getTopic(playerId) == 2 then
             if MsgContains(message, "yes") then
-                npcHandler:say("You are willing to pay 5,000,000 gold pieces, then? There is no turning back after our... transaction is complete. Are you sure?")
+                npcHandler:say("You are willing to pay 5,000,000 gold pieces, then? There is no turning back after our... transaction is complete. Are you sure?", npc, player)
                 npcHandler:setTopic(playerId, 3)
             end
         elseif npcHandler:getTopic(playerId) == 3 then

@@ -8,8 +8,6 @@ local function reject(player, position)
     if playerNewHp < 3 then
         playerNewHp = 3
     end
-    print(playerHp)
-    print(playerNewHp)
     position:sendMagicEffect(CONST_ME_DRAWBLOOD)
     player:setHealth(playerNewHp)
     player:teleportTo(rejectPosition)
@@ -24,13 +22,16 @@ function bloodTile.onStepIn(creature, item, position, fromPosition)
     if not player then
         return false
     end
-
-    if player:getStorageValue(Storage.Quest.U13_20.RottenBlood.QuestLine) > 1 then
+    
+    print("Storage: " .. player:getStorageValue(Storage.Quest.U13_20.RottenBlood.QuestLine))
+    if player:getStorageValue(Storage.Quest.U13_20.RottenBlood.QuestLine) == 4 then
         player:teleportTo(bossesRoom)
         return true
     else
-        reject(player, position)
+        reject(player, fromPosition)
+        return true
     end
+
     return false
 end
 

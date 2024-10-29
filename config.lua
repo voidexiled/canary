@@ -52,8 +52,9 @@ cleanProtectionZones = false
 -- Connection Config
 -- NOTE: allowOldProtocol can allow login on 10x protocol. (11.00)
 -- NOTE: maxPlayers set to 0 means no limit
--- NOTE: MaxPacketsPerSeconds if you change you will be subject to bugs by WPE, keep the default value of 25, 
+-- NOTE: MaxPacketsPerSeconds if you change you will be subject to bugs by WPE, keep the default value of 25,
 -- It's recommended to use a range like min 50 in this function, otherwise you will be disconnected after equipping two-handed distance weapons.
+-- ip = "127.0.0.1" -- for local dev
 ip = "34.45.32.148"
 allowOldProtocol = false
 bindOnlyGlobalAddress = false
@@ -263,12 +264,12 @@ onlyPremiumAccount = false
 stashMoving = false
 stashItemCount = 5000
 depotChest = 4
-autoLoot = false
-autoBank = true
+autoLoot = true
+autoBank = false
 toggleGoldPouchAllowAnything = true
-toggleGoldPouchQuickLootOnly = false
+toggleGoldPouchQuickLootOnly = true
 toggleServerIsRetroPVP = false
-toggleTravelsFree = false
+toggleTravelsFree = true
 buyAolCommandFee = 0
 buyBlessCommandFee = 0
 teleportPlayerToVocationRoom = true
@@ -296,7 +297,7 @@ staminaTrainer = true
 staminaTrainerDelay = 5
 staminaTrainerGain = 3
 -- Stamina in PZ
-staminaPz = false
+staminaPz = true
 staminaOrangeDelay = 1
 staminaGreenDelay = 5
 staminaPzGain = 2
@@ -396,6 +397,7 @@ maxMarketOffersAtATimePerPlayer = 100
 -- MySQL
 mysqlHost = "127.0.0.1"
 mysqlUser = "noctera_test"
+--mysqlUser = "root"
 mysqlPass = "z4me5cwh"
 mysqlDatabase = "noctera_db"
 mysqlPort = 3306
@@ -565,13 +567,13 @@ discordWebhookDelayMs = 1000
 -- 		If you use 'vipFamiliarTimeCooldownReduction' greater than half of 'familiarTime', it will get the highest possible value, in this case 15
 -- NOTE: GainCoin function, please configure script: data-otservbr-global/scripts/globalevents/vip/online_coins.lua
 -- NOTE: GainToken function, please configure script: data-otservbr-global/scripts/globalevents/vip/online_tokens.lua
-vipSystemEnabled = false
-vipBonusExp = 0
-vipBonusLoot = 0
-vipBonusSkill = 0
-vipAutoLootVipOnly = false
-vipStayOnline = false
-vipFamiliarTimeCooldownReduction = 0
+vipSystemEnabled = true
+vipBonusExp = 6
+vipBonusLoot = 9
+vipBonusSkill = 9
+vipAutoLootVipOnly = true
+vipStayOnline = true
+vipFamiliarTimeCooldownReduction = 10
 vipKeepHouse = false
 
 -- NOTE: set rewardChestCollectEnabled to true to enable the reward collect system

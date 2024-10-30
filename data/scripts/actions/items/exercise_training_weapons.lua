@@ -2,37 +2,37 @@ local exhaustionTime = 10
 
 local exerciseWeaponsTable = {
 	-- MELE
-	[28540] = { skill = SKILL_SWORD },
-	[28552] = { skill = SKILL_SWORD },
-	[35279] = { skill = SKILL_SWORD },
-	[35285] = { skill = SKILL_SWORD },
-	[28553] = { skill = SKILL_AXE },
-	[28541] = { skill = SKILL_AXE },
-	[35280] = { skill = SKILL_AXE },
-	[35286] = { skill = SKILL_AXE },
-	[28554] = { skill = SKILL_CLUB },
-	[28542] = { skill = SKILL_CLUB },
-	[35281] = { skill = SKILL_CLUB },
-	[35287] = { skill = SKILL_CLUB },
-	[44064] = { skill = SKILL_SHIELD },
-	[44065] = { skill = SKILL_SHIELD },
-	[44066] = { skill = SKILL_SHIELD },
-	[44067] = { skill = SKILL_SHIELD },
+	[28540] = { skill = SKILL_SWORD, effect = 202 },
+	[28552] = { skill = SKILL_SWORD, effect = 202 },
+	[35279] = { skill = SKILL_SWORD, effect = 202 },
+	[35285] = { skill = SKILL_SWORD, effect = 202 },
+	[28541] = { skill = SKILL_AXE, effect = 202 },
+	[28553] = { skill = SKILL_AXE, effect = 202 },
+	[35280] = { skill = SKILL_AXE, effect = 202 },
+	[35286] = { skill = SKILL_AXE, effect = 202 },
+	[28542] = { skill = SKILL_CLUB, effect = 202 },
+	[28554] = { skill = SKILL_CLUB, effect = 202 },
+	[35281] = { skill = SKILL_CLUB, effect = 202 },
+	[35287] = { skill = SKILL_CLUB, effect = 202 },
+	[44064] = { skill = SKILL_SHIELD, effect = 202 },
+	[44065] = { skill = SKILL_SHIELD, effect = 202 },
+	[44066] = { skill = SKILL_SHIELD, effect = 202 },
+	[44067] = { skill = SKILL_SHIELD, effect = 202 },
 	-- ROD
-	[28544] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
-	[28556] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
-	[35283] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
-	[35289] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_SMALLICE, allowFarUse = true },
+	[28544] = { skill = SKILL_MAGLEVEL, distanceEffect = 29, allowFarUse = true },
+	[28556] = { skill = SKILL_MAGLEVEL, distanceEffect = 29, allowFarUse = true },
+	[35283] = { skill = SKILL_MAGLEVEL, distanceEffect = 29, allowFarUse = true },
+	[35289] = { skill = SKILL_MAGLEVEL, distanceEffect = 29, allowFarUse = true },
 	-- RANGE
-	[28543] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
-	[28555] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
-	[35282] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
-	[35288] = { skill = SKILL_DISTANCE, effect = CONST_ANI_SIMPLEARROW, allowFarUse = true },
+	[28543] = { skill = SKILL_DISTANCE, distanceEffect = 28, allowFarUse = true },
+	[28555] = { skill = SKILL_DISTANCE, distanceEffect = 28, allowFarUse = true },
+	[35282] = { skill = SKILL_DISTANCE, distanceEffect = 28, allowFarUse = true },
+	[35288] = { skill = SKILL_DISTANCE, distanceEffect = 28, allowFarUse = true },
 	-- WAND
-	[28545] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
-	[28557] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
-	[35284] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
-	[35290] = { skill = SKILL_MAGLEVEL, effect = CONST_ANI_FIRE, allowFarUse = true },
+	[28545] = { skill = SKILL_MAGLEVEL, distanceEffect = 36, allowFarUse = true },
+	[28557] = { skill = SKILL_MAGLEVEL, distanceEffect = 36, allowFarUse = true },
+	[35284] = { skill = SKILL_MAGLEVEL, distanceEffect = 36, allowFarUse = true },
+	[35290] = { skill = SKILL_MAGLEVEL, distanceEffect = 36, allowFarUse = true },
 }
 
 local dummies = Game.getDummies()
@@ -108,10 +108,10 @@ local function exerciseTrainingEvent(playerId, tilePosition, weaponId, dummyId)
 	end
 
 	weapon:setAttribute(ITEM_ATTRIBUTE_CHARGES, (weaponCharges - 1))
-	tilePosition:sendMagicEffect(CONST_ME_HITAREA)
+	tilePosition:sendMagicEffect(202)
 
-	if exerciseWeaponsTable[weaponId].effect then
-		playerPosition:sendDistanceEffect(tilePosition, exerciseWeaponsTable[weaponId].effect)
+	if exerciseWeaponsTable[weaponId].distanceEffect then
+		playerPosition:sendDistanceEffect(tilePosition, exerciseWeaponsTable[weaponId].distanceEffect)
 	end
 
 	if weapon:getAttribute(ITEM_ATTRIBUTE_CHARGES) <= 0 then

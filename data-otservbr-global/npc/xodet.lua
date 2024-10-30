@@ -28,14 +28,17 @@ local itemsTable = {
 		{ itemName = "empty potion flask", clientId = 283, sell = 5 },
 		{ itemName = "empty potion flask", clientId = 284, sell = 5 },
 		{ itemName = "empty potion flask", clientId = 285, sell = 5 },
-		{ itemName = "great health potion", clientId = 239, buy = 225 },
-		{ itemName = "great mana potion", clientId = 238, buy = 144 },
-		{ itemName = "great spirit potion", clientId = 7642, buy = 228 },
 		{ itemName = "health potion", clientId = 266, buy = 50 },
 		{ itemName = "mana potion", clientId = 268, buy = 56 },
 		{ itemName = "strong health potion", clientId = 236, buy = 115 },
 		{ itemName = "strong mana potion", clientId = 237, buy = 93 },
+		{ itemName = "great health potion", clientId = 239, buy = 225 },
+		{ itemName = "great mana potion", clientId = 238, buy = 144 },
+		{ itemName = "great spirit potion", clientId = 7642, buy = 228 },
+		{ itemName = "ultimate mana potion", clientId = 23373, buy = 488 },
+		{ itemName = "ultimate spirit potion", clientId = 23374, buy = 488 },
 		{ itemName = "ultimate health potion", clientId = 7643, buy = 379 },
+		{ itemName = "supreme health potion", clientId = 23375, buy = 650 },
 		{ itemName = "vial", clientId = 2874, sell = 5 },
 	},
 	["runes"] = {
@@ -73,12 +76,34 @@ local itemsTable = {
 		{ itemName = "wand of vortex", clientId = 3074, buy = 500 },
 	},
 	["exercise weapons"] = {
-		{ itemName = "durable exercise rod", clientId = 35283, buy = 945000, count = 1800 },
-		{ itemName = "durable exercise wand", clientId = 35284, buy = 945000, count = 1800 },
-		{ itemName = "exercise rod", clientId = 28556, buy = 262500, count = 500 },
-		{ itemName = "exercise wand", clientId = 28557, buy = 262500, count = 500 },
-		{ itemName = "lasting exercise rod", clientId = 35289, buy = 7560000, count = 14400 },
-		{ itemName = "lasting exercise wand", clientId = 35290, buy = 7560000, count = 14400 },
+		--rod
+		{ itemName = "exercise rod", clientId = 28556, buy = 500000, count = 500 },
+		{ itemName = "durable exercise rod", clientId = 35283, buy = 2200000, count = 3600 },
+		{ itemName = "lasting exercise rod", clientId = 35289, buy = 9600000, count = 14400 },
+		--wand
+		{ itemName = "exercise wand", clientId = 28557, buy = 500000, count = 500 },
+		{ itemName = "durable exercise wand", clientId = 35284, buy = 2200000, count = 3600 },
+		{ itemName = "lasting exercise wand", clientId = 35290, buy = 9600000, count = 14400 },
+		--sword
+		{ itemName = "exercise sword", clientId = 28552, buy = 500000, count = 500 },
+		{ itemName = "durable exercise sword", clientId = 35279, buy = 2200000, count = 3600 },
+		{ itemName = "lasting exercise sword", clientId = 35285, buy = 9600000, count = 14400 },
+		--axe
+		{ itemName = "exercise axe", clientId = 28553, buy = 500000, count = 500 },
+		{ itemName = "durable exercise axe", clientId = 35280, buy = 2200000, count = 3600 },
+		{ itemName = "lasting exercise axe", clientId = 35286, buy = 9600000, count = 14400 },
+		--club
+		{ itemName = "exercise club", clientId = 28554, buy = 500000, count = 500 },
+		{ itemName = "durable exercise club", clientId = 35281, buy = 2200000, count = 3600 },
+		{ itemName = "lasting exercise club", clientId = 35287, buy = 9600000, count = 14400 },
+		--shield
+		{ itemName = "exercise shield", clientId = 44065, buy = 500000, count = 500 },
+		{ itemName = "durable exercise shield", clientId = 44066, buy = 2200000, count = 3600 },
+		{ itemName = "lasting exercise shield", clientId = 44067, buy = 9600000, count = 14400 },
+		--bow
+		{ itemName = "exercise bow", clientId = 28555, buy = 500000, count = 500 },
+		{ itemName = "durable exercise bow", clientId = 35282, buy = 2200000, count = 3600 },
+		{ itemName = "lasting exercise bow", clientId = 35288, buy = 9600000, count = 14400 },
 	},
 	["others"] = {
 		{ itemName = "spellwand", clientId = 651, sell = 299 },

@@ -71,23 +71,31 @@ monster.summon = {}
 monster.voices = {}
 
 monster.loot = {
-	{ name = "crystal coin", chance = 14615, maxCount = 115 },
+	{ name = "crystal coin", chance = 14615, maxCount = 124 },
 	{ name = "ultimate spirit potion", chance = 7169, maxCount = 153 },
 	{ name = "mastermind potion", chance = 14651, maxCount = 45 },
 	{ name = "yellow gem", chance = 9243, maxCount = 5 },
 	{ name = "amber with a bug", chance = 7224, maxCount = 2 },
 	{ name = "ultimate mana potion", chance = 13137, maxCount = 179 },
 	{ name = "violet gem", chance = 14447, maxCount = 4 },
-	{ id = 3039, chance = 9047, maxCount = 1 }, -- red gem
-	{ name = "supreme health potion", chance = 14635, maxCount = 37 },
+	{ id = 3039, chance = 9047, maxCount = 3 }, -- red gem
+	{ name = "supreme health potion", chance = 14635, maxCount = 181 },
 	{ name = "berserk potion", chance = 14973, maxCount = 45 },
 	{ name = "amber with a dragonfly", chance = 6470, maxCount = 1 },
 	{ name = "gold ingot", chance = 11421, maxCount = 1 },
 	{ name = "blue gem", chance = 8394, maxCount = 1 },
-	{ name = "bullseye potion", chance = 13783, maxCount = 36 },
+	{ name = "bullseye potion", chance = 13783, maxCount = 45 },
 	{ name = "putrefactive figurine", chance = 800, maxCount = 1 },
-	{ name = "ichgahal's fungal infestation", chance = 800, maxCount = 1 },
+	{ name = "ichgahal's fungal infestation", chance = 800, maxCount = 1 },   
 	{ name = "white gem", chance = 13559, maxCount = 3 },
+    { name = "cursed wood", chance = 8394, maxCount = 1 },
+    { name = "green gem", chance = 8394, maxCount = 5 },
+    { name = "green gem", chance = 8394, maxCount = 5 },
+    { id = 43860, chance = 9047, maxCount = 3 }, -- bag you covet
+    { name = "raw watermelon tourmaline", chance = 9302, maxCount = 1 },
+    { name = "the essence of Ichgahal", chance = 400, maxCount = 1 },
+    { name = "spiritual horseshoe", chance = 200, maxCount = 1 },
+    { name = "royal almandine", chance = 400, maxCount = 1 },
 }
 
 monster.attacks = {

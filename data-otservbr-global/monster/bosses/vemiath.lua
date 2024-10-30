@@ -78,10 +78,10 @@ monster.loot = {
 	{ name = "yellow gem", chance = 8604, maxCount = 5 },
 	{ name = "berserk potion", chance = 9395, maxCount = 45 },
 	{ name = "blue gem", chance = 14144, maxCount = 5 },
-	{ name = "green gem", chance = 6221, maxCount = 4 },
-	{ name = "bullseye potion", chance = 6530, maxCount = 26 },
+	{ name = "green gem", chance = 6221, maxCount = 5 },
+	{ name = "bullseye potion", chance = 6530, maxCount = 42 },
 	{ name = "mastermind potion", chance = 5700, maxCount = 44 },
-	{ name = "ultimate spirit potion", chance = 9216, maxCount = 25 },
+	{ name = "ultimate spirit potion", chance = 9216, maxCount = 35 },
 	{ name = "giant topaz", chance = 11191, maxCount = 1 },
 	{ name = "giant amethyst", chance = 8527, maxCount = 1 },
 	{ name = "gold ingot", chance = 10866, maxCount = 1 },
@@ -90,6 +90,9 @@ monster.loot = {
 	{ name = "raw watermelon tourmaline", chance = 9302, maxCount = 1 },
 	{ name = "vemiath's infused basalt", chance = 7914, maxCount = 1 },
 	{ name = "violet gem", chance = 7210, maxCount = 1 },
+    { name = "the essence of Vemiath", chance = 410, maxCount = 1 },
+    { id = 43860, chance = 9047, maxCount = 3 }, -- bag you covet
+    { name = "spiritual horseshoe", chance = 200, maxCount = 1 },
 }
 
 monster.attacks = {

@@ -84,8 +84,13 @@ monster.loot = {
 	{ name = "giant amethyst", chance = 11603, maxCount = 1 },
 	{ name = "giant topaz", chance = 12280, maxCount = 1 },
 	{ name = "green gem", chance = 8348, maxCount = 1 },
-	{ name = "ultimate spirit potion", chance = 10934, maxCount = 18 },
+	{ name = "ultimate spirit potion", chance = 10934, maxCount = 127 },
 	{ name = "white gem", chance = 9600, maxCount = 3 },
+	{ name = "Darklight Figurine", chance = 200, maxCount = 1 },
+	{ name = "unicorn figurine", chance = 1200, maxCount = 1 },
+	{ name = "the essence of Chagorz", chance = 400, maxCount = 1 },
+	{ id = 43860, chance = 200, maxCount = 3 }, -- bag you covet
+    { name = "spiritual horseshoe", chance = 200, maxCount = 1 },
 }
 
 monster.attacks = {

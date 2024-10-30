@@ -77,7 +77,17 @@ monster.loot = {
 	{ name = "mastermind potion", chance = 8938, maxCount = 23 },
 	{ name = "ultimate mana potion", chance = 11433, maxCount = 198 },
 	{ name = "yellow gem", chance = 9985, maxCount = 9 },
-	{ id = 43895, chance = 360 }, -- Bag you covet
+	{ id = 43895, chance = 160 }, -- Bag you covet 
+    { name = "advanced promotion scroll", chance = 320, maxCount = 1 },
+    { name = "basic promotion scroll", chance = 720, maxCount = 1 },
+    { name = "abridged promotion scroll", chance = 620, maxCount = 1 },
+    { name = "extended promotion scroll", chance = 520, maxCount = 1 },
+    { name = "putrefactive figurine", chance = 320, maxCount = 1 },
+    { name = "figurine of bakragore", chance = 320, maxCount = 1 },
+    { name = "revised promotion scroll", chance = 520, maxCount = 1 },
+    { name = "fiery tear", chance = 620, maxCount = 1 },
+    { name = "darklight figurine", chance = 320, maxCount = 1 },
+    { name = "Bakragore's amalgamation", chance = 320, maxCount = 1 },
 }
 
 monster.attacks = {

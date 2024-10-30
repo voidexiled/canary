@@ -76968,6 +76968,31 @@ Granted by TibiaGoals.com" />
 		<attribute key="duration" value="10" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
+
+	<item id="43567" article="a" name="dead converter">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="60" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43566" article="a" name="dead converter">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44036" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43565" article="a" name="dead converter">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44037" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43564" article="a" name="dead converter">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44038" />
+		<attribute key="duration" value="10" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+
 	<item id="44064" article="an" name="training shield">
 		<attribute key="primarytype" value="training weapons" />
 		<attribute key="showCharges" value="1" />

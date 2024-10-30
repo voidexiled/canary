@@ -2,10 +2,11 @@
 	Description: This file is part of Roulette System (refactored)
 	Author: Ly�
 	Discord: Ly�#8767
-]] local Slot = require('data/scripts/features/magic-roulette/lib/classes/slot')
+]]
+local Slot = require('data/scripts/features/magic-roulette/lib/classes/slot')
 
-local defaultWinEffects = {CONST_ANI_FIRE, CONST_ME_SOUND_YELLOW, CONST_ME_SOUND_PURPLE, CONST_ME_SOUND_BLUE,
-                           CONST_ME_SOUND_WHITE}
+local defaultWinEffects = { CONST_ANI_FIRE, CONST_ME_SOUND_YELLOW, CONST_ME_SOUND_PURPLE, CONST_ME_SOUND_BLUE,
+    CONST_ME_SOUND_WHITE }
 
 return {
     slots = {
@@ -15,10 +16,10 @@ return {
                 id = 19082,
                 count = 1
             },
-            tilesPerSlot = 11,
-            centerPosition = Position(32533, 32373, 7),
+            tilesPerSlot = 7,
+            centerPosition = Position(32369, 32239, 6),
 
-            items = {{
+            items = { {
                 id = 49999,
                 count = 100,
                 chance = 0.1,
@@ -77,7 +78,7 @@ return {
                 id = 3043,
                 count = 50,
                 chance = 9
-            }}
+            } }
         }
 
     }

@@ -91,7 +91,7 @@ monster.loot = {
 	{ name = "vemiath's infused basalt", chance = 7914, maxCount = 1 },
 	{ name = "violet gem", chance = 7210, maxCount = 1 },
     { name = "the essence of Vemiath", chance = 410, maxCount = 1 },
-    { id = 43860, chance = 9047, maxCount = 3 }, -- bag you covet
+    { id = 43860, chance = 160, maxCount = 1 }, -- bag you covet
     { name = "spiritual horseshoe", chance = 200, maxCount = 1 },
 }
 

@@ -86,7 +86,7 @@ monster.loot = {
     { name = "giant emerald", chance = 6423, maxCount = 1 },
     { name = "putrefactive figurine", chance = 800, maxCount = 1 },
     { name = "The Essence of Murcion", chance = 500, maxCount = 1 },
-    { id = 43860, chance = 200, maxCount = 1 }, -- bag you covet
+    { id = 43860, chance = 160, maxCount = 1 }, -- bag you covet
 }
 
 monster.attacks = {

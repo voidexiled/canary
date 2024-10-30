@@ -76968,7 +76968,6 @@ Granted by TibiaGoals.com" />
 		<attribute key="duration" value="10" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
-
 	<item id="43567" article="a" name="dead converter">
 		<attribute key="decayTo" value="0" />
 		<attribute key="duration" value="60" />
@@ -76992,6 +76991,103 @@ Granted by TibiaGoals.com" />
 		<attribute key="duration" value="10" />
 		<attribute key="fluidSource" value="blood" />
 	</item>
+	<item id="43563" article="a" name="dead darklight construct">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="60" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43562" article="a" name="dead darklight construct">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44036" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43561" article="a" name="dead darklight construct">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44037" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43560" article="a" name="dead darklight construct">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44038" />
+		<attribute key="duration" value="10" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43583" article="a" name="dead darklight emitter">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="60" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43582" article="a" name="dead darklight emitter">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44036" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43581" article="a" name="dead darklight emitter">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44037" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43580" article="a" name="dead darklight emitter">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44038" />
+		<attribute key="duration" value="10" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+    <item id="43571" article="a" name="dead darklight matter">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="60" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43570" article="a" name="dead darklight matter">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44036" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43569" article="a" name="dead darklight matter">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44037" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43568" article="a" name="dead darklight matter">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44038" />
+		<attribute key="duration" value="10" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+
+
+
+<item id="43840" article="a" name="dead darklight source">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="60" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43839" article="a" name="dead darklight source">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44036" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43838" article="a" name="dead darklight source">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44037" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="43837" article="a" name="dead darklight source">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44038" />
+		<attribute key="duration" value="10" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+
+
 
 	<item id="44064" article="an" name="training shield">
 		<attribute key="primarytype" value="training weapons" />

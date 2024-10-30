@@ -372,7 +372,7 @@ pushWhenAttacking = false
 -- Note: If toggleDownloadMap is set to false, the mapDownloadUrl will not be used.
 -- Note: If a map with the same name already exists in the world folder, the map will not be downloaded, even if toggleDownloadMap is set to true.
 toggleDownloadMap = true
-mapDownloadUrl = "https://github.com/voidexiled/canary/releases/download/v1.0.0.1/otservbr.otbm"
+mapDownloadUrl = "https://github.com/voidexiled/canary/releases/download/v1.0.0.2/otservbr.otbm"
 mapName = "otservbr"
 mapAuthor = "OpenTibiaBR"
 

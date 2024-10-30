@@ -78,7 +78,6 @@ monster.loot = {
 	{ name = "amber with a bug", chance = 7224, maxCount = 2 },
 	{ name = "ultimate mana potion", chance = 13137, maxCount = 179 },
 	{ name = "violet gem", chance = 14447, maxCount = 4 },
-	{ name = "raw watermelon tourmaline", chance = 6788, maxCount = 2 },
 	{ id = 3039, chance = 9047, maxCount = 1 }, -- red gem
 	{ name = "supreme health potion", chance = 14635, maxCount = 37 },
 	{ name = "berserk potion", chance = 14973, maxCount = 45 },
@@ -86,8 +85,8 @@ monster.loot = {
 	{ name = "gold ingot", chance = 11421, maxCount = 1 },
 	{ name = "blue gem", chance = 8394, maxCount = 1 },
 	{ name = "bullseye potion", chance = 13783, maxCount = 36 },
-	{ name = "putrefactive figurine", chance = 11416, maxCount = 1 },
-	{ name = "ichgahal's fungal infestation", chance = 7902, maxCount = 1 },
+	{ name = "putrefactive figurine", chance = 800, maxCount = 1 },
+	{ name = "ichgahal's fungal infestation", chance = 800, maxCount = 1 },
 	{ name = "white gem", chance = 13559, maxCount = 3 },
 }
 

@@ -269,7 +269,7 @@
 	<house name="Greenshore Village 3" houseid="2936" entryx="32264" entryy="32041" entryz="7" rent="50000" townid="8" size="30" clientid="0" beds="2" />
 	<house name="Greenshore Village 2" houseid="2939" entryx="32264" entryy="32042" entryz="7" rent="50000" townid="8" size="30" clientid="0" beds="2" />
 	<house name="Greenshore Village 6" houseid="2940" entryx="32258" entryy="32041" entryz="6" rent="150000" townid="8" size="79" clientid="0" beds="2" />
-	<house name="Harbour Place 1 (Shop)" houseid="2941" entryx="32336" entryy="32222" entryz="7" rent="800000" townid="8" size="21" clientid="0" beds="1" />
+	<house name="Harbour Place 1 (Shop)" houseid="2941" entryx="32336" entryy="32222" entryz="7" rent="800000" townid="8" size="46" clientid="0" beds="1" />
 	<house name="Harbour Place 2 (Shop)" houseid="2942" entryx="32336" entryy="32210" entryz="7" rent="600000" townid="8" size="25" clientid="0" beds="1" />
 	<house name="Harbour Place 3" houseid="2943" entryx="32331" entryy="32208" entryz="7" rent="800000" townid="8" size="88" clientid="0" beds="5" />
 	<house name="Harbour Place 4" houseid="2944" entryx="32332" entryy="32257" entryz="7" rent="80000" townid="8" size="18" clientid="0" beds="5" />

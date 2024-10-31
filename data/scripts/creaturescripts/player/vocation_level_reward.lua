@@ -111,7 +111,7 @@ function rewardLevel.onAdvance(player, skill, oldLevel, newLevel)
     end
 
     local vocationId = player:getVocation():getId()
-    local playerStorage = storageBase
+    local playerStorage = storageBase + vocationId
 
     for vocations, rewards in pairs(vocationRewards) do
         if isInArray(vocations, vocationId) then

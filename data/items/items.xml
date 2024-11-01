@@ -22569,7 +22569,7 @@
 			<attribute key="slot" value="hand" />
 		</attribute>
 	</item>
-	<item id="8103" article="the" name="epiphany">
+	<item id="8103" article="the" name="the epiphany">
 		<attribute key="weaponType" value="sword" />
 		<attribute key="attack" value="50" />
 		<attribute key="extradef" value="3" />

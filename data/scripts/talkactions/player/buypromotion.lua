@@ -9,7 +9,7 @@ function buypromotion.onSay(player, words, param)
 	elseif not player:removeMoneyBank(totalCost) then
 		player:sendTextMessage(MESSAGE_STATUS, "You do not have enough money!")
 	else
-		player:sendTextMessage(MESSAGE_INFO_DESCR, "You have promoted!")
+		player:sendTextMessage(MESSAGE_STATUS, "You have promoted!")
 		player:setVocation(promotion)
 		player:kv():set("promoted", true)
 	end

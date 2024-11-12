@@ -11,7 +11,7 @@ local config = {
 			{ 3059, 1 }, -- spellbook
 			{ 3074, 1 }, -- wand of vortex
 			{ 7991, 1 }, -- magician's robe
-			{ 7992, 1 }, -- mage hat
+			{ 3210, 1 }, -- hat of the mad
 			{ 3362, 1 }, -- studded legs
 			{ 3552, 1 }, -- leather boots
 			{ 3572, 1 }, -- scarf
@@ -30,7 +30,7 @@ local config = {
 			{ 3059, 1 }, -- spellbook
 			{ 3066, 1 }, -- snakebite rod
 			{ 7991, 1 }, -- magician's robe
-			{ 7992, 1 }, -- mage hat
+			{ 3210, 1 }, -- hat of the mad
 			{ 3362, 1 }, -- studded legs
 			{ 3552, 1 }, -- leather boots
 			{ 3572, 1 }, -- scarf

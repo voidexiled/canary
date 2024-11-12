@@ -7,7 +7,7 @@ function buypromotion.onSay(player, words, param)
 	if not promotion or hasPromotion then
 		player:sendTextMessage(MESSAGE_STATUS, "You are already promoted!")
 	elseif not player:removeMoneyBank(totalCost) then
-		npcHandler:say("You do not have enough money!", npc, player)
+		player:sendTextMessage(MESSAGE_STATUS, "You do not have enough money!")
 	else
 		player:sendTextMessage(MESSAGE_INFO_DESCR, "You have promoted!")
 		player:setVocation(promotion)

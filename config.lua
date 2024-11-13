@@ -55,7 +55,7 @@ cleanProtectionZones = false
 -- NOTE: MaxPacketsPerSeconds if you change you will be subject to bugs by WPE, keep the default value of 25,
 -- It's recommended to use a range like min 50 in this function, otherwise you will be disconnected after equipping two-handed distance weapons.
 --ip = "127.0.0.1" -- for local dev
-ip = "34.45.32.148"
+ip = "www.noctera-global.com"
 allowOldProtocol = false
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
@@ -67,6 +67,7 @@ serverMotd = "Welcome to the test Nocter-Global"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
 maxPacketsPerSecond = 25
+-- multi client (mc)
 maxPlayersOnlinePerAccount = 5
 maxPlayersOutsidePZPerAccount = 5
 
@@ -140,7 +141,7 @@ forgeConvergenceFusionDustCost = 130
 forgeTransferDustCost = 100
 forgeConvergenceTransferCost = 160
 forgeBaseSuccessRate = 50
-forgeBonusSuccessRate = 20
+forgeBonusSuccessRate = 70
 forgeTierLossReduction = 70
 forgeAmountMultiplier = 3
 forgeMinSlivers = 3
@@ -400,6 +401,7 @@ mysqlUser = "noctera_test"
 --mysqlUser = "root"
 mysqlPass = "z4me5cwh"
 mysqlDatabase = "noctera_db"
+--mysqlDatabase = "test1"
 mysqlPort = 3306
 mysqlSock = ""
 passwordType = "sha1"
@@ -427,10 +429,10 @@ toggleMountInProtectionZone = false
 freePremium = true
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
-emoteSpells = false
+emoteSpells = true
 allowWalkthrough = true
 coinPacketSize = 25
-coinImagesURL = "http://34.45.32.148/images/store/"
+coinImagesURL = "http://noctera-global.com/images/store/"
 classicAttackSpeed = false
 showScriptsLogInConsole = false
 -- time to suppress negative conditions after being affected by them (ms)

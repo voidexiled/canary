@@ -67,8 +67,8 @@ serverMotd = "Welcome to the test Nocter-Global"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
 maxPacketsPerSecond = 25
-maxPlayersOnlinePerAccount = 1
-maxPlayersOutsidePZPerAccount = 1
+maxPlayersOnlinePerAccount = 5
+maxPlayersOutsidePZPerAccount = 5
 
 -- Packet Compression
 -- Minimize network bandwith and reduce ping

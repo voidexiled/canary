@@ -11,5 +11,5 @@ function removeSkull.onUse(player, item, fromPosition, target, toPosition, isHot
     return true
 end
 
-removeSkull:id(12904)
+removeSkull:id(12905)
 removeSkull:register()

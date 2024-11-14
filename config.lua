@@ -398,11 +398,11 @@ maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
 mysqlHost = "127.0.0.1"
-mysqlUser = "noctera_test"
---mysqlUser = "root"
+--mysqlUser = "noctera_test"
+mysqlUser = "root"
 mysqlPass = "z4me5cwh"
-mysqlDatabase = "noctera_db"
---mysqlDatabase = "test1"
+--mysqlDatabase = "noctera_db"
+mysqlDatabase = "test1"
 mysqlPort = 3306
 mysqlSock = ""
 passwordType = "sha1"

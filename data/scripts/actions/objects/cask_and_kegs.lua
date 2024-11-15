@@ -26,10 +26,7 @@ local targetIdList = {
 local flasks = Action()
 
 function flasks.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-	if not target then
-		return false
-	end
-	if not target:isItem() then
+	if not target or not target:getItem() then
 		return false
 	end
 

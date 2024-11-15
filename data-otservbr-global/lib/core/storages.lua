@@ -74,9 +74,9 @@ Reserved player action storage key ranges (const.h)
 
 	Questline = Storage through the Quest
 ]]
+
 Storage = {
 	-- General storages
-
 	Dragonfetish = 30003,
 	EdronRopeQuest = 30004,
 	OrcKingGreeting = 30006,
@@ -2877,8 +2877,8 @@ Storage = {
 
 	VipSystem = {
 		OnlineCoinsGain = 150002,
-		OnlineTokensGain = 150003
-	}
+		OnlineTokensGain = 150003,
+	},
 }
 
 GlobalStorage = {
@@ -2960,13 +2960,18 @@ GlobalStorage = {
 	KeysUpdate = 40000, -- Reserved storage from 40000 - 40000
 }
 
-startupGlobalStorages = { Storage.Quest.U7_4.TheAncientTombs.AshmunrahSwitchesGlobalStorage,
+startupGlobalStorages = {
+	Storage.Quest.U7_4.TheAncientTombs.AshmunrahSwitchesGlobalStorage,
 	Storage.Quest.U7_4.TheAncientTombs.DiprathSwitchesGlobalStorage,
 	Storage.Quest.U7_4.TheAncientTombs.ThalasSwitchesGlobalStorage,
-	GlobalStorage.HeroRathleton.FirstMachines, GlobalStorage.HeroRathleton.SecondMachines,
-	GlobalStorage.HeroRathleton.ThirdMachines, GlobalStorage.HeroRathleton.DeepRunning,
-	GlobalStorage.HeroRathleton.HorrorRunning, GlobalStorage.HeroRathleton.LavaRunning,
-	GlobalStorage.HeroRathleton.MaxxenRunning, GlobalStorage.HeroRathleton.LavaCounter,
+	GlobalStorage.HeroRathleton.FirstMachines,
+	GlobalStorage.HeroRathleton.SecondMachines,
+	GlobalStorage.HeroRathleton.ThirdMachines,
+	GlobalStorage.HeroRathleton.DeepRunning,
+	GlobalStorage.HeroRathleton.HorrorRunning,
+	GlobalStorage.HeroRathleton.LavaRunning,
+	GlobalStorage.HeroRathleton.MaxxenRunning,
+	GlobalStorage.HeroRathleton.LavaCounter,
 	GlobalStorage.HeroRathleton.FourthMachines,
 	Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal1,
 	Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal2,
@@ -2977,10 +2982,12 @@ startupGlobalStorages = { Storage.Quest.U7_4.TheAncientTombs.AshmunrahSwitchesGl
 	Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal7,
 	Storage.Quest.U10_90.FerumbrasAscension.Crystals.Crystal8,
 	Storage.Quest.U10_90.FerumbrasAscension.Crystals.AllCrystals,
-	Storage.Quest.U10_90.FerumbrasAscension.FerumbrasEssence, GlobalStorage.Feroxa.Active,
+	Storage.Quest.U10_90.FerumbrasAscension.FerumbrasEssence,
+	GlobalStorage.Feroxa.Active,
 	Storage.Quest.U10_90.FerumbrasAscension.Habitats.AllHabitats,
 	Storage.Quest.U10_90.FerumbrasAscension.Elements.Active,
 	Storage.Quest.U10_90.FerumbrasAscension.Elements.First,
 	Storage.Quest.U10_90.FerumbrasAscension.Elements.Second,
 	Storage.Quest.U10_90.FerumbrasAscension.Elements.Third,
-	Storage.Quest.U10_90.FerumbrasAscension.Elements.Done }
+	Storage.Quest.U10_90.FerumbrasAscension.Elements.Done,
+}

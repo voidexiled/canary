@@ -6357,18 +6357,18 @@ if not Quests then
 							return string.format(
 								"Prevent the raising of twelve lich knights. Sanctify the graves yet untouched and destroy any lich knights that might have been raised. Graves exlored: %d/12",
 								player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Edron)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.DarkCathedral)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Ghostlands)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Cormaya)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.FemorHills)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Ankrahmun)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Kilmaresh)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Vengoth)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Darashia)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Thais)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Orclands)
-								+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.IceIslands)
-								- 12
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.DarkCathedral)
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Ghostlands)
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Cormaya)
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.FemorHills)
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Ankrahmun)
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Kilmaresh)
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Vengoth)
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Darashia)
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Thais)
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.Orclands)
+									+ player:getStorageValue(Storage.Quest.U12_20.GraveDanger.Graves.IceIslands)
+									- 12
 							)
 						end,
 					},

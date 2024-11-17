@@ -1,321 +1,306 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<npc name="Seller" script="Seller.lua" walkinterval="2000" floorchange="0">
-    <health now="100" max="100" />
-    <look type="80"/>
-    <parameters>
-        <parameter key="module_shop" value="1" />
-        <parameter key="shop_sellable" value="
-            glacial rod, 18412, 6500;
-            hailstorm rod, 2183, 3000;
-            moonlight rod, 2186, 300;
-            muck rod, 18411, 6000;
-            necrotic rod, 2185, 1000;
-            northwind rod, 8911, 1500;
-            snakebite rod, 2182, 100;
-            springsprout rod, 8912, 3600;
-            terra rod, 2181, 2000;
-            underworld rod, 8910, 4400;
-            stone skin amulet, 2197, 500;
-            wand of cosmic energy, 2189, 2000;
-            wand of decay, 2188, 1000;
-            wand of defiance, 18390, 6500;
-            wand of everblazing, 18409, 6000;
-            wand of dragonbreath, 2191, 200;
-            wand of inferno, 2187, 3000;
-            wand of vortex, 2190, 100;
-            wand of draconia, 8921, 1500;
-            wand of starstorm, 8920, 3600;
-            wand of voodoo, 8922, 4400;
-            ancient shield, 2535, 900;
-            dark armor, 2489, 400;
-            dark helmet, 2490, 250;
-            serpent sword, 2409, 900;
-            black shield, 2529, 800;
-            bonebreaker, 7428, 10000;
-            dragon hammer, 2434, 2000;
-            dreaded cleaver, 7419, 15000;
-            earth knight axe, 7860, 2000;
-            energy knight axe, 7875, 2000;
-            fiery knight axe, 7750, 2000;
-            giant sword, 2393, 17000;
-            haunted blade, 7407, 8000;
-            icy knight axe, 7769, 2000;
-            knight armor, 2476, 5000;
-            knight axe, 2430, 2000;
-            knight legs, 2477, 5000;
-            mystic turban, 2663, 150;
-            onyx flail, 7421, 22000;
-            ornamented axe, 7411, 20000;
-            poison dagger, 2411, 50;
-            skull staff, 2436, 6000;
-            strange helmet, 2479, 500;
-            titan axe, 7413, 4000;
-            tower shield, 2528, 8000;
-            vampire shield, 2534, 15000;
-            warrior helmet, 2475, 5000;
-            angelic axe, 7436, 5000;
-            blue robe, 2656, 10000;
-            bonelord shield, 2518, 1200;
-            boots of haste, 2195, 30000;
-            broadsword, 2413, 500;
-            butcher's axe, 7412, 18000;
-            crown armor, 2487, 12000;
-            crown helmet, 2491, 2500;
-            crown legs, 2488, 12000;
-            crown shield, 2519, 8000;
-            crusader helmet, 2497, 6000;
-            dragon lance, 2414, 9000;
-            dragon shield, 2516, 4000;
-            earth spike sword, 7854, 1000;
-            earth war hammer, 7868, 1200;
-            energy spike sword, 7869, 1000;
-            energy war hammer, 7883, 1200;
-            fiery spike sword, 7744, 1000;
-            fiery war hammer, 7758, 1200;
-            fire axe, 2432, 8000;
-            fire sword, 2392, 4000;
-            glorious axe, 7454, 3000;
-            guardian shield, 2515, 2000;
-            ice rapier, 2396, 1000;
-            icy spike sword, 7763, 1000;
-            icy war hammer, 7777, 1200;
-            noble armor, 2486, 900;
-            obsidian lance, 2425, 500;
-            phoenix shield, 2539, 16000;
-            queen's sceptre, 7410, 20000;
-            royal helmet, 2498, 30000;
-            shadow sceptre, 7451, 10000;
-            spike sword, 2383, 1000;
-            thaian sword, 7391, 16000;
-            war hammer, 2391, 1200;
-            abyss hammer, 7414, 20000;
-            amber staff, 7426, 8000;
-            ancient amulet, 2142, 200;
-            assassin dagger, 7404, 20000;
-            bandana, 5917, 150;
-            beastslayer axe, 3962, 1500;
-            beetle necklace, 11374, 1500;
-            berserker, 7403, 40000;
-            blacksteel sword, 7406, 6000;
-            blessed sceptre, 7429, 40000;
-            bone shield, 2541, 80;
-            bonelord helmet, 3972, 7500;
-            brutetamer's staff, 7379, 1500;
-            buckle, 20109, 7000;
-            castle shield, 2535, 5000;
-            chain bolter, 8850, 40000;
-            chaos mace, 7427, 9000;
-            cobra crown, 12630, 50000;
-            coconut shoes, 9931, 500;
-            composite hornbow, 8855, 25000;
-            cranial basher, 7415, 30000;
-            crocodile boots, 3982, 1000;
-            crystal crossbow, 18453, 35000;
-            crystal mace, 2445, 12000;
-            crystal necklace, 2125, 400;
-            crystal ring, 2124, 250;
-            crystal sword, 7449, 600;
-            crystalline armor, 8878, 16000;
-            daramian mace, 2439, 110;
-            daramian waraxe, 2440, 1000;
-            dark shield, 2521, 400;
-            death ring, 6300, 1000;
-            demon shield, 2520, 30000;
-            demonbone amulet, 2136, 32000;
-            demonrage sword, 7382, 36000;
-            devil helmet, 2462, 1000;
-            diamond sceptre, 7387, 3000;
-            divine plate, 8885, 55000;
-            djinn blade, 2451, 15000;
-            doll, 2110, 200;
-            dragon scale mail, 2492, 40000;
-            dragon slayer, 7402, 15000;
-            dragonbone staff, 7430, 3000;
-            dreaded cleaver, 7419, 10000;
-            dwarven armor, 2503, 30000;
-            earth cranial basher, 7866, 30000;
-            earth dragon slayer, 7858, 15000;
-            earth headchopper, 7862, 6000;
-            earth heroic axe, 7861, 30000;
-            earth mystic blade, 7856, 30000;
-            earth orcish maul, 7867, 6000;
-            earth relic sword, 7855, 25000;
-            earth war axe, 7863, 12000;
-            elvish bow, 7438, 2000;
-            emerald bangle, 2127, 800;
-            energy cranial basher, 7881, 30000;
-            energy dragon slayer, 7873, 15000;
-            energy headchopper, 7877, 6000;
-            energy heroic axe, 7876, 30000;
-            energy mystic blade, 7871, 30000;
-            energy orcish maul, 7882, 6000;
-            energy relic sword, 7870, 25000;
-            energy war axe, 7878, 12000;
-            epee, 2438, 8000;
-            fiery cranial basher, 7756, 30000;
-            fiery dragon slayer, 7748, 15000;
-            fiery headchopper, 7752, 6000;
-            fiery heroic axe, 7751, 30000;
-            fiery mystic blade, 7746, 30000;
-            fiery orcish maul, 7757, 6000;
-            fiery relic sword, 7745, 25000;
-            fiery war axe, 7753, 12000;
-            flower dress, 9929, 1000;
-            flower wreath, 9927, 500;
-            fur boots, 7457, 2000;
-            furry club, 7432, 1000;
-            glacier amulet, 7888, 1500;
-            glacier kilt, 7896, 11000;
-            glacier mask, 7902, 2500;
-            glacier robe, 7897, 11000;
-            glacier shoes, 7892, 2500;
-            gold ring, 2179, 8000;
-            golden armor, 2466, 20000;
-            golden legs, 2470, 30000;
-            guardian halberd, 2427, 11000;
-            hammer of wrath, 2444, 30000;
-            headchopper, 7380, 6000;
-            heavy mace, 2452, 50000;
-            heavy machete, 2442, 90;
-            heavy trident, 13838, 2000;
-            helmet of the lost, 20132, 2000;
-            heroic axe, 7389, 30000;
-            hibiscus dress, 8873, 3000;
-            icy blacksteel sword, 7766, 6000;
-            icy cranial basher, 7775, 30000;
-            icy dragon slayer, 7767, 15000;
-            icy headchopper, 7771, 6000;
-            icy heroic axe, 7770, 30000;
-            icy mystic blade, 7765, 30000;
-            icy orcish maul, 7776, 6000;
-            icy relic sword, 7764, 25000;
-            icy war axe, 7772, 12000;
-            jade hammer, 7422, 25000;
-            krimhorn helmet, 7461, 200;
-            lavos armor, 8877, 16000;
-            leaf legs, 9928, 500;
-            leopard armor, 3968, 1000;
-            leviathan's amulet, 10220, 3000;
-            light shovel, 5710, 300;
-            lightning boots, 7893, 2500;
-            lightning headband, 7901, 2500;
-            lightning legs, 7895, 11000;
-            lightning pendant, 7889, 1500;
-            lightning robe, 7898, 11000;
-            lunar staff, 7424, 5000;
-            magic plate armor, 2472, 90000;
-            magma amulet, 7890, 1500;
-            magma boots, 7891, 2500;
-            magma coat, 7899, 11000;
-            magma legs, 7894, 11000;
-            magma monocle, 7900, 2500;
-            mammoth fur cape, 7463, 6000;
-            mammoth fur shorts, 7464, 850;
-            mammoth whopper, 7381, 300;
-            mastermind shield, 2514, 50000;
-            medusa shield, 2536, 9000;
-            mercenary sword, 7386, 12000;
-            mycological bow, 18454, 35000;
-            mystic blade, 7384, 30000;
-            naginata, 2426, 2000;
-            nightmare blade, 7418, 35000;
-            noble axe, 7456, 10000;
-            norse shield, 7460, 1500;
-            orcish maul, 7392, 6000;
-            pair of iron fists, 20108, 4000;
-            paladin armor, 8891, 15000;
-            patched boots, 2641, 2000;
-            pharaoh sword, 2446, 23000;
-            pirate boots, 5462, 3000;
-            pirate hat, 6096, 1000;
-            pirate knee breeches, 5918, 200;
-            pirate shirt, 6095, 500;
-            pirate voodoo doll, 5810, 500;
-            platinum amulet, 2171, 2500;
-            ragnir helmet, 7462, 400;
-            relic sword, 7383, 25000;
-            ring of the sky, 2123, 30000;
-            royal axe, 7434, 40000;
-            ruby necklace, 2133, 2000;
-            ruthless axe, 6553, 45000;
-            sacred tree amulet, 10219, 3000;
-            sapphire hammer, 7437, 7000;
-            scarab amulet, 2135, 200;
-            scarab shield, 2540, 2000;
-            shockwave amulet, 10221, 3000;
-            silver brooch, 2134, 150;
-            silver dagger, 2402, 500;
-            skull helmet, 5741, 40000;
-            skullcracker armor, 8889, 18000;
-            spiked squelcher, 7452, 5000;
-            steel boots, 2645, 30000;
-            swamplair armor, 8880, 16000;
-            taurus mace, 7425, 500;
-            tempest shield, 2542, 35000;
-            terra amulet, 7887, 1500;
-            terra boots, 7886, 2500;
-            terra hood, 7903, 2500;
-            terra legs, 7885, 11000;
-            terra mantle, 7884, 11000;
-            the justice seeker, 7390, 40000;
-            tortoise shield, 6131, 150;
-            vile axe, 7388, 30000;
-            voodoo doll, 2322, 400;
-            war axe, 2454, 12000;
-            war horn, 2079, 8000;
-            witch hat, 10570, 5000;
-            wyvern fang, 7408, 1500;
-            zaoan armor, 11301, 14000;
-            zaoan halberd, 11323, 500;
-            zaoan helmet, 11302, 45000;
-            zaoan legs, 11304, 14000;
-            zaoan shoes, 11303, 5000;
-            zaoan sword, 11307, 30000;
-            drakinata, 11305, 10000;
-            Elite Draken Mail, 12607, 50000;           
-            drachaku, 11308, 10000;
-            guardian boots, 11240, 35000;
-            draken boots, 12646, 40000;
-            battle axe,2378,80;
-            battle hammer,2417,120;
-            battle shield,2513,95;
-            brass armor,2465,150;
-            brass helmet,2460,30;
-            brass legs,2478,49;
-            brass shield,2511,25;
-            carlin sword,2395,118;
-            chain armor,2464,70;
-            chain helmet,2458,17;
-            chain legs,2648,25;
-            copper shield,2530,50;
-            crowbar,2416,50;
-            double axe,2387,260;
-            dwarven shield,2525,100;
-            halberd,2381,400;
-            hatchet,2388,25;
-            iron helmet,2459,150;
-            katana,2412,35;
-            legion helmet,2480,22;
-            longsword,2397,51;
-            mace,2398,30;
-            morning star,2394,100;
-            orcish axe,2428,350;
-            plate armor,2463,400;
-            plate legs,2647,115;
-            plate shield,2510,45;
-            sabre,2385,12;
-            scale armor,2483,75;
-            soldier helmet,2481,50;
-            steel helmet,2457,293;
-            steel shield,2509,80;
-            studded armor,2484,25;
-            studded helmet,2482,20;
-            studded legs,2468,15;
-            studded shield,2526,16;
-            swampling club,20104,40;
-            sword,2376,25;
-            two handed sword,2377,450;
-            viking helmet,2473,66;
-            viking shield,2531,85;"/>
-    </parameters>
-</npc>
+local internalNpcName = "Seller"
+local npcType = Game.createNpcType(internalNpcName)
+local npcConfig = {}
+
+npcConfig.name = internalNpcName
+npcConfig.description = internalNpcName
+
+npcConfig.health = 100
+npcConfig.maxHealth = npcConfig.health
+npcConfig.walkInterval = 2000
+npcConfig.walkRadius = 2
+
+npcConfig.outfit = {
+	lookType = 80,
+	lookHead = 19,
+	lookBody = 86,
+	lookLegs = 87,
+	lookFeet = 95,
+	lookAddons = 0,
+}
+
+npcConfig.flags = {
+	floorchange = false,
+}
+
+npcConfig.voices = {
+	interval = 15000,
+	chance = 50,
+	{ text = "General goods and paperware for sale!" },
+}
+
+local keywordHandler = KeywordHandler:new()
+local npcHandler = NpcHandler:new(keywordHandler)
+
+npcType.onThink = function(npc, interval)
+	npcHandler:onThink(npc, interval)
+end
+
+npcType.onAppear = function(npc, creature)
+	npcHandler:onAppear(npc, creature)
+end
+
+npcType.onDisappear = function(npc, creature)
+	npcHandler:onDisappear(npc, creature)
+end
+
+npcType.onMove = function(npc, creature, fromPosition, toPosition)
+	npcHandler:onMove(npc, creature, fromPosition, toPosition)
+end
+
+npcType.onSay = function(npc, creature, type, message)
+	npcHandler:onSay(npc, creature, type, message)
+end
+
+npcType.onCloseChannel = function(npc, creature)
+	npcHandler:onCloseChannel(npc, creature)
+end
+
+local function creatureSayCallback(npc, creature, type, message)
+	local player = Player(creature)
+	local playerId = player:getId()
+
+	if not npcHandler:checkInteraction(npc, creature) then
+		return false
+	end
+
+	if MsgContains(message, "football") then
+		npcHandler:say("Do you want to buy a football for 111 gold?", npc, creature)
+		npcHandler:setTopic(playerId, 1)
+	elseif MsgContains(message, "yes") then
+		if npcHandler:getTopic(playerId) == 1 then
+			local player = Player(creature)
+			if player:getMoney() + player:getBankBalance() >= 111 then
+				npcHandler:say("Here it is.", npc, creature)
+				player:addItem(2990, 1)
+				player:removeMoneyBank(111)
+			else
+				npcHandler:say("You don't have enough money.", npc, creature)
+			end
+			npcHandler:setTopic(playerId, 0)
+		end
+	end
+	return true
+end
+
+npcConfig.shop = {
+	{ itemName = "abyss hammer", clientId = 7414, sell = 20000 },
+	{ itemName = "albino plate", clientId = 19358, sell = 1500 },
+	{ itemName = "amber staff", clientId = 7426, sell = 8000 },
+	{ itemName = "ancient amulet", clientId = 3025, sell = 200 },
+	{ itemName = "assassin dagger", clientId = 7404, sell = 20000 },
+	{ itemName = "bandana", clientId = 5917, sell = 150 },
+	{ itemName = "beastslayer axe", clientId = 3344, sell = 1500 },
+	{ itemName = "beetle necklace", clientId = 10457, sell = 1500 },
+	{ itemName = "berserker", clientId = 7403, sell = 40000 },
+	{ itemName = "blacksteel sword", clientId = 7406, sell = 6000 },
+	{ itemName = "blessed sceptre", clientId = 7429, sell = 40000 },
+	{ itemName = "bone shield", clientId = 3441, sell = 80 },
+	{ itemName = "bonelord helmet", clientId = 3408, sell = 7500 },
+	{ itemName = "brutetamer's staff", clientId = 7379, sell = 1500 },
+	{ itemName = "buckle", clientId = 17829, sell = 7000 },
+	{ itemName = "castle shield", clientId = 3435, sell = 5000 },
+	{ itemName = "chain bolter", clientId = 8022, sell = 40000 },
+	{ itemName = "chaos mace", clientId = 7427, sell = 9000 },
+	{ itemName = "cobra crown", clientId = 11674, sell = 50000 },
+	{ itemName = "coconut shoes", clientId = 9017, sell = 500 },
+	{ itemName = "composite hornbow", clientId = 8027, sell = 25000 },
+	{ itemName = "cranial basher", clientId = 7415, sell = 30000 },
+	{ itemName = "crocodile boots", clientId = 3556, sell = 1000 },
+	{ itemName = "crystal crossbow", clientId = 16163, sell = 35000 },
+	{ itemName = "crystal mace", clientId = 3333, sell = 12000 },
+	{ itemName = "crystal necklace", clientId = 3008, sell = 400 },
+	{ itemName = "crystal ring", clientId = 3007, sell = 250 },
+	{ itemName = "crystal sword", clientId = 7449, sell = 600 },
+	{ itemName = "crystalline armor", clientId = 8050, sell = 16000 },
+	{ itemName = "daramian mace", clientId = 3327, sell = 110 },
+	{ itemName = "daramian waraxe", clientId = 3328, sell = 1000 },
+	{ itemName = "dark shield", clientId = 3421, sell = 400 },
+	{ itemName = "death ring", clientId = 6299, sell = 1000 },
+	{ itemName = "demon shield", clientId = 3420, sell = 30000 },
+	{ itemName = "demonbone amulet", clientId = 3019, sell = 32000 },
+	{ itemName = "demonrage sword", clientId = 7382, sell = 36000 },
+	{ itemName = "devil helmet", clientId = 3356, sell = 1000 },
+	{ itemName = "diamond sceptre", clientId = 7387, sell = 3000 },
+	{ itemName = "divine plate", clientId = 8057, sell = 55000 },
+	{ itemName = "djinn blade", clientId = 3339, sell = 15000 },
+	{ itemName = "doll", clientId = 2991, sell = 200 },
+	{ itemName = "dragon scale mail", clientId = 3386, sell = 40000 },
+	{ itemName = "dragon slayer", clientId = 7402, sell = 15000 },
+	{ itemName = "dragonbone staff", clientId = 7430, sell = 3000 },
+	{ itemName = "dreaded cleaver", clientId = 7419, sell = 10000 },
+	{ itemName = "dwarven armor", clientId = 3397, sell = 30000 },
+	{ itemName = "elvish bow", clientId = 7438, sell = 2000 },
+	{ itemName = "emerald bangle", clientId = 3010, sell = 800 },
+	{ itemName = "epee", clientId = 3326, sell = 8000 },
+	{ itemName = "flower dress", clientId = 9015, sell = 1000 },
+	{ itemName = "flower wreath", clientId = 9013, sell = 500 },
+	{ itemName = "fur boots", clientId = 7457, sell = 2000 },
+	{ itemName = "furry club", clientId = 7432, sell = 1000 },
+	{ itemName = "glacier amulet", clientId = 815, sell = 1500 },
+	{ itemName = "glacier kilt", clientId = 823, sell = 11000 },
+	{ itemName = "glacier mask", clientId = 829, sell = 2500 },
+	{ itemName = "glacier robe", clientId = 824, sell = 11000 },
+	{ itemName = "glacier shoes", clientId = 819, sell = 2500 },
+	{ itemName = "gold ring", clientId = 3063, sell = 8000 },
+	{ itemName = "golden armor", clientId = 3360, sell = 20000 },
+	{ itemName = "golden legs", clientId = 3364, sell = 30000 },
+	{ itemName = "goo shell", clientId = 19372, sell = 4000 },
+	{ itemName = "griffin shield", clientId = 3433, sell = 3000 },
+	{ itemName = "guardian halberd", clientId = 3315, sell = 11000 },
+	{ itemName = "hammer of wrath", clientId = 3332, sell = 30000 },
+	{ itemName = "headchopper", clientId = 7380, sell = 6000 },
+	{ itemName = "heavy mace", clientId = 3340, sell = 50000 },
+	{ itemName = "heavy machete", clientId = 3330, sell = 90 },
+	{ itemName = "heavy trident", clientId = 12683, sell = 2000 },
+	{ itemName = "helmet of the lost", clientId = 17852, sell = 2000 },
+	{ itemName = "heroic axe", clientId = 7389, sell = 30000 },
+	{ itemName = "hibiscus dress", clientId = 8045, sell = 3000 },
+	{ itemName = "hieroglyph banner", clientId = 12482, sell = 500 },
+	{ itemName = "horn", clientId = 19359, sell = 300 },
+	{ itemName = "jade hammer", clientId = 7422, sell = 25000 },
+	{ itemName = "krimhorn helmet", clientId = 7461, sell = 200 },
+	{ itemName = "lavos armor", clientId = 8049, sell = 16000 },
+	{ itemName = "leaf legs", clientId = 9014, sell = 500 },
+	{ itemName = "leopard armor", clientId = 3404, sell = 1000 },
+	{ itemName = "leviathan's amulet", clientId = 9303, sell = 3000 },
+	{ itemName = "light shovel", clientId = 5710, sell = 300 },
+	{ itemName = "lightning boots", clientId = 820, sell = 2500 },
+	{ itemName = "lightning headband", clientId = 828, sell = 2500 },
+	{ itemName = "lightning legs", clientId = 822, sell = 11000 },
+	{ itemName = "lightning pendant", clientId = 816, sell = 1500 },
+	{ itemName = "lightning robe", clientId = 825, sell = 11000 },
+	{ itemName = "lunar staff", clientId = 7424, sell = 5000 },
+	{ itemName = "magic plate armor", clientId = 3366, sell = 90000 },
+	{ itemName = "magma amulet", clientId = 817, sell = 1500 },
+	{ itemName = "magma boots", clientId = 818, sell = 2500 },
+	{ itemName = "magma coat", clientId = 826, sell = 11000 },
+	{ itemName = "magma legs", clientId = 821, sell = 11000 },
+	{ itemName = "magma monocle", clientId = 827, sell = 2500 },
+	{ itemName = "mammoth fur cape", clientId = 7463, sell = 6000 },
+	{ itemName = "mammoth fur shorts", clientId = 7464, sell = 850 },
+	{ itemName = "mammoth whopper", clientId = 7381, sell = 300 },
+	{ itemName = "mastermind shield", clientId = 3414, sell = 50000 },
+	{ itemName = "medusa shield", clientId = 3436, sell = 9000 },
+	{ itemName = "mercenary sword", clientId = 7386, sell = 12000 },
+	{ itemName = "model ship", clientId = 2994, sell = 1000 },
+	{ itemName = "mycological bow", clientId = 16164, sell = 35000 },
+	{ itemName = "mystic blade", clientId = 7384, sell = 30000 },
+	{ itemName = "naginata", clientId = 3314, sell = 2000 },
+	{ itemName = "nightmare blade", clientId = 7418, sell = 35000 },
+	{ itemName = "noble axe", clientId = 7456, sell = 10000 },
+	{ itemName = "norse shield", clientId = 7460, sell = 1500 },
+	{ itemName = "onyx pendant", clientId = 22195, sell = 3500 },
+	{ itemName = "orcish maul", clientId = 7392, sell = 6000 },
+	{ itemName = "oriental shoes", clientId = 21981, sell = 15000 },
+	{ itemName = "pair of iron fists", clientId = 17828, sell = 4000 },
+	{ itemName = "paladin armor", clientId = 8063, sell = 15000 },
+	{ itemName = "patched boots", clientId = 3550, sell = 2000 },
+	{ itemName = "pharaoh banner", clientId = 12483, sell = 1000 },
+	{ itemName = "pharaoh sword", clientId = 3334, sell = 23000 },
+	{ itemName = "pirate boots", clientId = 5461, sell = 3000 },
+	{ itemName = "pirate hat", clientId = 6096, sell = 1000 },
+	{ itemName = "pirate knee breeches", clientId = 5918, sell = 200 },
+	{ itemName = "pirate shirt", clientId = 6095, sell = 500 },
+	{ itemName = "pirate voodoo doll", clientId = 5810, sell = 500 },
+	{ itemName = "platinum amulet", clientId = 3055, sell = 2500 },
+	{ itemName = "ragnir helmet", clientId = 7462, sell = 400 },
+	{ itemName = "relic sword", clientId = 7383, sell = 25000 },
+	{ itemName = "rift bow", clientId = 22866, sell = 45000 },
+	{ itemName = "rift crossbow", clientId = 22867, sell = 45000 },
+	{ itemName = "rift lance", clientId = 22727, sell = 30000 },
+	{ itemName = "rift shield", clientId = 22726, sell = 50000 },
+	{ itemName = "ring of the sky", clientId = 3006, sell = 30000 },
+	{ itemName = "royal axe", clientId = 7434, sell = 40000 },
+	{ itemName = "ruby necklace", clientId = 3016, sell = 2000 },
+	{ itemName = "ruthless axe", clientId = 6553, sell = 45000 },
+	{ itemName = "sacred tree amulet", clientId = 9302, sell = 3000 },
+	{ itemName = "sapphire hammer", clientId = 7437, sell = 7000 },
+	{ itemName = "scarab amulet", clientId = 3018, sell = 200 },
+	{ itemName = "scarab shield", clientId = 3440, sell = 2000 },
+	{ itemName = "shockwave amulet", clientId = 9304, sell = 3000 },
+	{ itemName = "silver brooch", clientId = 3017, sell = 150 },
+	{ itemName = "silver dagger", clientId = 3290, sell = 500 },
+	{ itemName = "skull helmet", clientId = 5741, sell = 40000 },
+	{ itemName = "skullcracker armor", clientId = 8061, sell = 18000 },
+	{ itemName = "spiked squelcher", clientId = 7452, sell = 5000 },
+	{ itemName = "steel boots", clientId = 3554, sell = 30000 },
+	{ itemName = "swamplair armor", clientId = 8052, sell = 16000 },
+	{ itemName = "taurus mace", clientId = 7425, sell = 500 },
+	{ itemName = "tempest shield", clientId = 3442, sell = 35000 },
+	{ itemName = "terra amulet", clientId = 814, sell = 1500 },
+	{ itemName = "terra boots", clientId = 813, sell = 2500 },
+	{ itemName = "terra hood", clientId = 830, sell = 2500 },
+	{ itemName = "terra legs", clientId = 812, sell = 11000 },
+	{ itemName = "terra mantle", clientId = 811, sell = 11000 },
+	{ itemName = "the justice seeker", clientId = 7390, sell = 40000 },
+	{ itemName = "tortoise shield", clientId = 6131, sell = 150 },
+	{ itemName = "vile axe", clientId = 7388, sell = 30000 },
+	{ itemName = "voodoo doll", clientId = 3002, sell = 400 },
+	{ itemName = "war axe", clientId = 3342, sell = 12000 },
+	{ itemName = "war horn", clientId = 2958, sell = 8000 },
+	{ itemName = "witch hat", clientId = 9653, sell = 5000 },
+	{ itemName = "wyvern fang", clientId = 7408, sell = 1500 },
+    { itemName = "angelic axe", clientId = 7436, sell = 5000 },
+	{ itemName = "blue robe", clientId = 3567, sell = 10000 },
+	{ itemName = "bonelord shield", clientId = 3418, sell = 1200 },
+	{ itemName = "boots of haste", clientId = 3079, sell = 30000 },
+	{ itemName = "broadsword", clientId = 3301, sell = 500 },
+	{ itemName = "butcher's axe", clientId = 7412, sell = 18000 },
+	{ itemName = "crown armor", clientId = 3381, sell = 12000 },
+	{ itemName = "crown helmet", clientId = 3385, sell = 2500 },
+	{ itemName = "crown legs", clientId = 3382, sell = 12000 },
+	{ itemName = "crown shield", clientId = 3419, sell = 8000 },
+	{ itemName = "crusader helmet", clientId = 3391, sell = 6000 },
+	{ itemName = "dragon lance", clientId = 3302, sell = 9000 },
+	{ itemName = "dragon shield", clientId = 3416, sell = 4000 },
+	{ itemName = "fire axe", clientId = 3320, sell = 8000 },
+	{ itemName = "fire sword", clientId = 3280, sell = 4000 },
+	{ itemName = "glorious axe", clientId = 7454, sell = 3000 },
+	{ itemName = "guardian shield", clientId = 3415, sell = 2000 },
+	{ itemName = "ice rapier", clientId = 3284, sell = 1000 },
+	{ itemName = "noble armor", clientId = 3380, sell = 900 },
+	{ itemName = "obsidian lance", clientId = 3313, sell = 500 },
+	{ itemName = "phoenix shield", clientId = 3439, sell = 16000 },
+	{ itemName = "queen's sceptre", clientId = 7410, sell = 20000 },
+	{ itemName = "royal helmet", clientId = 3392, sell = 30000 },
+	{ itemName = "shadow sceptre", clientId = 7451, sell = 10000 },
+	{ itemName = "spike sword", clientId = 3271, sell = 1000 },
+	{ itemName = "thaian sword", clientId = 7391, sell = 16000 },
+	{ itemName = "war hammer", clientId = 3279, sell = 1200 },
+    { itemName = "ankh", clientId = 3077, sell = 100 },
+	{ itemName = "dragon necklace", clientId = 3085, buy = 1000, sell = 100, count = 200 },
+	{ itemName = "dwarven ring", clientId = 3097, buy = 2000, sell = 100 },
+	{ itemName = "energy ring", clientId = 3051, buy = 2000, sell = 100 },
+	{ itemName = "glacial rod", clientId = 16118, sell = 6500 },
+	{ itemName = "hailstorm rod", clientId = 3067, sell = 3000 },
+	{ itemName = "life ring", clientId = 3052, buy = 900, sell = 50 },
+	{ itemName = "might ring", clientId = 3048, buy = 5000, sell = 250, count = 20 },
+	{ itemName = "moonlight rod", clientId = 3070, sell = 200 },
+	{ itemName = "muck rod", clientId = 16117, sell = 6000 },
+	{ itemName = "mysterious fetish", clientId = 3078, sell = 50 },
+	{ itemName = "necrotic rod", clientId = 3069, sell = 1000 },
+	{ itemName = "northwind rod", clientId = 8083, sell = 1500 },
+	{ itemName = "protection amulet", clientId = 3084,z sell = 100, count = 250 },
+	{ itemName = "ring of healing", clientId = 3098, buy = 2000, sell = 100 },
+	{ itemName = "silver amulet", clientId = 3054, buy = 100, sell = 50, count = 200 },
+	{ itemName = "snakebite rod", clientId = 3066, sell = 100 },
+	{ itemName = "springsprout rod", clientId = 8084, sell = 3600 },
+	{ itemName = "strange talisman", clientId = 3045, buy = 100, sell = 30, count = 200 },
+	{ itemName = "terra rod", clientId = 3065, sell = 2000 },
+	{ itemName = "time ring", clientId = 3053, buy = 2000, sell = 100 },
+	{ itemName = "underworld rod", clientId = 8082, sell = 4400 },
+}
+-- On buy npc shop message
+npcType.onBuyItem = function(npc, player, itemId, subType, amount, ignore, inBackpacks, totalCost)
+	npc:sellItem(player, itemId, amount, subType, 0, ignore, inBackpacks)
+end
+-- On sell npc shop message
+npcType.onSellItem = function(npc, player, itemId, subtype, amount, ignore, name, totalCost)
+	player:sendTextMessage(MESSAGE_TRADE, string.format("Sold %ix %s for %i gold.", amount, name, totalCost))
+end
+-- On check npc shop message (look item)
+npcType.onCheckItem = function(npc, player, clientId, subType) end
+
+npcType:register(npcConfig)
+            

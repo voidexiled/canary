@@ -241,7 +241,7 @@ npcConfig.shop = {
 	{ itemName = "war horn", clientId = 2958, sell = 8000 },
 	{ itemName = "witch hat", clientId = 9653, sell = 5000 },
 	{ itemName = "wyvern fang", clientId = 7408, sell = 1500 },
-    { itemName = "angelic axe", clientId = 7436, sell = 5000 },
+	{ itemName = "angelic axe", clientId = 7436, sell = 5000 },
 	{ itemName = "blue robe", clientId = 3567, sell = 10000 },
 	{ itemName = "bonelord shield", clientId = 3418, sell = 1200 },
 	{ itemName = "boots of haste", clientId = 3079, sell = 30000 },
@@ -268,7 +268,7 @@ npcConfig.shop = {
 	{ itemName = "spike sword", clientId = 3271, sell = 1000 },
 	{ itemName = "thaian sword", clientId = 7391, sell = 16000 },
 	{ itemName = "war hammer", clientId = 3279, sell = 1200 },
-    { itemName = "ankh", clientId = 3077, sell = 100 },
+	{ itemName = "ankh", clientId = 3077, sell = 100 },
 	{ itemName = "dragon necklace", clientId = 3085, buy = 1000, sell = 100, count = 200 },
 	{ itemName = "dwarven ring", clientId = 3097, buy = 2000, sell = 100 },
 	{ itemName = "energy ring", clientId = 3051, buy = 2000, sell = 100 },
@@ -281,7 +281,7 @@ npcConfig.shop = {
 	{ itemName = "mysterious fetish", clientId = 3078, sell = 50 },
 	{ itemName = "necrotic rod", clientId = 3069, sell = 1000 },
 	{ itemName = "northwind rod", clientId = 8083, sell = 1500 },
-	{ itemName = "protection amulet", clientId = 3084,z sell = 100, count = 250 },
+	{ itemName = "protection amulet", clientId = 3084, sell = 100, count = 250 },
 	{ itemName = "ring of healing", clientId = 3098, buy = 2000, sell = 100 },
 	{ itemName = "silver amulet", clientId = 3054, buy = 100, sell = 50, count = 200 },
 	{ itemName = "snakebite rod", clientId = 3066, sell = 100 },
@@ -303,4 +303,3 @@ end
 npcType.onCheckItem = function(npc, player, clientId, subType) end
 
 npcType:register(npcConfig)
-            

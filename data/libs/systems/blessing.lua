@@ -124,7 +124,7 @@ Blessings.DropLoot = function(player, corpse, chance, skulled)
 			for i = 0, inbox:getSize() do
 				local item = inbox:getItem(i)
 				if item then
-					toBeDeleted[#toBeDeleted + 1] = item.uid
+					toBeDeleted[#toBeDeleted+1] = item.uid
 				end
 			end
 			if #toBeDeleted > 0 then
@@ -260,6 +260,10 @@ Blessings.BuyAllBlesses = function(player)
 	local missingBlessAmt = #missingBless + (hasToF and 0 or 1)
 	local totalCost
 	for i, bless in ipairs(missingBless) do
+		print("totalCost 1: " .. totalCost)
+		print("playerlevel: " .. player:getLevel())
+		print("bless.id: " .. bless.id)
+		print("function calc: " .. Blessings.getBlessingCost(player:getLevel(), true, bless.id >= 7))
 		totalCost = totalCost + Blessings.getBlessingCost(player:getLevel(), true, bless.id >= 7)
 	end
 

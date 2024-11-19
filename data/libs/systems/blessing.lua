@@ -258,7 +258,7 @@ Blessings.BuyAllBlesses = function(player)
 	local hasToF = Blessings.Config.HasToF and player:hasBlessing(1) or true
 	local missingBless = player:getBlessings(nil, donthavefilter)
 	local missingBlessAmt = #missingBless + (hasToF and 0 or 1)
-	local totalCost
+	local totalCost = 0
 	for i, bless in ipairs(missingBless) do
 		print("totalCost 1: " .. totalCost)
 		print("playerlevel: " .. player:getLevel())

@@ -260,10 +260,6 @@ Blessings.BuyAllBlesses = function(player)
 	local missingBlessAmt = #missingBless + (hasToF and 0 or 1)
 	local totalCost = 0
 	for i, bless in ipairs(missingBless) do
-		print("totalCost 1: " .. totalCost)
-		print("playerlevel: " .. player:getLevel())
-		print("bless.id: " .. bless.id)
-		print("function calc: " .. Blessings.getBlessingCost(player:getLevel(), true, bless.id >= 7))
 		totalCost = totalCost + Blessings.getBlessingCost(player:getLevel(), true, bless.id >= 7)
 	end
 

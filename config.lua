@@ -34,8 +34,8 @@ removeChargesFromRunes = true
 removeChargesFromPotions = true
 removeWeaponAmmunition = true
 removeWeaponCharges = true
-removeBeginningWeaponAmmunition = true
-refundBeginningWeaponMana = false
+removeBeginningWeaponAmmunition = false
+refundBeginningWeaponMana = true
 timeToDecreaseFrags = 24 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
 stairJumpExhaustion = 2 * 1000
@@ -572,9 +572,9 @@ discordWebhookDelayMs = 1000
 -- NOTE: GainCoin function, please configure script: data-otservbr-global/scripts/globalevents/vip/online_coins.lua
 -- NOTE: GainToken function, please configure script: data-otservbr-global/scripts/globalevents/vip/online_tokens.lua
 vipSystemEnabled = true
-vipBonusExp = 6
-vipBonusLoot = 9
-vipBonusSkill = 9
+vipBonusExp = 10
+vipBonusLoot = 15
+vipBonusSkill = 15
 vipAutoLootVipOnly = true
 vipStayOnline = true
 vipFamiliarTimeCooldownReduction = 10

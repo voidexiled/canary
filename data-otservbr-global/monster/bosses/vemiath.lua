@@ -2,15 +2,24 @@ local mType = Game.createMonsterType("Vemiath")
 local monster = {}
 
 monster.description = "Vemiath"
-monster.experience = 180000
+monster.experience = 3250000
 monster.outfit = {
-	lookType = 1668,
+	lookType = 1665,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
 	lookAddons = 0,
 	lookMount = 0,
+}
+
+monster.events = {
+	"RottenBloodBossDeath",
+}
+
+monster.bosstiary = {
+	bossRaceId = 2365,
+	bossRace = RARITY_ARCHFOE,
 }
 
 monster.health = 350000
@@ -23,11 +32,6 @@ monster.manaCost = 0
 monster.changeTarget = {
 	interval = 10000,
 	chance = 20,
-}
-
-monster.bosstiary = {
-	bossRaceId = 2365,
-	bossRace = RARITY_NEMESIS,
 }
 
 monster.strategiesTarget = {
@@ -57,10 +61,6 @@ monster.flags = {
 	canWalkOnPoison = true,
 }
 
-monster.events = {
-	"RottenBloodBossDeath",
-}
-
 monster.light = {
 	level = 0,
 	color = 0,
@@ -68,7 +68,14 @@ monster.light = {
 
 monster.summon = {}
 
-monster.voices = {}
+monster.voices = {
+	interval = 5000,
+	chance = 10,
+	{ text = "The light... that... drains!", yell = false },
+	{ text = "RAAAR!", yell = false },
+	{ text = "WILL ... PUNISH ... YOU!", yell = false },
+	{ text = "Darkness ... devours!", yell = false },
+}
 
 monster.loot = {
 	{ name = "crystal coin", chance = 8852, maxCount = 125 },
@@ -78,10 +85,10 @@ monster.loot = {
 	{ name = "yellow gem", chance = 8604, maxCount = 5 },
 	{ name = "berserk potion", chance = 9395, maxCount = 45 },
 	{ name = "blue gem", chance = 14144, maxCount = 5 },
-	{ name = "green gem", chance = 6221, maxCount = 5 },
-	{ name = "bullseye potion", chance = 6530, maxCount = 42 },
+	{ name = "green gem", chance = 6221, maxCount = 4 },
+	{ name = "bullseye potion", chance = 6530, maxCount = 26 },
 	{ name = "mastermind potion", chance = 5700, maxCount = 44 },
-	{ name = "ultimate spirit potion", chance = 9216, maxCount = 35 },
+	{ name = "ultimate spirit potion", chance = 9216, maxCount = 25 },
 	{ name = "giant topaz", chance = 11191, maxCount = 1 },
 	{ name = "giant amethyst", chance = 8527, maxCount = 1 },
 	{ name = "gold ingot", chance = 10866, maxCount = 1 },
@@ -90,9 +97,6 @@ monster.loot = {
 	{ name = "raw watermelon tourmaline", chance = 9302, maxCount = 1 },
 	{ name = "vemiath's infused basalt", chance = 7914, maxCount = 1 },
 	{ name = "violet gem", chance = 7210, maxCount = 1 },
-    { name = "the essence of Vemiath", chance = 410, maxCount = 1 },
-    { id = 43860, chance = 160, maxCount = 1 }, -- bag you covet
-    { name = "spiritual horseshoe", chance = 200, maxCount = 1 },
 }
 
 monster.attacks = {

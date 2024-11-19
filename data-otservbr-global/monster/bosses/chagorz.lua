@@ -2,15 +2,24 @@ local mType = Game.createMonsterType("Chagorz")
 local monster = {}
 
 monster.description = "Chagorz"
-monster.experience = 180000
+monster.experience = 3250000
 monster.outfit = {
-	lookType = 1666,
+	lookType = 1665,
 	lookHead = 0,
 	lookBody = 0,
 	lookLegs = 0,
 	lookFeet = 0,
 	lookAddons = 0,
 	lookMount = 0,
+}
+
+monster.events = {
+	"RottenBloodBossDeath",
+}
+
+monster.bosstiary = {
+	bossRaceId = 2366,
+	bossRace = RARITY_ARCHFOE,
 }
 
 monster.health = 350000
@@ -23,11 +32,6 @@ monster.manaCost = 0
 monster.changeTarget = {
 	interval = 10000,
 	chance = 20,
-}
-
-monster.bosstiary = {
-	bossRaceId = 2366,
-	bossRace = RARITY_NEMESIS,
 }
 
 monster.strategiesTarget = {
@@ -57,10 +61,6 @@ monster.flags = {
 	canWalkOnPoison = true,
 }
 
-monster.events = {
-	"RottenBloodBossDeath",
-}
-
 monster.light = {
 	level = 0,
 	color = 0,
@@ -68,7 +68,14 @@ monster.light = {
 
 monster.summon = {}
 
-monster.voices = {}
+monster.voices = {
+	interval = 5000,
+	chance = 10,
+	{ text = "The light... that... drains!", yell = false },
+	{ text = "RAAAR!", yell = false },
+	{ text = "WILL ... PUNISH ... YOU!", yell = false },
+	{ text = "Darkness ... devours!", yell = false },
+}
 
 monster.loot = {
 	{ name = "crystal coin", chance = 5441, maxCount = 108 },
@@ -84,13 +91,8 @@ monster.loot = {
 	{ name = "giant amethyst", chance = 11603, maxCount = 1 },
 	{ name = "giant topaz", chance = 12280, maxCount = 1 },
 	{ name = "green gem", chance = 8348, maxCount = 1 },
-	{ name = "ultimate spirit potion", chance = 10934, maxCount = 127 },
+	{ name = "ultimate spirit potion", chance = 10934, maxCount = 18 },
 	{ name = "white gem", chance = 9600, maxCount = 3 },
-	{ name = "Darklight Figurine", chance = 200, maxCount = 1 },
-	{ name = "unicorn figurine", chance = 1200, maxCount = 1 },
-	{ name = "the essence of Chagorz", chance = 400, maxCount = 1 },
-	{ id = 43860, chance = 160, maxCount = 1 }, -- bag you covet
-    { name = "spiritual horseshoe", chance = 200, maxCount = 1 },
 }
 
 monster.attacks = {

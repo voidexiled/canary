@@ -2,7 +2,7 @@ local mType = Game.createMonsterType("Murcion")
 local monster = {}
 
 monster.description = "Murcion"
-monster.experience = 180000
+monster.experience = 3250000
 monster.outfit = {
 	lookType = 1664,
 	lookHead = 0,
@@ -13,21 +13,24 @@ monster.outfit = {
 	lookMount = 0,
 }
 
+monster.events = {
+	"RottenBloodBossDeath",
+}
+
+monster.bosstiary = {
+	bossRaceId = 2362,
+	bossRace = RARITY_NEMESIS,
+}
+
 monster.health = 350000
 monster.maxHealth = 350000
 monster.race = "undead"
-monster.corpse = 44015
 monster.speed = 250
 monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 10000,
 	chance = 20,
-}
-
-monster.bosstiary = {
-	bossRaceId = 2362,
-	bossRace = RARITY_NEMESIS,
 }
 
 monster.strategiesTarget = {
@@ -57,16 +60,17 @@ monster.flags = {
 	canWalkOnPoison = true,
 }
 
-monster.events = {
-	"RottenBloodBossDeath",
-}
-
 monster.light = {
 	level = 0,
 	color = 0,
 }
 
-monster.summon = {}
+monster.summon = {
+	maxSummons = 8,
+	summons = {
+		{ name = "Mushroom", chance = 30, interval = 5000, count = 8 },
+	},
+}
 
 monster.voices = {}
 
@@ -81,12 +85,6 @@ monster.loot = {
 	{ name = "supreme health potion", chance = 6212, maxCount = 102 },
 	{ name = "ultimate mana potion", chance = 8785, maxCount = 29 },
 	{ name = "ultimate spirit potion", chance = 8783, maxCount = 161 },
-    { name = "dragon figurine", chance = 9502, maxCount = 1 },
-    { name = "berserk potion", chance = 14973, maxCount = 16 },
-    { name = "giant emerald", chance = 6423, maxCount = 1 },
-    { name = "putrefactive figurine", chance = 800, maxCount = 1 },
-    { name = "The Essence of Murcion", chance = 500, maxCount = 1 },
-    { id = 43860, chance = 160, maxCount = 1 }, -- bag you covet
 }
 
 monster.attacks = {

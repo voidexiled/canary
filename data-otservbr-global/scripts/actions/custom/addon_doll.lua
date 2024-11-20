@@ -1,7 +1,7 @@
 local outfits = {
 
     -- Config
-    dollID = 49971, -- Change this to your dolls or items, item ID
+    dollID = 50003, -- Change this to your dolls or items, item ID
 
     -- Main Window Messages (The first window the player sees)
     mainTitle = "Escoje un outfit",

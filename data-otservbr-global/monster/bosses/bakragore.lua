@@ -95,7 +95,7 @@ monster.loot = {
 	{ name = "giant amethyst", chance = 10570, maxCount = 10 },
 	{ name = "giant emerald", chance = 10570, maxCount = 10 },
 	{ name = "giant ruby", chance = 10570, maxCount = 10 },
-	{ name = 3039, chance = 10570, maxCount = 10 }, -- red gem
+	{ id = 3039, chance = 10570, maxCount = 10 }, -- red gem
 	{ name = "giant sapphire", chance = 10570, maxCount = 10 },
 	{ name = "giant topaz", chance = 10570, maxCount = 10 },
 	{ name = "violet gem", chance = 10970, maxCount = 10 },

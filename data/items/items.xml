@@ -80153,4 +80153,37 @@ Granted by TibiaGoals.com"/>
 			<attribute key="vocation" value="Paladin;true, Royal Paladin" />
 		</attribute>
 	</item>
+	<item id="50002" article="the" name="noctera cube">
+		<attribute key="description" value="A black cube brimming with mystery. Whispers of distant lands echo within."/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="50003" article="an" name="addon doll">
+		<attribute key="description" value="This playful jester holds the secrets of transformation. Just don't let it out of your sight."/>
+		<attribute key="primarytype" value="dolls and bears"/>
+		<attribute key="weight" value="1200"/>
+	</item>
+	<item id="50004" article="a" name="mount doll">
+		<attribute key="description" value="A reptilian effigy radiating power. It feels like it could spring to life at any moment."/>
+		<attribute key="primarytype" value="dolls and bears"/>
+		<attribute key="weight" value="1300"/>
+	</item>
+	<item id="50005" article="a" name="frag remover doll">
+		<attribute key="description" value="The crimson reaper grants absolution, one claw swipe at a time."/>
+		<attribute key="primarytype" value="dolls and bears"/>
+		<attribute key="weight" value="2400"/>
+	</item>
+	<item id="50006" article="a" name="stamina refiller" plural="stamina refillers">
+		<attribute key="description" value="A vial of crimson vitality. It pulses faintly, yearning to restore lost strength."/>
+		<attribute key="weight" value="4600"/>
+	</item>
+	<item id="50007" article="an" name="exclusive addon doll">
+		<attribute key="description" value="Only the real killers can touch me! This item was awarded by TibiaBrasileiros.com"/>
+		<attribute key="primarytype" value="dolls and bears"/>
+		<attribute key="weight" value="2000"/>
+	</item>
+	<item id="50008" article="an" name="exclusive mount doll">
+		<attribute key="description" value="A token of unparalleled privilege, granting access to a mount like no other."/>
+		<attribute key="primarytype" value="dolls and bears"/>
+		<attribute key="weight" value="2100"/>
+	</item>
 </items>

@@ -102,7 +102,7 @@ monster.loot = {
 	{ name = "white gem", chance = 13559, maxCount = 3 },
 	{ name = "cursed wood", chance = 8394, maxCount = 1 },
     { name = "green gem", chance = 8394, maxCount = 5 },
-    { id = 43860, chance = 160, maxCount = 1 }, -- bag you covet
+    { id = 43895, chance = 160, maxCount = 1 }, -- bag you covet
     { name = "the essence of Ichgahal", chance = 400, maxCount = 1 },
     { name = "spiritual horseshoe", chance = 200, maxCount = 1 },
     { name = "royal almandine", chance = 400, maxCount = 1 },

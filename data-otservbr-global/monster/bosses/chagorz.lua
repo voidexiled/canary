@@ -96,7 +96,7 @@ monster.loot = {
 	{ name = "Darklight Figurine", chance = 200, maxCount = 1 },
 	{ name = "unicorn figurine", chance = 1200, maxCount = 1 },
 	{ name = "the essence of Chagorz", chance = 400, maxCount = 1 },
-	{ id = 43860, chance = 160, maxCount = 1 }, -- bag you covet
+	{ id = 43895, chance = 160, maxCount = 1 }, -- bag you covet
     { name = "spiritual horseshoe", chance = 200, maxCount = 1 },
 }
 

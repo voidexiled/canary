@@ -50,8 +50,8 @@
 		},
 		{
 			"name": "50% Loot Bonus",
-			"startdate": "21/11/2024",
-			"enddate": "28/11/2024",
+			"startdate": "11/21/2024",
+			"enddate": "11/28/2024",
 			"script": "",
 			"ingame": {
 				"lootrate": 150
@@ -69,8 +69,8 @@
 		},
 		{
 			"name": "50% Exp Bonus",
-			"startdate": "21/11/2024",
-			"enddate": "28/11/2024",
+			"startdate": "11/21/2024",
+			"enddate": "11/28/2024",
 			"script": "",
 			"ingame": {
 				"exprate": 150
@@ -104,8 +104,8 @@
 		},
 		{
 			"name": "Double Exp",
-			"startdate": "21/11/2024",
-			"enddate": "28/11/2024",
+			"startdate": "11/21/2024",
+			"enddate": "11/28/2024",
 			"script": "",
 			"ingame": {
 				"exprate": 200
@@ -158,8 +158,8 @@
 		},
 		{
 			"name": "Fast Respawn",
-			"startdate": "10/11/2024",
-			"enddate": "23/11/2024",
+			"startdate": "11/10/2024",
+			"enddate": "11/23/2024",
 			"script": "",
 			"ingame": {
 				"spawnrate": 200

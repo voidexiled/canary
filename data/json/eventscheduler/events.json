@@ -1,3 +1,23 @@
 {
-	"events": []
+	"events": [
+		{
+			"name": "50% Loot Bonus",
+			"startdate": "11/21/2024",
+			"enddate": "11/28/2024",
+			"script": "loot_bonus.lua",
+			"ingame": {
+				"lootrate": 150
+			},
+			"description": "Increases loot by 50%.",
+			"colors": {
+				"colordark": "#2b1e10",
+				"colorlight": "#4a2e18"
+			},
+			"details": {
+				"displaypriority": 6,
+				"isseasonal": 0,
+				"specialevent": 1
+			}
+		}
+	]
 }

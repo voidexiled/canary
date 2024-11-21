@@ -1,3 +1,5 @@
+-- TODO: CREATE A TOKEN TO GIVE TO THE USER
+-- El token se podra intercambiar con un npc a cambio de Roulette Tokens
 local config = {
 	enabled = false,
 	storage = Storage.VipSystem.OnlineTokensGain,

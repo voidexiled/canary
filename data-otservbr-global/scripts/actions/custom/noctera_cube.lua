@@ -4,7 +4,7 @@ local config = {
     cubeID = 50002,
     price = 0,
     storage = 97000,
-    cooldown = 30,
+    cooldown = 60 * 15, -- 15 minutes
     towns = {
         { name = "Ab'Dendriel", teleport = Position(32732, 31634, 7) },
         { name = "Ankrahmun", teleport = Position(33194, 32853, 8) },
@@ -55,7 +55,7 @@ function supremeCube.onUse(player, item, fromPosition, target, toPosition, isHot
 
     local window = ModalWindow({
         title = "Noctera Cube",
-        message = "Seleccionar Destination - Price: " .. config.price .. " gold.",
+        message = "Seleccionar destino - Precio: " .. config.price .. " gold.",
     })
     window:addChoice("House", function(player, button, choice)
         if button.name == "Seleccionar" then

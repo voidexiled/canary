@@ -76409,29 +76409,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="trophies"/>
 		<attribute key="weight" value="500"/>
 	</item>
-	<item id="44036" article="a" name="dead ayana the crimson curse">
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="60"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-	<item id="44037" article="a" name="dead ayana the crimson curse">
-		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44036"/>
-		<attribute key="duration" value="300"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-	<item id="44038" article="a" name="dead ayana the crimson curse">
-		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44037"/>
-		<attribute key="duration" value="300"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-	<item id="44039" article="a" name="dead ayana the crimson curse">
-		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44038"/>
-		<attribute key="duration" value="10"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
+	
 	<item id="44064" article="an" name="training shield">
 		<attribute key="primarytype" value="training weapons"/>
 		<attribute key="showCharges" value="1"/>

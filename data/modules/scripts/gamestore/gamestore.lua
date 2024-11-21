@@ -170,7 +170,7 @@ GameStore.Categories = { -- Premium Time
             },
             {
                 icons = { "Stamina_Refiller.png" },
-                name = "Stamina refiller x5",
+                name = "Stamina refiller",
                 price = 400,
                 itemtype = 50006,
                 count = 5,

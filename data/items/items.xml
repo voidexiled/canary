@@ -75216,6 +75216,99 @@ Granted by TibiaGoals.com"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
+
+   <item id="44012" article="a" name="dead murcion">
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="60"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44013" article="a" name="dead murcion">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44012"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44014" article="a" name="dead murcion">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44013"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+
+    <item id="44021" article="a" name="dead vemiath">
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="60"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44022" article="a" name="dead vemiath">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44021"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44023" article="a" name="dead vemiath">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44022"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+
+    <item id="44024" article="a" name="dead chagorz">
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="60"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44025" article="a" name="dead chagorz">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44024"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44026" article="a" name="dead chagorz">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44025"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+
+	<item id="44018" article="a" name="dead ichgahal">
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="60"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44019" article="a" name="dead ichgahal">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44018"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44020" article="a" name="dead chagorz">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44019"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+
+    <item id="44012" article="a" name="dead bakragore">
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="60"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44013" article="a" name="dead bakragore">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44012"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44014" article="a" name="dead bakragore">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44013"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+
+	
+
 	<item id="43751" article="a" name="dead werecrocodile">
 		<attribute key="decayTo" value="0"/>
 		<attribute key="duration" value="60"/>
@@ -76247,6 +76340,11 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="shrines and altars"/>
 	</item>
 	<item id="43895" article="a" name="bag you covet">
+		<attribute key="primarytype" value="valuables"/>
+		<attribute key="weight" value="20"/>
+	</item>
+
+	<item id="43897" article="a" name="bag you covet">
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="20"/>
 	</item>
@@ -80189,7 +80287,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="4600"/>
 	</item>
 	<item id="50007" article="an" name="exclusive addon doll">
-		<attribute key="description" value="Only the real killers can touch me! This item was awarded by TibiaBrasileiros.com"/>
+		<attribute key="description" value="A fierce assassin caught mid-strike. Its twin blades seem to shimmer with deadly intent."/>
 		<attribute key="primarytype" value="dolls and bears"/>
 		<attribute key="weight" value="2000"/>
 	</item>

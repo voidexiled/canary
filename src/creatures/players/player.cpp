@@ -2758,7 +2758,6 @@ uint16_t Player::getDisplayXpBoostPercent() const {
 	return std::clamp<uint16_t>(xpBoostPercent * (baseXpGain / 100), 0, std::numeric_limits<uint16_t>::max());
 }
 
-
 void Player::setXpBoostPercent(uint16_t percent) {
 	xpBoostPercent = percent;
 }

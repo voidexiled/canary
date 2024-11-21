@@ -1,6 +1,7 @@
 local mounts = {
     -- Config
-    dollID = 50004, -- Change this to your dolls or items, item ID
+
+    dollID = 50008, -- Change this to your dolls or items, item ID
 
     -- Main Window Messages (The first window the player sees)
     mainTitle = "Escoje una montura!",

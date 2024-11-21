@@ -95,18 +95,19 @@ GameStore.Categories = { -- Premium Time
         icons = { "Category_PremiumTime.png" },
         name = "Noctera Shop",
         rookgaard = true,
-        subclasses = { "Muñecos", "Utilidades" },
+        subclasses = { "Dolls" },
         state = GameStore.States.STATE_NEW,
     },
     {
         icons = { "Category_PremiumTime.png" },
+        parent = "Noctera Shop",
         name = "Dolls",
         rookgaard = true,
         state = GameStore.States.STATE_NEW,
         offers = {
             {
                 icons = { "Jester_Doll.gif" },
-                name = string.format("Addon Doll"),
+                name = "Addon doll",
                 price = 500,
                 id = 50007,
                 description = "to get a outfit and his addons.",

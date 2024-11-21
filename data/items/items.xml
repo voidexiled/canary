@@ -75265,97 +75265,95 @@ Granted by TibiaGoals.com"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
 
-   <item id="44012" article="a" name="dead murcion">
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="60"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-	<item id="44013" article="a" name="dead murcion">
-		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44012"/>
-		<attribute key="duration" value="300"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-	<item id="44014" article="a" name="dead murcion">
+   <item id="44012" article="a" name="dead bakragore">
 		<attribute key="containerSize" value="30"/>
 		<attribute key="decayTo" value="44013"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-
-    <item id="44021" article="a" name="dead vemiath">
+	<item id="44013" article="a" name="dead bakragore">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44013"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44014" article="a" name="dead bakragore">
 		<attribute key="decayTo" value="0"/>
 		<attribute key="duration" value="60"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-	<item id="44022" article="a" name="dead vemiath">
+	
+	<item id="44015" article="a" name="dead murcion">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44021"/>
-		<attribute key="duration" value="300"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-	<item id="44023" article="a" name="dead vemiath">
-		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44022"/>
+		<attribute key="decayTo" value="44016"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-
-    <item id="44024" article="a" name="dead chagorz">
+	<item id="44016" article="a" name="dead murcion">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44017"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44017" article="a" name="dead murcion">
 		<attribute key="decayTo" value="0"/>
 		<attribute key="duration" value="60"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-	<item id="44025" article="a" name="dead chagorz">
-		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44024"/>
-		<attribute key="duration" value="300"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-	<item id="44026" article="a" name="dead chagorz">
-		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44025"/>
-		<attribute key="duration" value="10"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-
+	
 	<item id="44018" article="a" name="dead ichgahal">
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="60"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-	<item id="44019" article="a" name="dead ichgahal">
-		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44018"/>
-		<attribute key="duration" value="300"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-	<item id="44020" article="a" name="dead chagorz">
 		<attribute key="containerSize" value="30"/>
 		<attribute key="decayTo" value="44019"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-
-    <item id="44012" article="a" name="dead bakragore">
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="60"/>
-		<attribute key="fluidSource" value="blood"/>
-	</item>
-	<item id="44013" article="a" name="dead bakragore">
+	<item id="44019" article="a" name="dead ichgahal">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44012"/>
+		<attribute key="decayTo" value="44020"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-	<item id="44014" article="a" name="dead bakragore">
+	<item id="44020" article="a" name="dead ichgahal">
+		<attribute key="decayTo" value="44019"/>
+		<attribute key="duration" value="60"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+
+    <item id="44021" article="a" name="dead vemiath">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="44013"/>
+		<attribute key="decayTo" value="44022"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44022" article="a" name="dead vemiath">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44023"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44023" article="a" name="dead vemiath">
+		<attribute key="decayTo" value="0"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
 
-	
+    <item id="44024" article="a" name="dead chagorz">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44025"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44025" article="a" name="dead chagorz">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="44026"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="44026" article="a" name="dead chagorz">
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
 
 	<item id="43751" article="a" name="dead werecrocodile">
 		<attribute key="decayTo" value="0"/>

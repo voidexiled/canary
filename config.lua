@@ -63,7 +63,7 @@ loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-serverName = "Noctera-Global Test Server"
+serverName = "Noctera-Global"
 serverMotd = "Welcome to the test server of Noctera-Global"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
@@ -472,7 +472,7 @@ globalServerSaveNotifyDuration = 5
 globalServerSaveCleanMap = false
 globalServerSaveClose = false
 globalServerSaveShutdown = true
-globalServerSaveTime = "24:00:00"
+globalServerSaveTime = "00:00:00"
 
 -- Sort loot by chance, most rare items drop first
 -- it is good to be setted when you have a higher

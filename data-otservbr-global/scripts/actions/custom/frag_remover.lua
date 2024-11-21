@@ -1,13 +1,20 @@
 local frag_remover = Action()
 
 function frag_remover.onUse(player, item, fromPosition, target, toPosition, isHotkey)
-    if player:getSkull() ~= SKULL_NONE then
-        item:remove(1)
-        player:setSkull(SKULL_NONE)
-        player:sendTextMessage(MESSAGE_STATUS, "You have removed your skull.")
-    else
-        player:sendTextMessage(MESSAGE_STATUS, "You don't have a skull.")
+    if not isInArray({ SKULL_RED, SKULL_BLACK }, player:getSkull()) then
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Solo puedes remover RED SKULL o BLACK SKULL.")
+        return true
     end
+    if (not getTileInfo(player:getPosition()).protection) then
+        player:sendTextMessage(MESSAGE_INFO_DESCR, "Debes estar en una zona de proteccion.")
+        player:getPosition():sendMagicEffect(CONST_ME_POFF)
+        return true
+    end
+
+    player:setSkull(0)
+    player:setSkullTime(0)
+    item:remove(1)
+    removefrags(player)
     return true
 end
 

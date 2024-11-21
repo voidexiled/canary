@@ -106,11 +106,11 @@ GameStore.Categories = { -- Premium Time
         state = GameStore.States.STATE_NEW,
         offers = {
             {
-                icons = { "Jester_Doll.gif" },
-                name = "Addon doll",
-                price = 500,
-                id = 50007,
-                description = "to get a outfit and his addons.",
+                icons = { "Exclusive_Addon_Doll.png" },
+                name = "Exclusive Addon doll",
+                price = 1200,
+                itemtype = 50007,
+                description = "to get a exclusive outfit and his addons.",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
                 state = GameStore.States.STATE_NEW,
             },

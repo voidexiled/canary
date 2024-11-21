@@ -79,7 +79,7 @@ monster.loot = {
 	{ name = "blue gem", chance = 9372, maxCount = 1 },
 	{ name = "ultimate health potion", chance = 9851, maxCount = 5 },
 	{ name = "focus cape", chance = 6945, maxCount = 1 },
-	{ name = "white gem", chance = 14533, maxCount = 1 },
+	{ name = "white gem", chance = 14533, maxCount = 2 },
 }
 
 monster.attacks = {

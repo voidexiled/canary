@@ -91,11 +91,11 @@ GameStore.Categories = { -- Premium Time
             type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM
         } }
     },
-    { -- VIP Items
+    { -- Dolls
         icons = { "Category_PremiumTime.png" },
         name = "Noctera Shop",
         rookgaard = true,
-        subclasses = { "Dolls" },
+        subclasses = { "Dolls", "Features" },
         state = GameStore.States.STATE_NEW,
     },
     {
@@ -106,14 +106,90 @@ GameStore.Categories = { -- Premium Time
         state = GameStore.States.STATE_NEW,
         offers = {
             {
-                icons = { "Exclusive_Addon_Doll.png" },
-                name = "Exclusive Addon doll",
-                price = 1200,
-                itemtype = 50007,
-                description = "to get a exclusive outfit and his addons.",
+                icons = { "Frag_Remover_Doll.png" },
+                name = "Frag remover doll",
+                price = 600,
+                itemtype = 50005,
+                description = "<i>The crimson reaper grants absolution, one claw swipe at a time.</i>\n\n{info} removes all frags and red/black skull too.\n{info} can only be used in protection zone.\n{info} can only be used when you have red skull or black skull.\n{transferableprice}",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
                 state = GameStore.States.STATE_NEW,
             },
+            {
+                icons = { "Addon_Doll.png" },
+                name = "Addon doll",
+                price = 870,
+                itemtype = 50003,
+                description = "<i>This playful jester holds the secrets of transformation. Just don't let it out of your sight.</i>\n\n{info} right click to use choose your new outfit.\n{info} if you press 'escape' or 'enter' the selected outfit will be choosen.\n\n{info} to close the window press the 'cancel' button.",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Mount_Doll.png" },
+                name = "Mount doll",
+                price = 870,
+                itemtype = 50004,
+                description = "<i>A reptilian effigy radiating power. It feels like it could spring to life at any moment.</i>\n\n{info} right click to use choose your new mount.\n{info} if you press 'escape' or 'enter' the selected mount will be choosen.\n\n{info} to close the window press the 'cancel' button.",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Exclusive_Addon_Doll.png" },
+                name = "Exclusive addon doll",
+                price = 1200,
+                itemtype = 50007,
+                description = "<i>A fierce assassin caught mid-strike. Its twin blades seem to shimmer with deadly intent.</i>\n\n{info} right click to use choose your new exclusive outfit.\n{info} if you press 'escape' or 'enter' the selected exclusive outfit will be choosen.\n\n{info} to close the window press the 'cancel' button.",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Exclusive_Mount_Doll.png" },
+                name = "Exclusive mount doll",
+                price = 1200,
+                itemtype = 50008,
+                description = "<i>A token of unparalleled privilege, granting access to a mount like no other.</i>\n\n{info} right click to use choose your new exclusive mount.\n{info} if you press 'escape' or 'enter' the selected exclusive mount will be choosen.\n\n{info} to close the window press the 'cancel' button.",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+        }
+    }, -- Features
+    {
+        icons = { "Category_PremiumTime.png" },
+        parent = "Noctera Shop",
+        name = "Features",
+        rookgaard = true,
+        state = GameStore.States.STATE_NEW,
+        offers = {
+            {
+                icons = { "Noctera_Cube.png" },
+                name = "The noctera cube",
+                price = 500,
+                itemtype = 50002,
+                description = "<i>A black cube brimming with mystery. Whispers of distant lands echo within.</i>\n\n{house} teleport to house.\n{house} teleport to cities.\n{info} 15 minutes of cooldown between teleport.\n{info} can only be used when you are in protection zone.\n{transferableprice}",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Stamina_Refiller.png" },
+                name = "Stamina refiller x5",
+                price = 400,
+                itemtype = 50006,
+                count = 5,
+                description = "<i>A vial of crimson vitality. It pulses faintly, yearning to restore lost strength.</i>\n\n{info} +2 hr stamina.\n{info} can only be used when you dont have full stamina.\n{transferableprice}",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Stamina_Refiller.png" },
+                name = "Stamina refiller",
+                price = 100,
+                itemtype = 50006,
+                description = "<i>A vial of crimson vitality. It pulses faintly, yearning to restore lost strength.</i>\n\n{info} +2 hr stamina.\n{info} can only be used when you dont have full stamina.\n{transferableprice}",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+
+
+
         }
     }, -- Consumables
     {

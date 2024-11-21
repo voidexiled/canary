@@ -56,7 +56,7 @@ GameStore.Categories = { -- Premium Time
         icons = { "Category_PremiumTime.png" },
         name = premiumCategoryName,
         rookgaard = true,
-        state = GameStore.States.STATE_NONE,
+        state = GameStore.States.STATE_NEW,
         offers = { {
             icons = { "Premium_Time_30.png" },
             name = string.format("30 Days of %s", premiumOfferName),
@@ -90,6 +90,30 @@ GameStore.Categories = { -- Premium Time
             description = premiumDescription,
             type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM
         } }
+    },
+    { -- VIP Items
+        icons = { "Category_PremiumTime.png" },
+        name = "Noctera Shop",
+        rookgaard = true,
+        subclasses = { "Muñecos", "Utilidades" },
+        state = GameStore.States.STATE_NEW,
+    },
+    {
+        icons = { "Category_PremiumTime.png" },
+        name = "Dolls",
+        rookgaard = true,
+        state = GameStore.States.STATE_NEW,
+        offers = {
+            {
+                icons = { "Jester_Doll.gif" },
+                name = string.format("Addon Doll"),
+                price = 500,
+                id = 50007,
+                description = "to get a outfit and his addons.",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+        }
     }, -- Consumables
     {
         icons = { "Category_Consumables.png" },

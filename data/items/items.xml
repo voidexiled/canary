@@ -75046,6 +75046,54 @@ Granted by TibiaGoals.com"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
+	<item id="44043" article="a" name="dead tamru the black">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="60" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="44042" article="a" name="dead tamru the black">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44043" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="44041" article="a" name="dead tamru the black">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44042" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="44040" article="a" name="dead tamru the black">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44041" />
+		<attribute key="duration" value="10" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+
+    <item id="44036" article="a" name="dead ayana the crimson curse">
+		<attribute key="decayTo" value="0" />
+		<attribute key="duration" value="60" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="44037" article="a" name="dead ayana the crimson curse">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44036" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="44038" article="a" name="dead ayana the crimson curse">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44037" />
+		<attribute key="duration" value="300" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="44039" article="a" name="dead ayana the crimson curse">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="44038" />
+		<attribute key="duration" value="10" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+
 	<item id="43568" article="a" name="dead darklight matter">
 		<attribute key="decayTo" value="0"/>
 		<attribute key="duration" value="60"/>

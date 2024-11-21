@@ -1962,7 +1962,7 @@ ReturnValue Game::checkMoveItemToCylinder(const std::shared_ptr<Player> &player,
 				isValidMoveItem = true;
 			}
 
-			if (item->getID() == ITEM_GOLD_POUCH) {
+			if (item->getID() == ITEM_GOLD_POUCH || item->getID() >= 49990) {
 				isValidMoveItem = true;
 			}
 

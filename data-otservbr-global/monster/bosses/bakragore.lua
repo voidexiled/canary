@@ -103,7 +103,7 @@ monster.loot = {
 	{ name = "figurine of bakragore", chance = 10970 },
 	{ name = "bakragore's amalgamation", chance = 570 },
 	{ name = "spiritual horseshoe", chance = 470 },
-	{ id = 43895, chance = 360 }, -- Bag you covet
+	{ id = 43897, chance = 360 }, -- Bag you covet grand
     { name = "advanced promotion scroll", chance = 320, maxCount = 1 },
     { name = "basic promotion scroll", chance = 720, maxCount = 1 },
     { name = "abridged promotion scroll", chance = 620, maxCount = 1 },

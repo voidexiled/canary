@@ -57,38 +57,42 @@ GameStore.Categories = { -- Premium Time
         name = premiumCategoryName,
         rookgaard = true,
         state = GameStore.States.STATE_NEW,
-        offers = { {
-            icons = { "Premium_Time_30.png" },
+        offers = {
+            {
+                icons = { "Premium_Time_30.png" },
+                name = string.format("14 Days of %s", premiumOfferName),
+                price = 200,
+                id = 3030,
+                validUntil = 14,
+                description = premiumDescription,
+                type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM
+            }, {
+            icons = { "Premium_Time_90.png" },
             name = string.format("30 Days of %s", premiumOfferName),
-            price = 250,
-            id = 3030,
+            price = 420,
+            id = 3090,
             validUntil = 30,
             description = premiumDescription,
-            type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM
-        }, {
-            icons = { "Premium_Time_90.png" },
-            name = string.format("90 Days of %s", premiumOfferName),
-            price = 750,
-            id = 3090,
-            validUntil = 90,
-            description = premiumDescription,
-            type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM
+            type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM,
+            state = GameStore.States.STATE_NEW,
         }, {
             icons = { "Premium_Time_180.png" },
-            name = string.format("180 Days of %s", premiumOfferName),
-            price = 1500,
+            name = string.format("60 Days of %s", premiumOfferName),
+            price = 850,
             id = 3180,
-            validUntil = 180,
+            validUntil = 60,
             description = premiumDescription,
-            type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM
+            type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM,
+            state = GameStore.States.STATE_NEW,
         }, {
             icons = { "Premium_Time_360.png" },
-            name = string.format("360 Days of %s", premiumOfferName),
-            price = 3000,
+            name = string.format("160 Days of %s", premiumOfferName),
+            price = 2285,
             id = 3360,
-            validUntil = 360,
+            validUntil = 160,
             description = premiumDescription,
-            type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM
+            type = GameStore.OfferTypes.OFFER_TYPE_PREMIUM,
+            state = GameStore.States.STATE_NEW
         } }
     },
     { -- Dolls

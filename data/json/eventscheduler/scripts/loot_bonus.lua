@@ -1,4 +1,4 @@
-local globalEvent = GlobalEvent("LootBonusEvent")
-function globalEvent.onStartup() end
+local lootBonus = GlobalEvent("LootBonusEvent")
+function lootBonus.onStartup() end
 
-globalEvent:register()
+lootBonus:register()

@@ -28,7 +28,7 @@ maintainModeMessage = "Servidor en mantenimiento"
 -- NOTE: refundManaOnBeginningWeapons: wand of vortex and snakebite refund mana used (allows training for mages)
 worldType = "pvp"
 hotkeyAimbotEnabled = true
-protectionLevel = 7
+protectionLevel = 80
 pzLocked = 60 * 1000
 removeChargesFromRunes = true
 removeChargesFromPotions = true
@@ -63,8 +63,8 @@ loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-serverName = "Noctera-Global"
-serverMotd = "Welcome to the test Nocter-Global"
+serverName = "Noctera-Global Test Server"
+serverMotd = "Welcome to the test server of Noctera-Global"
 statusTimeout = 5 * 1000
 replaceKickOnLogin = true
 maxPacketsPerSecond = 25
@@ -75,7 +75,7 @@ maxPlayersOutsidePZPerAccount = 5
 -- Packet Compression
 -- Minimize network bandwith and reduce ping
 -- Levels: 0 = disabled, 1 = best speed, 9 = best compression
-packetCompressionLevel = 6
+packetCompressionLevel = 2
 
 -- Depot Limit
 freeDepotLimit = 2000
@@ -199,15 +199,15 @@ hazardSpawnPlunderMultiplier = 25
 -- Loyalty system
 loyaltyEnabled = true
 loyaltyPointsPerCreationDay = 1
-loyaltyPointsPerPremiumDaySpent = 0
+loyaltyPointsPerPremiumDaySpent = 1
 loyaltyPointsPerPremiumDayPurchased = 0
-loyaltyBonusPercentageMultiplier = 1.0
+loyaltyBonusPercentageMultiplier = 1.05
 
 -- Custom PvP system
 -- NOTE: Rate is additive percent for each level and applied multiplicative to totalDamage
 -- NOTE: Damage multipliers for each vocation are adjusted in data/XML/vocations.xml
-pvpRateDamageTakenPerLevel = 0.0 -- recommended to start with 0.1
-pvpRateDamageReductionPerLevel = 0.0 -- recommended to start with 0.1
+pvpRateDamageTakenPerLevel = 0.1 -- recommended to start with 0.1
+pvpRateDamageReductionPerLevel = 0.1 -- recommended to start with 0.1
 pvpMaxLevelDifference = 0
 
 -- Wheel of destiny system
@@ -232,7 +232,7 @@ familiarTime = 30
 
 partyAutoShareExperience = true
 -- partyShareRangeMultiplier: the range of the party share experience, default 3/2 (1.5)
-partyShareRangeMultiplier = 1.5
+partyShareRangeMultiplier = 2
 partyShareLootBoosts = false
 partyShareLootBoostsDimishingFactor = 0.7
 
@@ -268,7 +268,7 @@ stashItemCount = 5000
 depotChest = 4
 autoLoot = true
 autoBank = false
-toggleGoldPouchAllowAnything = true
+toggleGoldPouchAllowAnything = false
 toggleGoldPouchQuickLootOnly = true
 toggleServerIsRetroPVP = false
 toggleTravelsFree = true
@@ -276,7 +276,7 @@ buyAolCommandFee = 0
 buyBlessCommandFee = 0
 teleportPlayerToVocationRoom = true
 toggleReceiveReward = true
-randomMonsterSpawn = false
+randomMonsterSpawn = true
 lootPouchMaxLimit = 2000
 storeInboxMaxLimit = 2000
 enablePlayerPutItemInAmmoSlot = false
@@ -292,7 +292,7 @@ teleportSummons = false
 -- NOTE: true will allow the /reload command to be used
 -- NOTE: Using this script might cause unwanted changes
 -- This script forces a reload in the entire server, this means that everything that is stored in memory might stop to work properly and/or completely, this script should be used in test environments only
-allowReload = true
+allowReload = false
 
 -- Stamina in Trainers
 staminaTrainer = true
@@ -300,11 +300,11 @@ staminaTrainerDelay = 5
 staminaTrainerGain = 3
 -- Stamina in PZ
 staminaPz = true
-staminaOrangeDelay = 1
+staminaOrangeDelay = 3
 staminaGreenDelay = 5
 staminaPzGain = 2
 -- Max players allowed on a dummy.
-maxAllowedOnADummy = 6
+maxAllowedOnADummy = 40
 
 -- Save interval per time
 -- NOTE: toggleSaveInterval: true = enable the save interval, false = disable the save interval
@@ -347,8 +347,8 @@ Setting this to false may pose risks; if a house is abandoned and contains a lar
 -- Periods: daily/weekly/monthly/yearly/never
 -- Base: sqm,rent,sqm+rent
 housePriceRentMultiplier = 0.0
-housePriceEachSQM = 1000
-houseRentPeriod = "never"
+housePriceEachSQM = 2000
+houseRentPeriod = "weekly"
 houseRentRate = 1.0
 houseOwnedByAccount = false
 houseBuyLevel = 100
@@ -392,7 +392,7 @@ toggleMapCustom = true
 -- NOTE: set it to 0 for disable, is the time in which the task will run updating the prices of the items that will be sent to the client
 marketOfferDuration = 30 * 24 * 60 * 60
 marketRefreshPricesInterval = 30
-premiumToCreateMarketOffer = true
+premiumToCreateMarketOffer = false
 checkExpiredMarketOffersEachMinutes = 60
 maxMarketOffersAtATimePerPlayer = 100
 
@@ -441,7 +441,7 @@ minDelayBetweenConditions = 0
 -- configure maximum value of critical imbuement
 criticalChance = 10
 inventoryGlowOnFiveBless = false
-adventurersBlessingLevel = 21
+adventurersBlessingLevel = 80
 skulledDeathLoseStoreItem = false
 experienceDisplayRates = true
 -- configure attack base on Fist Fighting skill/experience
@@ -472,7 +472,7 @@ globalServerSaveNotifyDuration = 5
 globalServerSaveCleanMap = false
 globalServerSaveClose = false
 globalServerSaveShutdown = true
-globalServerSaveTime = "06:00:00"
+globalServerSaveTime = "24:00:00"
 
 -- Sort loot by chance, most rare items drop first
 -- it is good to be setted when you have a higher
@@ -507,8 +507,8 @@ rateSoulRegenSpeed = 4.0
 
 rateSpellCooldown = 1.0
 rateAttackSpeed = 1.0
-rateOfflineTrainingSpeed = 3
-rateExerciseTrainingSpeed = 4
+rateOfflineTrainingSpeed = 2
+rateExerciseTrainingSpeed = 3
 
 -- Monster rates
 rateMonsterHealth = 1.0
@@ -545,10 +545,10 @@ defaultPriority = "high"
 startupDatabaseOptimization = true
 
 -- Status server information
-ownerName = "OpenTibiaBR"
-ownerEmail = "opentibiabr@outlook.com"
-url = "http://docs.opentibiabr.com/"
-location = "South America"
+ownerName = "Voidexiled"
+ownerEmail = "support@noctera-global.com"
+url = "http://noctera-global.com/"
+location = "North America"
 
 -- Sends Discord webhook notifications on startup, raids and shutdown.
 -- The URL layout is https://discord.com/api/webhooks/:id/:token
@@ -572,9 +572,9 @@ discordWebhookDelayMs = 1000
 -- NOTE: GainCoin function, please configure script: data-otservbr-global/scripts/globalevents/vip/online_coins.lua
 -- NOTE: GainToken function, please configure script: data-otservbr-global/scripts/globalevents/vip/online_tokens.lua
 vipSystemEnabled = true
-vipBonusExp = 10
-vipBonusLoot = 15
-vipBonusSkill = 15
+vipBonusExp = 12
+vipBonusLoot = 17
+vipBonusSkill = 14
 vipAutoLootVipOnly = true
 vipStayOnline = true
 vipFamiliarTimeCooldownReduction = 10

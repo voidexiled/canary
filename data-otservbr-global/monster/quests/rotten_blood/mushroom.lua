@@ -62,7 +62,6 @@ monster.voices = {}
 monster.loot = {}
 
 monster.attacks = {
-	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -400 },
 	{ name = "combat", interval = 3000, chance = 100, type = COMBAT_LIFEDRAIN, minDamage = -2500, maxDamage = -3000, radius = 3, effect = CONST_ME_POISONAREA, target = false }, -- life drain bomb
 }
 

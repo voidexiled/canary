@@ -199,9 +199,9 @@ hazardSpawnPlunderMultiplier = 25
 -- Loyalty system
 loyaltyEnabled = true
 loyaltyPointsPerCreationDay = 1
-loyaltyPointsPerPremiumDaySpent = 1
-loyaltyPointsPerPremiumDayPurchased = 0
-loyaltyBonusPercentageMultiplier = 1.05
+loyaltyPointsPerPremiumDaySpent = 100
+loyaltyPointsPerPremiumDayPurchased = 10
+loyaltyBonusPercentageMultiplier = 1.00
 
 -- Custom PvP system
 -- NOTE: Rate is additive percent for each level and applied multiplicative to totalDamage
@@ -427,7 +427,7 @@ resetSessionsOnStartup = false
 -- NOTE: disableLegacyRaids: set to true to disable legacy XML raids
 allowChangeOutfit = true
 toggleMountInProtectionZone = false
-freePremium = true
+freePremium = false
 kickIdlePlayerAfterMinutes = 15
 maxMessageBuffer = 4
 emoteSpells = true

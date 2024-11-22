@@ -1,12 +1,12 @@
 local config = {
 	items = {
-		{ id = 35284, charges = 64400 },
-		{ id = 35279, charges = 64400 },
-		{ id = 35281, charges = 64400 },
-		{ id = 35283, charges = 64400 },
-		{ id = 35282, charges = 64400 },
-		{ id = 35280, charges = 64400 },
-		{ id = 44066, charges = 64400 },
+		{ id = 28557, charges = 1000 },
+		{ id = 28552, charges = 1000 },
+		{ id = 28554, charges = 1000 },
+		{ id = 28556, charges = 1000 },
+		{ id = 28552, charges = 1000 },
+		{ id = 28553, charges = 1000 },
+		{ id = 44065, charges = 1000 },
 	},
 	storage = tonumber(Storage.PlayerWeaponReward), -- storage key, player can only win once
 }

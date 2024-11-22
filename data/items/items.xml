@@ -80327,23 +80327,23 @@ Granted by TibiaGoals.com"/>
 		<attribute key="weight" value="2100"/>
 	</item>
 	
-	<!-- NEW -->
+	<!-- NEW 58000-58917 -->
 	
-	<item id="60616" article="the" name="portable forge">
+	<item id="58617" article="the" name="portable forge">
 		<attribute key="description" value="An enigmatic altar humming with power. It grants the ability to enhance equipment tiers, at a steep cost."/>
 		<attribute key="weight" value="1500"/>
 	</item>
-	<item id="60025" article="the" name="portable imbuement shrine">
+	<item id="58026" article="the" name="portable imbuement shrine">
 		<attribute key="description" value="A refined shrine shimmering with mystique. It allows the infusion of equipment with creature products."/>
 		<attribute key="weight" value="1500"/>
 	</item>
 	
-	<item id="60370" article="a" name="roulette coin">
+	<item id="60371" article="a" name="roulette coin">
 		<attribute key="description" value="A dazzling coin of gold and gems, holding the promise of fortune and surprises."/>
 		<attribute key="weight" value="120"/>
 	</item>
 	
-	<item id="60462" article="an" name="celestial exercise dummy">
+	<item id="60463" article="an" name="celestial exercise dummy">
 	<attribute key="primarytype" value="statues"/>
 	<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
 	<attribute key="type" value="dummy">

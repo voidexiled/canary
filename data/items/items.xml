@@ -80251,6 +80251,9 @@ Granted by TibiaGoals.com"/>
 		<attribute key="description" value="Offers a soul to the Soulpit. Combine with an exalted core to turn it into a lesser soul core."/>
 		<attribute key="weight" value="100"/>
 	</item>
+	
+	
+	<!-- CUSTOM ITEMS -->
 	<item id="49990" article="a" name="noctera upgrade orb" plural="noctera upgrade orbs">
 		<attribute key="description" value="Use the orb in any equipment to upgrade to Noctera VIP" />
 		<attribute key="weight" value="1200" />
@@ -80323,4 +80326,31 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="dolls and bears"/>
 		<attribute key="weight" value="2100"/>
 	</item>
+	
+	<!-- NEW -->
+	
+	<item id="60616" article="the" name="portable forge">
+		<attribute key="description" value="An enigmatic altar humming with power. It grants the ability to enhance equipment tiers, at a steep cost."/>
+		<attribute key="weight" value="1500"/>
+	</item>
+	<item id="60025" article="the" name="portable imbuement shrine">
+		<attribute key="description" value="A refined shrine shimmering with mystique. It allows the infusion of equipment with creature products."/>
+		<attribute key="weight" value="1500"/>
+	</item>
+	
+	<item id="60370" article="a" name="roulette coin">
+		<attribute key="description" value="A dazzling coin of gold and gems, holding the promise of fortune and surprises."/>
+		<attribute key="weight" value="120"/>
+	</item>
+	
+	<item id="60462" article="an" name="celestial exercise dummy">
+	<attribute key="primarytype" value="statues"/>
+	<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<attribute key="type" value="dummy">
+		<attribute key="rate" value="135"/>
+	</attribute>
+</item>
+	
+	
+	
 </items>

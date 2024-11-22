@@ -44,7 +44,7 @@ function onlineCoinsEvent.onThink(interval)
 			if coins >= config.awardOn then
 				local coinsMath = math.floor(coins)
 				player:addTibiaCoins(coinsMath, true)
-				player:sendColoredMessage("{purple|[ONLINE REWARD]}\nYou have received {yellow|" .. coinsMath .. " tibia coins} for being online.", player:getName())
+				player:sendColoredMessage("{purple|[ONLINE REWARD]}\nYou have received {yellow|" .. coinsMath .. " tibia coins} for being online.")
 				--player:sendTextMessage(MESSAGE_FAILURE, string.format("Congratulations %s!\z You have received %d %s for being online.", player:getName(), coinsMath, "tibia coins"))
 				player:setStorageValue(config.storage, (coins - coinsMath) * 10000000)
 			end

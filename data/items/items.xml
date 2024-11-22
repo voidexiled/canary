@@ -10755,6 +10755,8 @@
 		<attribute key="weight" value="80"/>
 	</item>
 	<item id="3449" article="a" name="burst arrow">
+		
+	
 		<attribute key="primarytype" value="ammunition"/>
 		<attribute key="weaponType" value="ammunition"/>
 		<attribute key="ammotype" value="arrow"/>
@@ -43997,6 +43999,7 @@ Awarded by TibiaMagazine.com.ve"/>
 	</item>
 	<item id="22119" article="a" name="burst arrow">
 		<attribute key="primarytype" value="ammunition"/>
+		
 		<attribute key="attack" value="27"/>
 		<attribute key="weight" value="90"/>
 	</item>
@@ -48898,7 +48901,6 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="stopduration" value="0"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="maxhitchance" value="100"/>
-		<attribute key="duration" value="3600"/>
 		<attribute key="decayTo" value="0"/>
 		<attribute key="attack" value="37"/>
 		<attribute key="weight" value="80"/>
@@ -66614,6 +66616,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="maxhitchance" value="100"/>
 		<attribute key="attack" value="37"/>
 		<attribute key="weight" value="80"/>
+		
 	</item>
 	<item id="35902" article="a" name="spectral bolt">
 		<attribute key="primarytype" value="ammunition"/>

@@ -179,7 +179,7 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 50006,
                 count = 1,
                 description = "<i>A vial of crimson vitality. It pulses faintly, yearning to restore lost strength.</i>\n\n{info} +2 hr stamina.\n{info} can only be used when you dont have full stamina.\n{transferableprice}",
-                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
                 state = GameStore.States.STATE_NEW,
             },
             {
@@ -189,7 +189,7 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 50006,
                 count = 5,
                 description = "<i>A vial of crimson vitality. It pulses faintly, yearning to restore lost strength.</i>\n\n{info} +2 hr stamina.\n{info} can only be used when you dont have full stamina.\n{transferableprice}",
-                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
                 state = GameStore.States.STATE_NEW,
             }
 

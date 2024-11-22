@@ -2,11 +2,11 @@
 local foodCondition = Condition(CONDITION_REGENERATION, CONDITIONID_DEFAULT)
 
 local colors = {
-    grey = 3003,
-    blue = 3043,
-    green = 3415,
-    purple = 36792,
-    yellow = 34021
+	grey = 3003,
+	blue = 3043,
+	green = 3415,
+	purple = 36792,
+	yellow = 34021
 }
 
 
@@ -387,7 +387,7 @@ function Player:createFamiliar(familiarName, timeLeft)
 		self:setStorageValue(
 			FAMILIAR_TIMER[sendMessage].storage,
 			addEvent(
-				-- Calling function
+			-- Calling function
 				SendMessageFunction,
 				-- Time for execute event
 				(timeLeft - FAMILIAR_TIMER[sendMessage].countdown) * 1000,
@@ -949,4 +949,15 @@ function Player.findItemInInbox(self, itemId, name)
 		end
 	end
 	return nil
+end
+
+function Player:sendColoredMessage(message)
+	local grey = 3003
+	local blue = 3043
+	local green = 3415
+	local purple = 36792
+	local yellow = 34021
+
+	local msg = message:gsub("{grey|", "{" .. grey .. "|"):gsub("{blue|", "{" .. blue .. "|"):gsub("{green|", "{" .. green .. "|"):gsub("{purple|", "{" .. purple .. "|"):gsub("{yellow|", "{" .. yellow .. "|")
+	return self:sendTextMessage(MESSAGE_LOOT, msg)
 end

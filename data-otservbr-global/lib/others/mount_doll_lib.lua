@@ -36,8 +36,8 @@ function Player:sendMountWindow(mounts)
 	window:addButton("Cancel")
 
 	-- Set what button is pressed when the player presses enter or escape
-	--window:setDefaultEnterButton("Confirm")
-	window:setDefaultEscapeButton("Cancel")
+	window:setDefaultEnterButton(0)
+	window:setDefaultEscapeButton(1)
 
 	-- Add choices from the action script
 	for i = 1, #mounts do
@@ -74,8 +74,8 @@ function Player:sendMountWindow_owned(mounts)
 	window:addButton("Back", buttonCallback)
 
 	-- Set what button is pressed when the player presses enter or escape
-	--window:setDefaultEnterButton("Back")
-	window:setDefaultEscapeButton("Back")
+	window:setDefaultEnterButton(0)
+	window:setDefaultEscapeButton(0)
 
 	-- Send the window to player
 	window:sendToPlayer(self)
@@ -98,8 +98,8 @@ function Player:sendMountWindow_noDoll(mounts)
 	window:addButton("Back", buttonCallback)
 
 	-- Set what button is pressed when the player presses enter or escape
-	--window:setDefaultEnterButton("Back")
-	window:setDefaultEscapeButton("Back")
+	window:setDefaultEnterButton(0)
+	window:setDefaultEscapeButton(0)
 
 	-- Send the window to player
 	window:sendToPlayer(self)

@@ -47,8 +47,8 @@ function Player:sendAddonWindow(outfits)
 	window:addButton("Cancel")
 
 	-- Set what button is pressed when the player presses enter or escape
-	window:setDefaultEscapeButton("Cancel")
-	--window:setDefaultEnterButton("Confirm")
+	window:setDefaultEnterButton(0)
+	window:setDefaultEscapeButton(1)
 
 
 	-- Add choices from the action script
@@ -95,8 +95,8 @@ function Player:sendAddonWindow_owned(outfits)
 	window:addButton("Back", buttonCallback)
 
 	-- Set what button is pressed when the player presses enter or escape
-	--window:setDefaultEnterButton("Back")
-	window:setDefaultEscapeButton("Back")
+	window:setDefaultEnterButton(0)
+	window:setDefaultEscapeButton(0)
 
 	-- Send the window to player
 	window:sendToPlayer(self)
@@ -119,8 +119,8 @@ function Player:sendAddonWindow_noDoll(outfits)
 	window:addButton("Back", buttonCallback)
 
 	-- Set what button is pressed when the player presses enter or escape
-	--window:setDefaultEnterButton("Back")
-	window:setDefaultEscapeButton("Back")
+	window:setDefaultEnterButton(0)
+	window:setDefaultEscapeButton(0)
 
 	-- Send the window to player
 	window:sendToPlayer(self)

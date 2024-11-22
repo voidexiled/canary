@@ -66021,7 +66021,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 	<item id="35524" article="a" name="jungle quiver">
 		<attribute key="primarytype" value="quivers"/>
 		<attribute key="slotType" value="right-hand"/>
-		<attribute key="containersize" value="8"/>
+		<attribute key="containersize" value="10"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="150"/>
@@ -66032,7 +66032,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 	<item id="35562" article="a" name="quiver">
 		<attribute key="primarytype" value="quivers"/>
 		<attribute key="slotType" value="right-hand"/>
-		<attribute key="containersize" value="6"/>
+		<attribute key="containersize" value="10"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="right-hand"/>
@@ -66208,7 +66208,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 	<item id="35848" article="a" name="blue quiver">
 		<attribute key="primarytype" value="quivers"/>
 		<attribute key="slotType" value="right-hand"/>
-		<attribute key="containersize" value="6"/>
+		<attribute key="containersize" value="10"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="right-hand"/>
@@ -66218,7 +66218,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 	<item id="35849" article="a" name="red quiver">
 		<attribute key="primarytype" value="quivers"/>
 		<attribute key="slotType" value="right-hand"/>
-		<attribute key="containersize" value="6"/>
+		<attribute key="containersize" value="10"/>
 		<attribute key="weight" value="1700"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="slot" value="right-hand"/>
@@ -67521,7 +67521,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="primarytype" value="quivers"/>
 		<attribute key="slotType" value="right-hand"/>
 		<attribute key="showattributes" value="1"/>
-		<attribute key="containersize" value="8"/>
+		<attribute key="containersize" value="10"/>
 		<attribute key="weight" value="2200"/>
 		<attribute key="perfectshotdamage" value="20"/>
 		<attribute key="perfectshotrange" value="4"/>
@@ -71361,7 +71361,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="quivers"/>
 		<attribute key="slotType" value="right-hand"/>
 		<attribute key="showattributes" value="1"/>
-		<attribute key="containersize" value="12"/>
+		<attribute key="containersize" value="14"/>
 		<attribute key="weight" value="2000"/>
 		<attribute key="magiclevelpoints" value="1"/>
 		<attribute key="perfectshotdamage" value="20"/>
@@ -71572,7 +71572,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="slotType" value="right-hand"/>
 		<attribute key="showattributes" value="1"/>
 		<attribute key="absorbpercentice" value="2"/>
-		<attribute key="containersize" value="8"/>
+		<attribute key="containersize" value="14"/>
 		<attribute key="weight" value="1900"/>
 		<attribute key="script" value="moveevent">
 			<attribute key="level" value="250"/>

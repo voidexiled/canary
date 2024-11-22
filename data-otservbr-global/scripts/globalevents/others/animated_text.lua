@@ -2,7 +2,7 @@ local effects = {
     { position = Position(32373, 32236, 7), text = 'NPCS' },
     { position = Position(32365, 32236, 7), text = 'EVENTOS' },
 
-    { position = Position(32364, 32242, 7), text = 'Vip !autoloot on/off', effect = CONST_ME_NONE },
+    { position = Position(32364, 32242, 7), text = 'Vip !autoloot on/off' },
     --{ position = Position(32369, 32242, 7), text = "Join Discord" }
 }
 

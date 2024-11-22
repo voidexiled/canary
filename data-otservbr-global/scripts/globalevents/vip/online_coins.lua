@@ -4,7 +4,6 @@ local config = {
 	checkDuplicateIps = true,
 
 	interval = 60 * 1000,
-	every = 1, -- generate coins every 'every' minutes
 
 	-- per hour | system will calculate how many coins will be given and when
 	-- put 0 in coinsPerHour.free to disable free from receiving coins
@@ -18,10 +17,10 @@ local config = {
 }
 
 local onlineCoinsEvent = GlobalEvent("GainCoinInterval")
-local runsPerCycle = 60 / (config.interval / 1000) * config.every
+local runsPerHour = 3600 / (config.interval / 1000)
 
 local function coinsPerRun(coinsPerHour)
-	return (coinsPerHour / 60) * config.every
+	return coinsPerHour / runsPerHour
 end
 
 function onlineCoinsEvent.onThink(interval)
@@ -40,12 +39,13 @@ function onlineCoinsEvent.onThink(interval)
 		if ip ~= 0 and (not config.checkDuplicateIps or not checkIp[ip]) then
 			checkIp[ip] = true
 			local remainder = math.max(0, player:getStorageValue(config.storage)) / 10000000
-			local coins = coinsPerRun(player:isVip() and config.coinsPerHour.vip or config.coinsPerHour.free) * runsPerCycle + remainder
+			local coins = coinsPerRun(player:isVip() and config.coinsPerHour.vip or config.coinsPerHour.free) + remainder
 			player:setStorageValue(config.storage, coins * 10000000)
 			if coins >= config.awardOn then
 				local coinsMath = math.floor(coins)
 				player:addTibiaCoins(coinsMath, true)
 				player:sendColoredMessage("{purple|[ONLINE REWARD]}\nYou have received {yellow|" .. coinsMath .. " tibia coins} for being online.")
+				--player:sendTextMessage(MESSAGE_FAILURE, string.format("Congratulations %s!\z You have received %d %s for being online.", player:getName(), coinsMath, "tibia coins"))
 				player:setStorageValue(config.storage, (coins - coinsMath) * 10000000)
 			end
 		end

@@ -15,5 +15,5 @@ function loyalty.onSay(player, words, param, type)
     return true
 end
 
-loyalty:accountType("normal")
+loyalty:groupType("normal")
 loyalty:register()

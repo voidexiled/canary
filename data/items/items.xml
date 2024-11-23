@@ -80342,7 +80342,8 @@ Granted by TibiaGoals.com"/>
 		<attribute key="description" value="A dazzling coin of gold and gems, holding the promise of fortune and surprises."/>
 		<attribute key="weight" value="120"/>
 	</item>
-		
+		<!-- NEW Dummys -->
+	
 	<item id="58462" article="an" name="celestial exercise dummy">
 		
 		<attribute key="primarytype" value="statues"/>
@@ -80351,14 +80352,32 @@ Granted by TibiaGoals.com"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
-		</attribute>
-		
+		</attribute>		
 	</item>
-	
 	<item id="58463" article="an" name="celestial exercise dummy">
 		<attribute key="primarytype" value="statues"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
 		<attribute key="rotateto" value="58462"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+
+	<item id="58106" article="an" name="celestial exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58107"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+
+	<item id="58107" article="an" name="celestial exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58106"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>

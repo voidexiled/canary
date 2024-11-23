@@ -81369,14 +81369,6 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
-
-	
-
-
-
-
-
-
 	<!-- NEW Backpacks hallowen -->
 
 	<!--<item id="58133" article="a" name="arboreal backpack">
@@ -81426,9 +81418,5 @@ Granted by TibiaGoals.com"/>
 			<attribute key="slot" value="backpack"/>
 		</attribute>
 	</item>  -->
-
-
-
-
 
 </items>

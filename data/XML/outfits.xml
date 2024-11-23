@@ -258,9 +258,46 @@
 	<!--news addons male-->
 
 	<outfit type="1" looktype="4002" name="Undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4004" name="dead spectre" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4011" name="gold angel" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4013" name="tipic angel" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4016" name="knight maya" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4019" name="ice mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4021" name="fire mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4025" name="storm mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4023" name="poison mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4027" name="air mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+
+	<outfit type="1" looktype="4080" name="God" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4079" name="God armor" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4009" name="Golden king" premiun="no" unlocked="no" enabled="yes" from="store" />
+
+	<!--<outfit type="1" looktype="4021" name="Undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4021" name="Undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4021" name="Undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />-->
+
+
 
 	<!--news addons female -->
 
 	<outfit type="0" looktype="4001" name="undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4005" name="dead spectre" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4012" name="gold angel" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4014" name="tipic angel" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4017" name="knight maya" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4018" name="ice mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4020" name="fire mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4024" name="storm shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4022" name="poison mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4026" name="air mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+
+	<outfit type="0" looktype="4080" name="God" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4079" name="God armor" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4010" name="golden queen" premiun="no" unlocked="no" enabled="yes" from="store" />
+
+	<!-- <outfit type="0" looktype="4020" name="undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4020" name="undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4020" name="undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />-->
+
 
 </outfits>

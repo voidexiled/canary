@@ -231,4 +231,28 @@
 	<mount id="229" clientid="1743" name="Bog Tyrant" speed="10" premium="no" type="store" />
 	<mount id="230" clientid="1744" name="Crimson Fang" speed="10" premium="no" type="store" />
 	<mount id="231" clientid="1778" name="Bumblebee" speed="10" premium="no" type="store" />
+
+	<!--news mounts -->
+	<mount id="232" clientid="4007" name="zombie horse" speed="10" premium="no" type="store" />
+	<mount id="233" clientid="4015" name="bird spectre" speed="10" premium="no" type="store" />
+	<mount id="234" clientid="4043" name="shadow panter" speed="10" premium="no" type="store" />
+	<mount id="235" clientid="4050" name="angelical horse" speed="10" premium="no" type="store" />
+	<mount id="236" clientid="4057" name="celeste bird" speed="10" premium="no" type="store" />
+	<mount id="237" clientid="4058" name="celeste dragon" speed="10" premium="no" type="store" />
+	<mount id="238" clientid="4059" name="armored turtle" speed="10" premium="no" type="store" />
+	<mount id="239" clientid="4060" name="fluff" speed="10" premium="no" type="store" />
+	<mount id="240" clientid="4061" name="purple flame horse" speed="10" premium="no" type="store" />
+	<mount id="241" clientid="4062" name="blue infernal" speed="10" premium="no" type="store" />
+	<mount id="242" clientid="4063" name="radioactive spider" speed="10" premium="no" type="store" />
+	<mount id="243" clientid="4064" name="phoenix" speed="10" premium="no" type="store" />
+	<mount id="244" clientid="4065" name="ruby horse" speed="10" premium="no" type="store" />
+	<mount id="245" clientid="4066" name="purple horse" speed="10" premium="no" type="store" />
+	<mount id="246" clientid="4067" name="lava striker" speed="10" premium="no" type="store" />
+	<mount id="247" clientid="4068" name="purple eyes" speed="10" premium="no" type="store" />
+	<mount id="248" clientid="4069" name="saber tooth" speed="10" premium="no" type="store" />
+	<mount id="249" clientid="4070" name="demonic raptor" speed="10" premium="no" type="store" />
+	<mount id="250" clientid="3" name="wolf" speed="10" premium="no" type="store" />
+
+
+
 </mounts>

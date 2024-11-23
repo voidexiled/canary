@@ -80364,7 +80364,7 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
-	<item id="58106" article="an" name="celestial exercise dummy">
+	<item id="58106" article="an" name="Chaotic exercise dummy">
 		<attribute key="primarytype" value="statues"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
 		<attribute key="rotateto" value="58107"/>
@@ -80374,7 +80374,7 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
-	<item id="58107" article="an" name="celestial exercise dummy">
+	<item id="58107" article="an" name="Chaotic exercise dummy">
 		<attribute key="primarytype" value="statues"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
 		<attribute key="rotateto" value="58106"/>

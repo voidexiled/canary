@@ -80363,7 +80363,6 @@ Granted by TibiaGoals.com"/>
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-
 	<item id="58106" article="an" name="Chaotic exercise dummy">
 		<attribute key="primarytype" value="statues"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
@@ -80373,7 +80372,6 @@ Granted by TibiaGoals.com"/>
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-
 	<item id="58107" article="an" name="Chaotic exercise dummy">
 		<attribute key="primarytype" value="statues"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
@@ -80383,5 +80381,157 @@ Granted by TibiaGoals.com"/>
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-	
+
+	<item id="58403" article="an" name="Swordman exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58404"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+	<item id="58404" article="an" name="Swordman exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58403"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+
+	<item id="58424" article="an" name="Mage exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58425"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+	<item id="58425" article="an" name="Mage exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58424"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+
+	<item id="58426" article="an" name="Iceman exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58427"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+	<item id="58427" article="an" name="Iceman exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58426"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+
+	<item id="58428" article="an" name="MageFerumbrin exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58429"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+	<item id="58429" article="an" name="MageFerumbrin exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58428"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+
+	<item id="58430" article="an" name="Angel exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58431"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+	<item id="58431" article="an" name="Angel exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58430"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+
+	<item id="58434" article="an" name="Adan exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58435"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+	<item id="58435" article="an" name="Adan exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58434"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+
+	<item id="58443" article="an" name="Scarecrow exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58444"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+	<item id="58444" article="an" name="Scarecrow exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58443"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+
+	<item id="58681" article="an" name="Vampire exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58682"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+	<item id="58682" article="an" name="Vampire exercise dummy">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+		<attribute key="rotateto" value="58681"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="type" value="dummy">
+			<attribute key="rate" value="135"/>
+		</attribute>
+	</item>
+
 </items>

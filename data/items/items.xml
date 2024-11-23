@@ -80534,4 +80534,901 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
+
+	<!-- NEW Backpacks -->
+
+	<item id="58013" article="a" name="rising backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58015" article="a" name="dragon ball backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58016" article="a" name="shenlong backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58017" article="a" name="pikachu backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58018" article="a" name="ornate backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58020" article="a" name="majinboo backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58021" article="a" name="celestial backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58022" article="a" name="cobra backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58023" article="a" name="deathstrike backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58025" article="a" name="boneheart backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58027" article="a" name="skeleton backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58090" article="a" name="guildbank backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58091" article="a" name="red skeleton backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58097" article="a" name="soulwar backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<!-- NEW Backpacks sanguine primal bag-->
+
+	<item id="58108" article="a" name="sanguine backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58109" article="a" name="alicorn backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58110" article="a" name="spirittorn backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58111" article="a" name="arcanomancer backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58112" article="a" name="arboreal backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58272" article="a" name="elemental backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58273" article="a" name="dark backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58274" article="a" name="angelical backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58300" article="a" name="bank backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58301" article="a" name="modukot backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58317" article="a" name="naturean backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58351" article="a" name="necromancer backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58374" article="a" name="demonia backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58380" article="a" name="ornate backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58400" article="a" name="aniversary backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58432" article="a" name="voltage backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58433" article="a" name="valkyrie backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58436" article="a" name="rainbow backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58464" article="a" name="odin backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58570" article="a" name="premiun loot pouch">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58597" article="a" name="forge bag">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58603" article="a" name="pink easter backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58604" article="a" name="blue easter backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58605" article="a" name="yellow easter backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58618" article="a" name="magic backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58809" article="a" name="demogorgon backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58810" article="a" name="demogorgon backpack 2">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58811" article="a" name="alchemist backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58812" article="a" name="illuminist backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58813" article="a" name="kyuubi backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58814" article="a" name="christmas backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58815" article="a" name="luffy backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58816" article="a" name="mewtwo backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58817" article="a" name="demona backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58818" article="a" name="bug backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58819" article="a" name="deathstrike backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58820" article="a" name="cobra's backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58821" article="a" name="celestial's backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58822" article="a" name="suddent death backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58824" article="a" name="arcana's backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+
+
+	<item id="58887" article="a" name="backpack II">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58889" article="a" name="purple heart backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58890" article="a" name="blue heart backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58891" article="a" name="red heart backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58892" article="a" name="cow backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58893" article="a" name="green backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58894" article="a" name="backpack IV">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58895" article="a" name="magician backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58896" article="a" name="miner backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58897" article="a" name="demoniac backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58906" article="a" name="captain america backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58907" article="a" name="teleport backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58908" article="a" name="thunder heart backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58909" article="a" name="zed backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58910" article="a" name="anubis backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+
+	
+
+
+
+
+
+
+	<!-- NEW Backpacks hallowen -->
+
+	<!--<item id="58133" article="a" name="arboreal backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58134" article="a" name="arboreal backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58135" article="a" name="arboreal backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
+	<item id="58136" article="a" name="arboreal backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="30"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>  -->
+
+
+
+
+
 </items>

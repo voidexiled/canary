@@ -267,10 +267,12 @@
 	<outfit type="1" looktype="4025" name="storm mage" premiun="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="4023" name="poison mage" premiun="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="4027" name="air mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4096" name="dark knight" premiun="no" unlocked="no" enabled="yes" from="store" />
 
 	<outfit type="1" looktype="4080" name="God" premiun="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="4079" name="God armor" premiun="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="4009" name="Golden king" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="1" looktype="4051" name="evil god" premiun="no" unlocked="no" enabled="yes" from="store" />
 
 	<!--<outfit type="1" looktype="4021" name="Undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="1" looktype="4021" name="Undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
@@ -290,10 +292,12 @@
 	<outfit type="0" looktype="4024" name="storm shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="4022" name="poison mage" premiun="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="4026" name="air mage" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4096" name="dark knight" premiun="no" unlocked="no" enabled="yes" from="store" />
 
 	<outfit type="0" looktype="4080" name="God" premiun="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="4079" name="God armor" premiun="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="4010" name="golden queen" premiun="no" unlocked="no" enabled="yes" from="store" />
+	<outfit type="0" looktype="4051" name="evil god" premiun="no" unlocked="no" enabled="yes" from="store" />
 
 	<!-- <outfit type="0" looktype="4020" name="undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />
 	<outfit type="0" looktype="4020" name="undead shadow" premiun="no" unlocked="no" enabled="yes" from="store" />

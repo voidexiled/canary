@@ -174,7 +174,7 @@ GameStore.Categories = { -- Premium Time
             },
             {
                 icons = { "Strawberry_cupcake.png" },
-                name = "The noctera cube",
+                name = "Strawberry cupcake",
                 price = 25,
                 itemtype = 28485,
                 description = "<i>A black cube brimming with mystery. Whispers of distant lands echo within.</i>\n\n{house} teleport to house.\n{house} teleport to cities.\n{info} 15 minutes of cooldown between teleport.\n{info} can only be used when you are in protection zone.\n{transferableprice}",

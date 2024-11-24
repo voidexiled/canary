@@ -173,6 +173,15 @@ GameStore.Categories = { -- Premium Time
                 state = GameStore.States.STATE_NEW,
             },
             {
+                icons = { "Strawberry_cupcake.png" },
+                name = "The noctera cube",
+                price = 25,
+                itemtype = 28485,
+                description = "<i>A black cube brimming with mystery. Whispers of distant lands echo within.</i>\n\n{house} teleport to house.\n{house} teleport to cities.\n{info} 15 minutes of cooldown between teleport.\n{info} can only be used when you are in protection zone.\n{transferableprice}",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
                 icons = { "Stamina_Refiller.png" },
                 name = "Stamina refiller",
                 price = 100,
@@ -191,17 +200,7 @@ GameStore.Categories = { -- Premium Time
                 description = "<i>A vial of crimson vitality. It pulses faintly, yearning to restore lost strength.</i>\n\n{info} +2 hr stamina.\n{info} can only be used when you dont have full stamina.\n{transferableprice}",
                 type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
                 state = GameStore.States.STATE_NEW,
-            },
-            {
-                icons = { "Strawberry_cupcake.png" },
-                name = "Stamina refiller",
-                price = 25,
-                itemtype = 28485,
-                count = 5,
-                description = "<i>A vial of crimson vitality. It pulses faintly, yearning to restore lost strength.</i>\n\n{info} +2 hr stamina.\n{info} can only be used when you dont have full stamina.\n{transferableprice}",
-                type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-                state = GameStore.States.STATE_NEW,
-            },
+            }
 
         }
     }, -- Consumables

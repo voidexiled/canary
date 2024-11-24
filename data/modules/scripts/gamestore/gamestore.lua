@@ -191,7 +191,17 @@ GameStore.Categories = { -- Premium Time
                 description = "<i>A vial of crimson vitality. It pulses faintly, yearning to restore lost strength.</i>\n\n{info} +2 hr stamina.\n{info} can only be used when you dont have full stamina.\n{transferableprice}",
                 type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
                 state = GameStore.States.STATE_NEW,
-            }
+            },
+            {
+                icons = { "Strawberry_cupcake.png" },
+                name = "Stamina refiller",
+                price = 25,
+                itemtype = 28485,
+                count = 5,
+                description = "<i>A vial of crimson vitality. It pulses faintly, yearning to restore lost strength.</i>\n\n{info} +2 hr stamina.\n{info} can only be used when you dont have full stamina.\n{transferableprice}",
+                type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
+                state = GameStore.States.STATE_NEW,
+            },
 
         }
     }, -- Consumables

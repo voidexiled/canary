@@ -81419,4 +81419,35 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>  -->
 
+
+	<!-- New  -->
+
+	<item id="58028" article="the" name="exaltation portable">
+		<attribute key="description" value="A black cube brimming with mystery. Whispers of distant lands echo within."/>
+		<attribute key="weight" value="1000"/>
+	</item>
+
+	<item id="58163" article="the" name="exaltation portable">
+		<attribute key="description" value="A black cube brimming with mystery. Whispers of distant lands echo within."/>
+		<attribute key="weight" value="1000"/>
+	</item>
+
+	<item id="58062" article="the" name="stamina refill">
+		<attribute key="description" value="A black cube brimming with mystery. Whispers of distant lands echo within."/>
+		<attribute key="weight" value="1000"/>
+	</item>
+
+	<item id="58078" article="a" name="Grand sudden death rune">
+		<attribute key="primarytype" value="attack runes"/>
+		<attribute key="type" value="rune"/>
+		<attribute key="charges" value="3"/>
+		<attribute key="weight" value="70"/>
+	</item>
+
+	<item id="58454" article="a" name="eternal supreme health potion">
+		<attribute key="primarytype" value="liquids"/>
+		<attribute key="description" value="This potion can only be consumed by knights of level 200 or higher"/>
+		<attribute key="weight" value="350"/>
+	</item>
+
 </items>

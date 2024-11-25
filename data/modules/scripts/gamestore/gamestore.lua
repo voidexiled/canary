@@ -173,15 +173,6 @@ GameStore.Categories = { -- Premium Time
                 state = GameStore.States.STATE_NEW,
             },
             {
-                icons = { "Strawberry_cupcake.png" },
-                name = "Strawberry cupcake",
-                price = 25,
-                itemtype = 28485,
-                description = "<i>A black cube brimming with mystery. Whispers of distant lands echo within.</i>\n\n{house} teleport to house.\n{house} teleport to cities.\n{info} 15 minutes of cooldown between teleport.\n{info} can only be used when you are in protection zone.\n{transferableprice}",
-                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-                state = GameStore.States.STATE_NEW,
-            },
-            {
                 icons = { "Stamina_Refiller.png" },
                 name = "Stamina refiller",
                 price = 100,
@@ -200,10 +191,69 @@ GameStore.Categories = { -- Premium Time
                 description = "<i>A vial of crimson vitality. It pulses faintly, yearning to restore lost strength.</i>\n\n{info} +2 hr stamina.\n{info} can only be used when you dont have full stamina.\n{transferableprice}",
                 type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
                 state = GameStore.States.STATE_NEW,
-            }
+            },
+            {
+                icons = { "Strawberry_cupcake.png" },
+                name = "Strawberry cupcake",
+                price = 25,
+                itemtype = 28485,
+                description = "<i>A black cube brimming with mystery. Whispers of distant lands echo within.</i>\n\n{house} teleport to house.\n{house} teleport to cities.\n{info} 15 minutes of cooldown between teleport.\n{info} can only be used when you are in protection zone.\n{transferableprice}",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Blueberry_cupcake.png" },
+                name = "Blueberry cupcake",
+                price = 25,
+                itemtype = 28484,
+                description = "<i>A black cube brimming with mystery. Whispers of distant lands echo within.</i>\n\n{house} teleport to house.\n{house} teleport to cities.\n{info} 15 minutes of cooldown between teleport.\n{info} can only be used when you are in protection zone.\n{transferableprice}",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
 
         }
     }, -- Consumables
+
+
+    {
+        icons = { "Category_PremiumTime.png" },
+        parent = "Noctera Shop",
+        name = "Foods",
+        rookgaard = true,
+        state = GameStore.States.STATE_NEW,
+        offers = {
+            {
+                icons = { "Strawberry_cupcake.png" },
+                name = "Strawberry cupcake",
+                price = 25,
+                itemtype = 28485,
+                description = "<i>A black cube brimming with mystery. Whispers of distant lands echo within.</i>\n\n{house} teleport to house.\n{house} teleport to cities.\n{info} 15 minutes of cooldown between teleport.\n{info} can only be used when you are in protection zone.\n{transferableprice}",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Blueberry_cupcake.png" },
+                name = "Blueberry cupcake",
+                price = 25,
+                itemtype = 28484,
+                description = "<i>A black cube brimming with mystery. Whispers of distant lands echo within.</i>\n\n{house} teleport to house.\n{house} teleport to cities.\n{info} 15 minutes of cooldown between teleport.\n{info} can only be used when you are in protection zone.\n{transferableprice}",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Lemon_cupcake.png" },
+                name = "Lemon cupcake",
+                price = 25,
+                itemtype = 28486,
+                description = "<i>A black cube brimming with mystery. Whispers of distant lands echo within.</i>\n\n{house} teleport to house.\n{house} teleport to cities.\n{info} 15 minutes of cooldown between teleport.\n{info} can only be used when you are in protection zone.\n{transferableprice}",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+
+        }
+    }, -- Consumables
+
+
     {
         icons = { "Category_Consumables.png" },
         name = "Consumables",

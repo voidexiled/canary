@@ -85,8 +85,12 @@ monster.loot = {
 	{ name = "moon pin", chance = 660 },
 	{ name = "crystal mace", chance = 500 },
 	{ id = 43915, chance = 610 }, -- weretiger trophy
-	{ name = "scarab ocarina", chance = 200 },
-	{ name = "conch shell horn", chance = 200 },
+	{ name = "scarab ocarina", chance = 300 },
+	{ name = "conch shell horn", chance = 300 },
+	{ id = 8075, chance = 3900 }, -- spellbook of lost souls
+	{ id = 823, chance = 4200 }, -- glacier kilt
+	{ id = 7407, chance = 10000 }, -- haunted blade
+	{ id = 3414, chance = 2200 }, -- mastermind shield
 }
 
 monster.attacks = {

@@ -81431,6 +81431,31 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>  -->
 
+	<!-- New corps pendiente
+
+	<item id="43564" article="a" name="dead converter">
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="60"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43565" article="a" name="dead converter">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43564"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43566" article="a" name="dead converter">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43565"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43567" article="a" name="dead converter">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43566"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item> -->
 
 	<!-- New  -->
 

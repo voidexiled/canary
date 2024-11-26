@@ -26,8 +26,8 @@ monster.Bestiary = {
 	Locations = "Murky Caverns",
 }
 
-monster.health = 6100
-monster.maxHealth = 6100
+monster.health = 24100
+monster.maxHealth = 24100
 monster.race = "blood"
 monster.corpse = 43762
 monster.speed = 120

@@ -81369,6 +81369,18 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
+	<item id="58608" article="a" name="grand sanguine backpack">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="50"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="increase capacity" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="backpack"/>
+		</attribute>
+	</item>
+
 	<!-- NEW Backpacks hallowen -->
 
 	<!--<item id="58133" article="a" name="arboreal backpack">

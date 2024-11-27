@@ -416,7 +416,9 @@ function Player.selectDailyReward(self, msg)
 	end
 
 	local rewardCount = dailyTable.freeAccount
-	if (configManager.getBoolean(configKeys.VIP_SYSTEM_ENABLED) and self:isVip()) or self:isPremium() then
+
+	-- if (configManager.getBoolean(configKeys.VIP_SYSTEM_ENABLED) and self:isVip()) or self:isPremium() then
+	if (configManager.getBoolean(configKeys.VIP_SYSTEM_ENABLED) and self:isVip()) then
 		rewardCount = dailyTable.premiumAccount
 	end
 

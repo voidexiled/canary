@@ -81431,31 +81431,104 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>  -->
 
-	<!-- New corps pendiente
+	<!-- New corps pendiente -->
 
-	<item id="43564" article="a" name="dead converter">
+	<item id="43759" article="a" name="dead white weretiger supreme">
 		<attribute key="decayTo" value="0"/>
 		<attribute key="duration" value="60"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-	<item id="43565" article="a" name="dead converter">
+	<item id="43760" article="a" name="dead white weretiger supreme">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="43564"/>
+		<attribute key="decayTo" value="43759"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-	<item id="43566" article="a" name="dead converter">
+	<item id="43761" article="a" name="dead white weretiger supreme">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="43565"/>
+		<attribute key="decayTo" value="43760"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-	<item id="43567" article="a" name="dead converter">
+	<item id="43762" article="a" name="dead white weretiger supreme">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="43566"/>
+		<attribute key="decayTo" value="43761"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="fluidSource" value="blood"/>
-	</item> -->
+	</item> 
+
+	<item id="43759" article="a" name="dead white weretiger">
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="60"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43760" article="a" name="dead white weretiger">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43759"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43761" article="a" name="dead white weretiger">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43760"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43762" article="a" name="dead white weretiger">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43761"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item> 
+
+
+	<item id="43956" article="a" name="dead cunning werepanther">
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="60"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43957" article="a" name="dead cunning werepanther">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43956"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43958" article="a" name="dead cunning werepanther">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43957"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43959" article="a" name="dead cunning werepanther">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43958"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item> 
+
+	<item id="43947" article="a" name="dead weretiger">
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="60"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43948" article="a" name="dead weretiger">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43947"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43749" article="a" name="dead weretiger">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43948"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item>
+	<item id="43750" article="a" name="dead weretiger">
+		<attribute key="containerSize" value="30"/>
+		<attribute key="decayTo" value="43949"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="fluidSource" value="blood"/>
+	</item> 
 
 	<!-- New  -->
 

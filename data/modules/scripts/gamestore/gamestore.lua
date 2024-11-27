@@ -235,6 +235,35 @@ GameStore.Categories = { -- Premium Time
         }
     }, -- Consumables
 
+    {
+        icons = { "Category_PremiumTime.png" },
+        parent = "Noctera Shop",
+        name = "Exercise dummy",
+        rookgaard = true,
+        state = GameStore.States.STATE_NONE,
+        offers = 
+        { 
+        {
+            icons = { "celestial_exercise_dummy.png" },
+            name = "celestial exercise dummy",
+            price = 150,
+            itemtype = 58463,
+            count = 1,
+            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
+            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+        },
+        {
+            icons = { "Mage_exercise_dummy.png" },
+            name = "Mage exercise dummy",
+            price = 200,
+            itemtype = 58424,
+            count = 1,
+            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
+            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+        } 
+        }
+    },
+
 
     {
         icons = { "Category_Consumables.png" },

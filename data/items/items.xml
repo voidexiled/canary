@@ -81513,13 +81513,13 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="43748" article="a" name="dead weretiger">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="43947"/>
+		<attribute key="decayTo" value="43747"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
 	<item id="43749" article="a" name="dead weretiger">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="43948"/>
+		<attribute key="decayTo" value="43748"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>

@@ -81525,7 +81525,7 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="43750" article="a" name="dead weretiger">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="43949"/>
+		<attribute key="decayTo" value="43749"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item> 

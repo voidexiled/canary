@@ -81506,20 +81506,20 @@ Granted by TibiaGoals.com"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item> 
 
-	<item id="43947" article="a" name="dead weretiger">
+	<item id="43747" article="a" name="dead weretiger">
 		<attribute key="decayTo" value="0"/>
 		<attribute key="duration" value="60"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
-	<item id="43948" article="a" name="dead weretiger">
+	<item id="43748" article="a" name="dead weretiger">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="43947"/>
+		<attribute key="decayTo" value="43747"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>
 	<item id="43749" article="a" name="dead weretiger">
 		<attribute key="containerSize" value="30"/>
-		<attribute key="decayTo" value="43948"/>
+		<attribute key="decayTo" value="43748"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="fluidSource" value="blood"/>
 	</item>

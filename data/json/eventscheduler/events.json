@@ -3,7 +3,7 @@
 		{
 			"name": "x2 Loot Bonus",
 			"startdate": "11/21/2024",
-			"enddate": "11/28/2024",
+			"enddate": "11/25/2024",
 			"script": "loot_bonus.lua",
 			"ingame": {
 				"lootrate": 200
@@ -129,8 +129,8 @@
 		},
 		{
 			"name": "Double Exp",
-			"startdate": "11/25/2024",
-			"enddate": "12/6/2024",
+			"startdate": "11/21/2024",
+			"enddate": "11/25/2024",
 			"ingame": {
 				"exprate": 200
 			},

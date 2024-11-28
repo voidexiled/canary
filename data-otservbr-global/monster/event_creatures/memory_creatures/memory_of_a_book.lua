@@ -65,7 +65,7 @@ monster.loot = {
 	{ name = "green crystal fragment", chance = 7000 },
 	{ name = "great spirit potion", chance = 26400 },
 	{ name = "ultimate health potion", chance = 15390 },
-	{ name = "bottle of champagne", chance = 8300 },
+	{ id = 37530, chance = 8300 },
 	{ name = "green crystal shard", chance = 7200 },
 }
 

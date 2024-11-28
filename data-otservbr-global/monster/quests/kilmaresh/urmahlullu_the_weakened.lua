@@ -94,7 +94,7 @@ monster.loot = {
 	{ name = "urmahlullu's paw", chance = 7690 },
 	{ id = 281, chance = 7690 }, -- giant shimmering pearl
 	{ name = "mastermind potion", chance = 3850 },
-	{ name = "tagralt blade", chance = 1850 },
+	{ id = 31614, chance = 1850 }, -- tagralt blade
 	{ name = "giant sapphire", chance = 3850 },
 	{ id = 31263, chance = 3850 }, -- ring of secret thoughts
 	{ name = "sunray emblem", chance = 3850 },

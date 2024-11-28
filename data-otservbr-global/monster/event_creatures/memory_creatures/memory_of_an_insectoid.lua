@@ -65,7 +65,7 @@ monster.loot = {
 	{ name = "small emerald", chance = 2880 },
 	{ name = "epee", chance = 560 },
 	{ name = "health potion", chance = 5090 },
-	{ name = "bottle of champagne", chance = 15380 },
+	{ id = 37530, chance = 15380 },
 }
 
 monster.attacks = {

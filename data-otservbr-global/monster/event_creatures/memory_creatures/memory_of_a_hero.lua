@@ -73,7 +73,7 @@ monster.loot = {
 	{ name = "meat", chance = 8200, maxCount = 3 },
 	{ name = "grapes", chance = 19850 },
 	{ name = "red rose", chance = 20450 },
-	{ name = "bottle of champagne", chance = 2006 },
+	{ id = 37530, chance = 2006 },
 	{ name = "sniper arrow", chance = 11400, maxCount = 4 },
 	{ name = "great health potion", chance = 720 },
 }

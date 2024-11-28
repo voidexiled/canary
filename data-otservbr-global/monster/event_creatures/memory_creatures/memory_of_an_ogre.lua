@@ -74,7 +74,7 @@ monster.loot = {
 	{ name = "white pearl", chance = 530 },
 	{ name = "opal", chance = 5155 },
 	{ name = "bonebreaker", chance = 400 },
-	{ name = "bottle of champagne", chance = 600 },
+	{ id = 37530, chance = 600 },
 }
 
 monster.attacks = {

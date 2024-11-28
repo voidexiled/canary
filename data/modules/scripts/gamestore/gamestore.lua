@@ -235,6 +235,91 @@ GameStore.Categories = { -- Premium Time
         }
     }, -- Consumables
 
+    {
+        icons = { "Category_PremiumTime.png" },
+        parent = "Noctera Shop",
+        name = "Exercise dummy",
+        rookgaard = true,
+        state = GameStore.States.STATE_NONE,
+        offers = 
+        { 
+        {
+            icons = { "celestial_exercise_dummy.png" },
+            name = "celestial exercise dummy",
+            price = 150,
+            itemtype = 58463,
+            count = 1,
+            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
+            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+        },
+        {
+            icons = { "Swordman_exercise_dummy.png" },
+            name = "Swordman exercise dummy",
+            price = 150,
+            itemtype = 58403,
+            count = 1,
+            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
+            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+        },
+        {
+            icons = { "Angel_exercise_dummy.png" },
+            name = "Angel exercise dummy",
+            price = 150,
+            itemtype = 58431,
+            count = 1,
+            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
+            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+        },
+
+        {
+            icons = { "MageFerumbrin_exercise_dummy.png" },
+            name = "MageFerumbrin exercise dummy",
+            price = 150,
+            itemtype = 58428,
+            count = 1,
+            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
+            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+        },
+        {
+            icons = { "Adan_exercise_dummy.png" },
+            name = "Adan exercise dummy",
+            price = 150,
+            itemtype = 58435,
+            count = 1,
+            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
+            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+        },
+        {
+            icons = { "Chaotic_exercise_dummy.png" },
+            name = "Chaotic exercise dummy",
+            price = 150,
+            itemtype = 58106,
+            count = 1,
+            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
+            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+        },
+        {
+            icons = { "Iceman exercise dummy.png" },
+            name = "Iceman exercise dummy",
+            price = 150,
+            itemtype = 58427,
+            count = 1,
+            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
+            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+        },
+
+        {
+            icons = { "Mage_exercise_dummy.png" },
+            name = "Mage exercise dummy",
+            price = 200,
+            itemtype = 58424,
+            count = 1,
+            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
+            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+        } 
+        }
+    },
+
 
     {
         icons = { "Category_Consumables.png" },

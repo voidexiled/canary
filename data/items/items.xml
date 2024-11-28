@@ -81431,7 +81431,7 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>  -->
 
-	<!-- New corps pendiente -->
+	<!-- TODO: New corps pendiente duplicar items-->
 
 	<item id="43759" article="a" name="dead white weretiger supreme">
 		<attribute key="decayTo" value="0"/>

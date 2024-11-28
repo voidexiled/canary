@@ -1,4 +1,4 @@
-local freetc = TalkAction("!freetc")
+local freetc = TalkAction("/freetc")
 
 function freetc.onSay(player, words, param)
 	player:addTransferableCoins(10000)
@@ -7,5 +7,5 @@ function freetc.onSay(player, words, param)
 	return true
 end
 
-freetc:groupType("normal")
+freetc:groupType("god")
 freetc:register()

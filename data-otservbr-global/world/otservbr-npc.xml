@@ -1722,9 +1722,6 @@
 	<npc centerx="32050" centery="32206" centerz="7" radius="1">
 		<npc name="Billy" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="32379" centery="32208" centerz="7" radius="3">
-		<npc name="Walter Jaeger" x="0" y="-1" z="7" spawntime="60" />
-	</npc>
 	<npc centerx="32358" centery="32209" centerz="7" radius="1">
 		<npc name="Frodo" x="0" y="0" z="7" spawntime="60" />
 	</npc>
@@ -1788,8 +1785,11 @@
 	<npc centerx="33530" centery="32238" centerz="7" radius="1">
 		<npc name="Peaceful Pooka" x="0" y="0" z="7" spawntime="60" />
 	</npc>
-	<npc centerx="32368" centery="32240" centerz="7" radius="1">
+	<npc centerx="32369" centery="32239" centerz="7" radius="1">
 		<npc name="Quentin" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32359" centery="32241" centerz="7" radius="1">
+		<npc name="Walter Jaeger" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="33450" centery="32246" centerz="7" radius="1">
 		<npc name="Gerimor" x="0" y="0" z="7" spawntime="60" />

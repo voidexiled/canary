@@ -300,8 +300,8 @@ staminaTrainerDelay = 5
 staminaTrainerGain = 3
 -- Stamina in PZ
 staminaPz = true
-staminaOrangeDelay = 3
-staminaGreenDelay = 5
+staminaOrangeDelay = 5
+staminaGreenDelay = 3
 staminaPzGain = 2
 -- Max players allowed on a dummy.
 maxAllowedOnADummy = 40
@@ -489,7 +489,7 @@ rateUseStages = true
 lowLevelBonusExp = 100
 rateExp = 1
 rateSkill = 1
-rateLoot = 5
+rateLoot = 3
 rateMagic = 1
 rateSpawn = 1
 

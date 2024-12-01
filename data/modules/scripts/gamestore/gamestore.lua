@@ -246,7 +246,7 @@ GameStore.Categories = { -- Premium Time
         {
             icons = { "celestial_exercise_dummy.png" },
             name = "celestial exercise dummy",
-            price = 150,
+            price = 350,
             itemtype = 58463,
             count = 1,
             description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
@@ -255,7 +255,7 @@ GameStore.Categories = { -- Premium Time
         {
             icons = { "Swordman_exercise_dummy.png" },
             name = "Swordman exercise dummy",
-            price = 150,
+            price = 350,
             itemtype = 58403,
             count = 1,
             description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
@@ -264,7 +264,7 @@ GameStore.Categories = { -- Premium Time
         {
             icons = { "Angel_exercise_dummy.png" },
             name = "Angel exercise dummy",
-            price = 150,
+            price = 350,
             itemtype = 58431,
             count = 1,
             description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
@@ -274,7 +274,7 @@ GameStore.Categories = { -- Premium Time
         {
             icons = { "MageFerumbrin_exercise_dummy.png" },
             name = "MageFerumbrin exercise dummy",
-            price = 150,
+            price = 350,
             itemtype = 58428,
             count = 1,
             description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
@@ -283,7 +283,7 @@ GameStore.Categories = { -- Premium Time
         {
             icons = { "Adan_exercise_dummy.png" },
             name = "Adan exercise dummy",
-            price = 150,
+            price = 350,
             itemtype = 58435,
             count = 1,
             description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
@@ -292,7 +292,7 @@ GameStore.Categories = { -- Premium Time
         {
             icons = { "Chaotic_exercise_dummy.png" },
             name = "Chaotic exercise dummy",
-            price = 150,
+            price = 350,
             itemtype = 58106,
             count = 1,
             description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
@@ -301,7 +301,7 @@ GameStore.Categories = { -- Premium Time
         {
             icons = { "Iceman exercise dummy.png" },
             name = "Iceman exercise dummy",
-            price = 150,
+            price = 350,
             itemtype = 58427,
             count = 1,
             description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
@@ -311,7 +311,7 @@ GameStore.Categories = { -- Premium Time
         {
             icons = { "Mage_exercise_dummy.png" },
             name = "Mage exercise dummy",
-            price = 200,
+            price = 350,
             itemtype = 58424,
             count = 1,
             description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
@@ -564,7 +564,7 @@ GameStore.Categories = { -- Premium Time
         offers = { {
             icons = { "Durable_Exercise_Axe.png" },
             name = "Durable Exercise Axe",
-            price = 90,
+            price = 32,
             itemtype = 35280,
             charges = 1800,
             description = "<i>Use it to train your axe fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your axe fighting skill\n{info} usable 1800 times a piece",
@@ -572,7 +572,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Durable_Exercise_Bow.png" },
             name = "Durable Exercise Bow",
-            price = 90,
+            price = 32,
             itemtype = 35282,
             charges = 1800,
             description = "<i>Use it to train your distance fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your distance fighting skill\n{info} usable 1800 times a piece",
@@ -580,7 +580,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Durable_Exercise_Club.png" },
             name = "Durable Exercise Club",
-            price = 90,
+            price = 32,
             itemtype = 35281,
             charges = 1800,
             description = "<i>Use it to train your club fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your club fighting skill\n{info} usable 1800 times a piece",
@@ -588,7 +588,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Durable_Exercise_Rod.png" },
             name = "Durable Exercise Rod",
-            price = 90,
+            price = 32,
             itemtype = 35283,
             charges = 1800,
             description = "<i>Use it to train your magic level on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your magic level\n{info} usable 1800 times a piece",
@@ -596,7 +596,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Durable_Exercise_Sword.png" },
             name = "Durable Exercise Sword",
-            price = 90,
+            price = 32,
             itemtype = 35279,
             charges = 1800,
             description = "<i>Use it to train your sword fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your sword fighting skill\n{info} usable 1800 times a piece",
@@ -604,7 +604,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Durable_Exercise_Wand.png" },
             name = "Durable Exercise Wand",
-            price = 90,
+            price = 32,
             itemtype = 35284,
             charges = 1800,
             description = "<i>Use it to train your magic level on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your magic level\n{info} usable 1800 times a piece",
@@ -612,7 +612,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Durable_Exercise_Shield.png" },
             name = "Durable Exercise Shield",
-            price = 90,
+            price = 32,
             itemtype = 44066,
             charges = 1800,
             description = "<i>Use it to train your shielding skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your shielding skill\n{info} usable 1800 times a piece",
@@ -620,7 +620,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Exercise_Axe.png" },
             name = "Exercise Axe",
-            price = 25,
+            price = 8,
             itemtype = 28553,
             charges = 500,
             description = "<i>Use it to train your axe fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your axe fighting skill\n{info} usable 500 times a piece",
@@ -628,7 +628,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Exercise_Bow.png" },
             name = "Exercise Bow",
-            price = 25,
+            price = 8,
             itemtype = 28555,
             charges = 500,
             description = "<i>Use it to train your distance fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your distance fighting skill\n{info} usable 500 times a piece",
@@ -636,7 +636,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Exercise_Club.png" },
             name = "Exercise Club",
-            price = 25,
+            price = 8,
             itemtype = 28554,
             charges = 500,
             description = "<i>Use it to train your club fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your club fighting skill\n{info} usable 500 times a piece",
@@ -644,7 +644,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Exercise_Rod.png" },
             name = "Exercise Rod",
-            price = 25,
+            price = 8,
             itemtype = 28556,
             charges = 500,
             description = "<i>Use it to train your magic level on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your magic level\n{info} usable 500 times a piece",
@@ -652,7 +652,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Exercise_Sword.png" },
             name = "Exercise Sword",
-            price = 25,
+            price = 8,
             itemtype = 28552,
             charges = 500,
             description = "<i>Use it to train your sword fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your sword fighting skill\n{info} usable 500 times a piece",
@@ -660,7 +660,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Exercise_Wand.png" },
             name = "Exercise Wand",
-            price = 25,
+            price = 8,
             itemtype = 28557,
             charges = 500,
             description = "<i>Use it to train your magic level on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your magic level\n{info} usable 500 times a piece",
@@ -668,7 +668,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Exercise_Shield.png" },
             name = "Exercise Shield",
-            price = 25,
+            price = 8,
             itemtype = 44065,
             charges = 500,
             description = "<i>Use it to train your shielding skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your shielding skill\n{info} usable 500 times a piece",
@@ -676,7 +676,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Axe.png" },
             name = "Lasting Exercise Axe",
-            price = 720,
+            price = 250,
             itemtype = 35286,
             charges = 14400,
             description = "<i>Use it to train your axe fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your axe fighting skill\n{info} usable 14400 times a piece",
@@ -684,7 +684,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Bow.png" },
             name = "Lasting Exercise Bow",
-            price = 720,
+            price = 250,
             itemtype = 35288,
             charges = 14400,
             description = "<i>Use it to train your distance fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your distance fighting skill\n{info} usable 14400 times a piece",
@@ -692,7 +692,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Club.png" },
             name = "Lasting Exercise Club",
-            price = 720,
+            price = 250,
             itemtype = 35287,
             charges = 14400,
             description = "<i>Use it to train your club fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your club fighting skill\n{info} usable 14400 times a piece",
@@ -700,7 +700,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Rod.png" },
             name = "Lasting Exercise Rod",
-            price = 720,
+            price = 250,
             itemtype = 35289,
             charges = 14400,
             description = "<i>Use it to train your magic level on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your magic level\n{info} usable 14400 times a piece",
@@ -708,7 +708,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Sword.png" },
             name = "Lasting Exercise Sword",
-            price = 720,
+            price = 250,
             itemtype = 35285,
             charges = 14400,
             description = "<i>Use it to train your sword fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your sword fighting skill\n{info} usable 14400 times a piece",
@@ -716,7 +716,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Wand.png" },
             name = "Lasting Exercise Wand",
-            price = 720,
+            price = 250,
             itemtype = 35290,
             charges = 14400,
             description = "<i>Use it to train your magic level on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your magic level\n{info} usable 14400 times a piece",
@@ -724,7 +724,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Shield.png" },
             name = "Lasting Exercise Shield",
-            price = 720,
+            price = 250,
             itemtype = 44067,
             charges = 14400,
             description = "<i>Use it to train your shielding skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your shielding skill\n{info} usable 14400 times a piece",
@@ -2306,7 +2306,7 @@ GameStore.Categories = { -- Premium Time
         offers = { {
             icons = { "Outfit_Arbalester_Male_Addon_3.png", "Outfit_Arbalester_Female_Addon_3.png" },
             name = "Full Arbalester Outfit",
-            price = 600,
+            price = 260,
             sexId = {
                 female = 1450,
                 male = 1449
@@ -2318,7 +2318,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Arena_Champion_Male_Addon_3.png", "Outfit_Arena_Champion_Female_Addon_3.png" },
             name = "Full Arena Champion Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 885,
                 male = 884
@@ -2330,7 +2330,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Armoured_Archer_Male_Addon_3.png", "Outfit_Armoured_Archer_Female_Addon_3.png" },
             name = "Full Armoured Archer Outfit",
-            price = 600,
+            price = 260,
             sexId = {
                 female = 1619,
                 male = 1618
@@ -2343,7 +2343,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Beastmaster_Male_Addon_3.png", "Outfit_Beastmaster_Female_Addon_3.png" },
             name = "Full Beastmaster Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 636,
                 male = 637
@@ -2354,7 +2354,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Breezy_Garb_Male_Addon_3.png", "Outfit_Breezy_Garb_Female_Addon_3.png" },
             name = "Full Breezy Garb Outfit",
-            price = 600,
+            price = 260,
             sexId = {
                 female = 1246,
                 male = 1245
@@ -2366,7 +2366,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Ceremonial_Garb_Male_Addon_3.png", "Outfit_Ceremonial_Garb_Female_Addon_3.png" },
             name = "Full Ceremonial Garb Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 694,
                 male = 695
@@ -2378,7 +2378,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Champion_Male_Addon_3.png", "Outfit_Champion_Female_Addon_3.png" },
             name = "Full Champion Outfit",
-            price = 570,
+            price = 210,
             sexId = {
                 female = 632,
                 male = 633
@@ -2389,7 +2389,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Chaos_Acolyte_Male_Addon_3.png", "Outfit_Chaos_Acolyte_Female_Addon_3.png" },
             name = "Full Chaos Acolyte Outfit",
-            price = 900,
+            price = 450,
             sexId = {
                 female = 664,
                 male = 665
@@ -2401,7 +2401,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Conjurer_Male_Addon_3.png", "Outfit_Conjurer_Female_Addon_3.png" },
             name = "Full Conjurer Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 635,
                 male = 634
@@ -2413,7 +2413,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Death_Herald_Male_Addon_3.png", "Outfit_Death_Herald_Female_Addon_3.png" },
             name = "Full Death Herald Outfit",
-            price = 600,
+            price = 260,
             sexId = {
                 female = 666,
                 male = 667
@@ -2425,7 +2425,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Dragon_Knight_Male_Addon_3.png", "Outfit_Dragon_Knight_Female_Addon_3.png" },
             name = "Full Dragon Knight Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 1445,
                 male = 1444
@@ -2437,7 +2437,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Entrepreneur_Male_Addon_3.png", "Outfit_Entrepreneur_Female_Addon_3.png" },
             name = "Full Entrepreneur Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 471,
                 male = 472
@@ -2449,7 +2449,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Evoker_Male_Addon_3.png", "Outfit_Evoker_Female_Addon_3.png" },
             name = "Full Evoker Outfit",
-            price = 840,
+            price = 400,
             sexId = {
                 female = 724,
                 male = 725
@@ -2460,7 +2460,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Fencer_Male_Addon_3.png", "Outfit_Fencer_Female_Addon_3.png" },
             name = "Full Fencer Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 1576,
                 male = 1575
@@ -2472,7 +2472,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Flamefury_Mage_Male_Addon_3.png", "Outfit_Flamefury_Mage_Female_Addon_3.png" },
             name = "Full Flamefury Mage Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 1681,
                 male = 1680
@@ -2484,7 +2484,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Forest_Warden_Male_Addon_3.png", "Outfit_Forest_Warden_Female_Addon_3.png" },
             name = "Full Forest Warden Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 1416,
                 male = 1415
@@ -2496,7 +2496,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Frost_Tracer_Male_Addon_3.png", "Outfit_Frost_Tracer_Female_Addon_3.png" },
             name = "Full Frost Tracer Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 1613,
                 male = 1612
@@ -2508,7 +2508,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Ghost_Blade_Male_Addon_3.png", "Outfit_Ghost_Blade_Female_Addon_3.png" },
             name = "Full Ghost Blade Outfit",
-            price = 600,
+            price = 260,
             sexId = {
                 female = 1490,
                 male = 1489
@@ -2520,7 +2520,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Grove_Keeper_Male_Addon_3.png", "Outfit_Grove_Keeper_Female_Addon_3.png" },
             name = "Full Groove Keeper Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 909,
                 male = 908
@@ -2532,7 +2532,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Guidon_Bearer_Male_Addon_3.png", "Outfit_Guidon_Bearer_Female_Addon_3.png" },
             name = "Full Guidon Bearer Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 1187,
                 male = 1186
@@ -2544,7 +2544,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Herbalist_Male_Addon_3.png", "Outfit_Herbalist_Female_Addon_3.png" },
             name = "Full Herbalist Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 1020,
                 male = 1021
@@ -2556,7 +2556,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Herder_Male_Addon_3.png", "Outfit_Herder_Female_Addon_3.png" },
             name = "Full Herder Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 1280,
                 male = 1279
@@ -2567,7 +2567,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Jouster_Male_Addon_3.png", "Outfit_Jouster_Female_Addon_3.png" },
             name = "Full Jouster Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 1332,
                 male = 1331
@@ -2578,7 +2578,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Lupine_Warden_Male_Addon_3.png", "Outfit_Lupine_Warden_Female_Addon_3.png" },
             name = "Full Lupine Warden Outfit",
-            price = 840,
+            price = 400,
             sexId = {
                 female = 900,
                 male = 899
@@ -2590,7 +2590,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Mercenary_Male_Addon_3.png", "Outfit_Mercenary_Female_Addon_3.png" },
             name = "Full Mercenary Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 1057,
                 male = 1056
@@ -2602,7 +2602,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Merry_Garb_Male_Addon_3.png", "Outfit_Merry_Garb_Female_Addon_3.png" },
             name = "Full Merry Garb Outfit",
-            price = 600,
+            price = 260,
             sexId = {
                 female = 1383,
                 male = 1382
@@ -2614,7 +2614,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Moth_Cape_Male_Addon_3.png", "Outfit_Moth_Cape_Female_Addon_3.png" },
             name = "Full Moth Cape Outfit",
-            price = 600,
+            price = 260,
             sexId = {
                 female = 1339,
                 male = 1338
@@ -2626,7 +2626,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Nordic_Chieftain_Male_Addon_3.png", "Outfit_Nordic_Chieftain_Female_Addon_3.png" },
             name = "Full Nordic Chieftain Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 1501,
                 male = 1500
@@ -2638,7 +2638,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Owl_Keeper_Male_Addon_3.png", "Outfit_Owl_Keeper_Female_Addon_3.png" },
             name = "Full Owl Keeper Outfit",
-            price = 600,
+            price = 260,
             sexId = {
                 female = 1174,
                 male = 1173
@@ -2650,7 +2650,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Pharaoh_Male_Addon_3.png", "Outfit_Pharaoh_Female_Addon_3.png" },
             name = "Full Pharaoh Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 956,
                 male = 955
@@ -2662,7 +2662,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Philosopher_Male_Addon_3.png", "Outfit_Philosopher_Female_Addon_3.png" },
             name = "Full Philosopher Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 874,
                 male = 873
@@ -2674,7 +2674,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Pumpkin_Mummy_Male_Addon_3.png", "Outfit_Pumpkin_Mummy_Female_Addon_3.png" },
             name = "Full Pumpkin Mummy Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 1128,
                 male = 1127
@@ -2686,7 +2686,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Puppeteer_Male_Addon_3.png", "Outfit_Puppeteer_Female_Addon_3.png" },
             name = "Full Puppeteer Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 696,
                 male = 697
@@ -2697,7 +2697,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Ranger_Male_Addon_3.png", "Outfit_Ranger_Female_Addon_3.png" },
             name = "Full Ranger Outfit",
-            price = 750,
+            price = 390,
             sexId = {
                 female = 683,
                 male = 684
@@ -2709,7 +2709,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Royal_Pumpkin_Male_Addon_3.png", "Outfit_Royal_Pumpkin_Female_Addon_3.png" },
             name = "Full Royal Pumpkin Outfit",
-            price = 840,
+            price = 400,
             sexId = {
                 male = 760,
                 female = 759
@@ -2721,7 +2721,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Rune_Master_Male_Addon_3.png", "Outfit_Rune_Master_Female_Addon_3.png" },
             name = "Full Rune Master Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 1385,
                 male = 1384
@@ -2733,7 +2733,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Sea_Dog_Male_Addon_3.png", "Outfit_Sea_Dog_Female_Addon_3.png" },
             name = "Full Sea Dog Outfit",
-            price = 600,
+            price = 260,
             sexId = {
                 female = 749,
                 male = 750
@@ -2744,7 +2744,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Seaweaver_Male_Addon_3.png", "Outfit_Seaweaver_Female_Addon_3.png" },
             name = "Full Seaweaver Outfit",
-            price = 570,
+            price = 210,
             sexId = {
                 female = 732,
                 male = 733
@@ -2756,7 +2756,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Shadowlotus_Disciple_Male_Addon_3.png", "Outfit_Shadowlotus_Disciple_Female_Addon_3.png" },
             name = "Full Shadowlotus Disciple Outfit",
-            price = 600,
+            price = 360,
             sexId = {
                 female = 1582,
                 male = 1581
@@ -2768,7 +2768,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Siege_Master_Male_Addon_3.png", "Outfit_Siege_Master_Female_Addon_3.png" },
             name = "Full Siege Master Outfit",
-            price = 600,
+            price = 360,
             sexId = {
                 female = 1050,
                 male = 1051
@@ -2780,7 +2780,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Sinister_Archer_Male_Addon_3.png", "Outfit_Sinister_Archer_Female_Addon_3.png" },
             name = "Full Sinister Archer Outfit",
-            price = 600,
+            price = 360,
             sexId = {
                 female = 1103,
                 male = 1102
@@ -2792,7 +2792,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Spirit_Caller_Male_Addon_3.png", "Outfit_Spirit_Caller_Female_Addon_3.png" },
             name = "Full Spirit Caller Outfit",
-            price = 600,
+            price = 320,
             sexId = {
                 female = 698,
                 male = 699
@@ -2803,7 +2803,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Sun_Priest_Male_Addon_3.png", "Outfit_Sun_Priest_Female_Addon_3.png" },
             name = "Full Sun Priest Outfit",
-            price = 750,
+            price = 420,
             sexId = {
                 female = 1024,
                 male = 1023
@@ -2815,7 +2815,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Trailblazer_Male_Addon_3.png", "Outfit_Trailblazer_Female_Addon_3.png" },
             name = "Full Trailblazer Outfit",
-            price = 600,
+            price = 360,
             sexId = {
                 female = 1293,
                 male = 1292
@@ -2826,7 +2826,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Trophy_Hunter_Male_Addon_3.png", "Outfit_Trophy_Hunter_Female_Addon_3.png" },
             name = "Full Trophy Hunter Outfit",
-            price = 870,
+            price = 420,
             sexId = {
                 female = 900,
                 male = 899
@@ -2838,7 +2838,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Veteran_Paladin_Male_Addon_3.png", "Outfit_Veteran_Paladin_Female_Addon_3.png" },
             name = "Full Veteran Paladin Outfit",
-            price = 750,
+            price = 360,
             sexId = {
                 female = 1205,
                 male = 1204
@@ -2850,7 +2850,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Void_Master_Male_Addon_3.png", "Outfit_Void_Master_Female_Addon_3.png" },
             name = "Full Void Master Outfit",
-            price = 750,
+            price = 420,
             sexId = {
                 female = 1203,
                 male = 1202
@@ -2862,7 +2862,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Winter_Warden_Male_Addon_3.png", "Outfit_Winter_Warden_Female_Addon_3.png" },
             name = "Full Winter Warden Outfit",
-            price = 870,
+            price = 400,
             sexId = {
                 female = 852,
                 male = 853
@@ -2873,7 +2873,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Retro_Citizen_Male.png", "Outfit_Retro_Citizen_Female.png" },
             name = "Retro Citizen",
-            price = 870,
+            price = 500,
             sexId = {
                 female = 975,
                 male = 974
@@ -2883,7 +2883,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Retro_Hunter_Male.png", "Outfit_Retro_Hunter_Female.png" },
             name = "Retro Hunter",
-            price = 870,
+            price = 500,
             sexId = {
                 female = 973,
                 male = 972
@@ -2893,7 +2893,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Retro_Knight_Male.png", "Outfit_Retro_Knight_Female.png" },
             name = "Retro Knight",
-            price = 870,
+            price = 500,
             sexId = {
                 female = 971,
                 male = 970
@@ -2903,7 +2903,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Retro_Mage_Male.png", "Outfit_Retro_Mage_Female.png" },
             name = "Retro Mage",
-            price = 870,
+            price = 500,
             sexId = {
                 female = 969,
                 male = 968
@@ -2913,7 +2913,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Retro_Nobleman_Male.png", "Outfit_Retro_Nobleman_Female.png" },
             name = "Retro Noble(wo)man",
-            price = 870,
+            price = 500,
             sexId = {
                 female = 967,
                 male = 966
@@ -2923,7 +2923,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Retro_Summoner_Male.png", "Outfit_Retro_Summoner_Female.png" },
             name = "Retro Summoner",
-            price = 870,
+            price = 500,
             sexId = {
                 female = 965,
                 male = 964
@@ -2933,7 +2933,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Retro_Warrior_Male.png", "Outfit_Retro_Warrior_Female.png" },
             name = "Retro Warrior",
-            price = 870,
+            price = 500,
             sexId = {
                 female = 963,
                 male = 962
@@ -5884,7 +5884,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Demon_Exercise_Dummy.png" },
             name = "Demon Exercise Dummy",
-            price = 900,
+            price = 250,
             itemtype = 28561,
             count = 1,
             description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
@@ -5892,7 +5892,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Ferumbras_Exercise_Dummy.png" },
             name = "Ferumbras Exercise Dummy",
-            price = 900,
+            price = 250,
             itemtype = 28559,
             count = 1,
             description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
@@ -5916,7 +5916,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Mailbox.png" },
             name = "Mailbox",
-            price = 150,
+            price = 100,
             itemtype = 23399,
             count = 1,
             description = "<i>Send your letters and parcels right from your own home!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{backtoinbox}",
@@ -5924,7 +5924,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Monk_Exercise_Dummy.png" },
             name = "Monk Exercise Dummy",
-            price = 900,
+            price = 250,
             itemtype = 28563,
             count = 1,
             description = "<i>Train your skills more effectively at home than in public on this expert exercise dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
@@ -6169,7 +6169,7 @@ GameStore.Categories = { -- Premium Time
         offers = { {
             icons = { "Prey_Bonus_Reroll.png" },
             name = "Prey Wildcard",
-            price = 50,
+            price = 55,
             id = GameStore.SubActions.PREY_WILDCARD,
             count = 5,
             description = "<i>Use Prey Wildcards to reroll the bonus of an active prey, to lock your active prey or to select a prey of your choice.</i>\n\n{character}\n{info} added directly to Prey dialog\n{info} maximum amount that can be owned by character: 50",
@@ -6192,14 +6192,14 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Permanent_Prey_Slot.png" },
             name = "Permanent Prey Slot",
-            price = 900,
+            price = 400,
             id = GameStore.SubActions.PREY_THIRDSLOT_REDIRECT,
             description = "<i>Get an additional prey slot to activate additional prey!</i>\n\n{character}\n{info} maximum amount that can be owned by character: 3\n{info} added directly to Prey dialog",
             type = GameStore.OfferTypes.OFFER_TYPE_PREYSLOT
         }, {
             icons = { "Permanent_Hunting_Task_Slot.png" },
             name = "Permanent Hunting Task Slot",
-            price = 900,
+            price = 100,
             id = GameStore.SubActions.TASKHUNTING_THIRDSLOT,
             description = "<i>Get an additional hunting tasks slot to activate additional hunting task!</i>\n\n{character}\n{info} maximum amount that can be owned by character: 3\n{info} added directly to Hunting Task dialog",
             type = GameStore.OfferTypes.OFFER_TYPE_HUNTINGSLOT
@@ -6222,7 +6222,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Magic_Gold_Converter.png" },
             name = "Magic Gold Converter",
-            price = 15,
+            price = 10,
             itemtype = 28525,
             charges = 500,
             description =
@@ -6232,7 +6232,7 @@ GameStore.Categories = { -- Premium Time
             icons = { "Prey_Bonus_Reroll.png" },
             name = "Prey Wildcard",
             price = 50,
-            count = 20,
+            count = 240,
             description = "<i>Use Prey Wildcards to reroll the bonus of an active prey, to lock your active prey or to select a prey of your choice.</i>\n\n{character}\n{info} added directly to Prey dialog\n{info} maximum amount that can be owned by character: 50",
             type = GameStore.OfferTypes.OFFER_TYPE_PREYBONUS
         }, {

@@ -5970,7 +5970,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Hireling_Male.png" },
             name = "Hireling Name Change",
-            price = 250,
+            price = 150,
             id = 25438,
             count = 1,
             number = 1,
@@ -5988,7 +5988,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Hireling_Cook.png" },
             name = "Hireling Cook",
-            price = 900,
+            price = 380,
             id = HIRELING_SKILLS.COOKING[1],
             count = 1,
             number = 1,
@@ -5997,7 +5997,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Hireling_Trader.png" },
             name = "Hireling Trader",
-            price = 250,
+            price = 240,
             id = HIRELING_SKILLS.TRADER[1],
             count = 1,
             number = 1,
@@ -6032,7 +6032,7 @@ GameStore.Categories = { -- Premium Time
         offers = { {
             icons = { "Hireling_Banker.png" },
             name = "Banker Dress",
-            price = 500,
+            price = 200,
             id = HIRELING_OUTFITS.BANKER[1],
             count = 1,
             number = 1,
@@ -6042,7 +6042,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Hireling_Trader.png" },
             name = "Trader Dress",
-            price = 500,
+            price = 200,
             id = HIRELING_OUTFITS.TRADER[1],
             count = 1,
             number = 1,
@@ -6062,7 +6062,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Hireling_Steward.png" },
             name = "Steward Dress",
-            price = 500,
+            price = 200,
             id = HIRELING_OUTFITS.STEWARD[1],
             count = 1,
             number = 1,
@@ -6072,7 +6072,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Hireling_Servant.png" },
             name = "Servant Dress",
-            price = 300,
+            price = 100,
             id = HIRELING_OUTFITS.SERVANT[1],
             count = 1,
             number = 1,
@@ -6082,7 +6082,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Hireling_Hydra.png" },
             name = "Hydra Dress",
-            price = 900,
+            price = 300,
             id = HIRELING_OUTFITS.HYDRA[1],
             count = 1,
             number = 1,
@@ -6091,7 +6091,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Hireling_Ferumbras.png" },
             name = "Ferumbras Dress",
-            price = 900,
+            price = 300,
             id = HIRELING_OUTFITS.FERUMBRAS[1],
             count = 1,
             number = 1,
@@ -6100,7 +6100,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Hireling_Bonelord.png" },
             name = "Bonelord Dress",
-            price = 900,
+            price = 300,
             id = HIRELING_OUTFITS.BONELORD[1],
             count = 1,
             number = 1,
@@ -6109,7 +6109,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Hireling_Dragon.png" },
             name = "Dragon Dress",
-            price = 900,
+            price = 300,
             id = HIRELING_OUTFITS.DRAGON[1],
             count = 1,
             number = 1,
@@ -6185,14 +6185,14 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Charm_Expansion_Offer.png" },
             name = "Charm Expansion",
-            price = 450,
+            price = 250,
             id = GameStore.SubActions.CHARM_EXPANSION,
             description = "<i>Assign as many of your unlocked Charms as you like and get a 25% discount whenever you are removing a Charm from a creature!</i>\n\n{character}\n{once}",
             type = GameStore.OfferTypes.OFFER_TYPE_CHARMS
         }, {
             icons = { "Permanent_Prey_Slot.png" },
             name = "Permanent Prey Slot",
-            price = 400,
+            price = 250,
             id = GameStore.SubActions.PREY_THIRDSLOT_REDIRECT,
             description = "<i>Get an additional prey slot to activate additional prey!</i>\n\n{character}\n{info} maximum amount that can be owned by character: 3\n{info} added directly to Prey dialog",
             type = GameStore.OfferTypes.OFFER_TYPE_PREYSLOT
@@ -6214,7 +6214,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Gold_Pouch.png" },
             name = "Gold Pouch",
-            price = 900,
+            price = 300,
             itemtype = 23721,
             count = 1,
             description = "<i>Carries as many gold, platinum or crystal coins as your capacity allows, however, no other items.</i>\n\n{character}\n{storeinbox}\n{once}\n{useicon} use it to open it\n{info} always placed on the first position of your Store inbox",
@@ -6249,17 +6249,17 @@ GameStore.Categories = { -- Premium Time
         rookgaard = true,
         subclasses = { "Tickets", "Exclusive Offers" }
     }, -- Tournament ~ Tickets
-    {
-        icons = { "Category_Tickets.png" },
-        parent = "Tournament",
-        name = "Tickets",
-        rookgaard = true,
-        offers = { {
-            icons = { "Tournament_Restricted.png" },
-            name = "Restricted Tournament Ticket",
-            price = 500
-        } }
-    }, -- Tournament ~ Exclusive Offers
+   -- {
+       -- icons = { "Category_Tickets.png" },
+       -- parent = "Tournament",
+       -- name = "Tickets",
+       -- rookgaard = true,
+       -- offers = { {
+       --     icons = { "Tournament_Restricted.png" },
+       --     name = "Restricted Tournament Ticket",
+       --     price = 500
+       -- } }
+    --}, -- Tournament ~ Exclusive Offers
     {
         icons = { "Category_ExclusiveOffers.png" },
         name = "Exclusive Offers",
@@ -6269,7 +6269,7 @@ GameStore.Categories = { -- Premium Time
         offers = { {
             icons = { "Baby_Brain_Squid.png" },
             name = "Baby Brain Squid",
-            price = 800,
+            price = 220,
             itemtype = 32909,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6277,7 +6277,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Baby_Vulcongra.png" },
             name = "Baby Vulcongra",
-            price = 800,
+            price = 220,
             itemtype = 32908,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6285,7 +6285,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Carved_Table.png" },
             name = "Carved Table",
-            price = 100,
+            price = 20,
             itemtype = 32972,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6293,7 +6293,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Carved_Table_Centre.png" },
             name = "Carved Table Centre",
-            price = 100,
+            price = 20,
             itemtype = 32974,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6301,7 +6301,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Carved_Table_Corner.png" },
             name = "Carved Table Corner",
-            price = 100,
+            price = 20,
             itemtype = 32969,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6309,7 +6309,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Cerberus_Champion.png" },
             name = "Cerberus Champion",
-            price = 1250,
+            price = 500,
             id = 146,
             description =
             "{info} usable by all characters of the account\n{speedboost}\n\n<i>A fierce and grim guardian of the underworld has risen to fight side by side with the bravest warriors in order to send evil creatures into the realm of the dead. The three headed Cerberus Champion is constantly baying for blood and using its sharp fangs it easily rips apart even the strongest armour and shield.",
@@ -6317,7 +6317,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Cerberus_Champion_Puppy.png" },
             name = "Cerberus Champion Puppy",
-            price = 800,
+            price = 220,
             itemtype = 31464,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -6325,7 +6325,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Cozy_Couch.png" },
             name = "Cozy Couch",
-            price = 100,
+            price = 20,
             itemtype = 32948,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6333,7 +6333,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Cozy_Couch_Left_End.png" },
             name = "Cozy Couch Left End",
-            price = 100,
+            price = 20,
             itemtype = 32952,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6341,7 +6341,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Cozy_Couch_Right_End.png" },
             name = "Cozy Couch Right End",
-            price = 100,
+            price = 20,
             itemtype = 32956,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6349,7 +6349,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Cozy_Couch_Corner.png" },
             name = "Cozy Couch Corner",
-            price = 100,
+            price = 20,
             itemtype = 32964,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6357,7 +6357,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Demon_Doll.png" },
             name = "Demon Doll",
-            price = 400,
+            price = 300,
             itemtype = 32918,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6365,7 +6365,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Dragon_Slayer_Male_Addon_3.png", "Outfit_Dragon_Slayer_Female_Addon_3.png" },
             name = "Full Dragon Slayer Outfit",
-            price = 5000,
+            price = 1200,
             sexId = {
                 female = 1289,
                 male = 1288
@@ -6422,7 +6422,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Guzzlemaw_Grub.png" },
             name = "Guzzlemaw Grub",
-            price = 800,
+            price = 220,
             itemtype = 32907,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6430,7 +6430,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Jousting_Eagle.png" },
             name = "Jousting Eagle",
-            price = 1250,
+            price = 450,
             id = 145,
             description =
             "{info} usable by all characters of the account\n{speedboost}\n\n<i>High above the clouds far away from dry land, the training of giant eagles takes place. Only the cream of the crop is able to survive in such harsh environment long enough to call themselves Jousting Eagles while the weaklings find themselves at the bottom of the sea. The tough ones become noble and graceful mounts that are well known for their agility and endurance.</i>",
@@ -6438,7 +6438,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Jousting_Eagle_Baby.png" },
             name = "Jousting Eagle Baby",
-            price = 800,
+            price = 220,
             itemtype = 31462,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
@@ -6446,7 +6446,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Outfit_Lion_of_War_Male_Addon_3.png", "Outfit_Lion_of_War_Female_Addon_3.png" },
             name = "Full Lion of War Outfit",
-            price = 1750,
+            price = 500,
             sexId = {
                 female = 1207,
                 male = 1206
@@ -6458,7 +6458,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Ogre_Rowdy_Doll.png" },
             name = "Ogre Rowdy Doll",
-            price = 400,
+            price = 300,
             itemtype = 32944,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6466,7 +6466,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Retching_Horror_Doll.png" },
             name = "Retching Horror Doll",
-            price = 400,
+            price = 300,
             itemtype = 32945,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6474,7 +6474,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Sublime_Tournament_Accolade.png" },
             name = "Sublime Tournament Accolade",
-            price = 500,
+            price = 350,
             itemtype = 31472,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6482,7 +6482,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Sublime_Tournament_Carpet.png" },
             name = "Sublime Tournament Carpet",
-            price = 70,
+            price = 30,
             itemtype = 31467,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{useicon} use an unwrapped carpet to roll it out or up\n{backtoinbox}",
@@ -6490,7 +6490,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Tournament_Accolade.png" },
             name = "Tournament Accolade",
-            price = 500,
+            price = 350,
             itemtype = 31470,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",
@@ -6498,7 +6498,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Tournament_Carpet.png" },
             name = "Tournament Carpet",
-            price = 70,
+            price = 30,
             itemtype = 31466,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{useicon} use an unwrapped carpet to roll it out or up\n{backtoinbox}",
@@ -6506,7 +6506,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Vexclaw_Doll.png" },
             name = "Vexclaw Doll",
-            price = 400,
+            price = 300,
             itemtype = 32943,
             count = 1,
             description = "{house}\n{box}\n{storeinbox}\n{backtoinbox}",

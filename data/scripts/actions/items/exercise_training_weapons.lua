@@ -128,6 +128,7 @@ local function exerciseTrainingEvent(playerId, tilePosition, weaponId, dummyId)
 	local eventSpeedMultiplier = 1
 	local scopedFastExercise = KV.scoped("eventscheduler"):get("fast-exercise")
 	if scopedFastExercise then
+		-- 1.5???
 		eventSpeedMultiplier = 0.5
 		logger.debug("Fast exercise is enabled.")
 	end
@@ -183,7 +184,7 @@ function exerciseTraining.onUse(player, item, fromPosition, target, toPosition, 
 				if playerTraining.dummyPos == targetPos then
 					playersOnDummy = playersOnDummy + 1
 				end
-
+				--- STORE DUMMY??
 				if playersOnDummy >= configManager.getNumber(configKeys.MAX_ALLOWED_ON_A_DUMMY) then
 					player:sendTextMessage(MESSAGE_FAILURE, "That exercise dummy is busy.")
 					return true

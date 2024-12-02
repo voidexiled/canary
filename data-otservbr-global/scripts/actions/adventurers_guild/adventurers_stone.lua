@@ -1,12 +1,12 @@
 local config = {
 	enableTemples = true,
-	enableDepots = false,
+	enableDepots = true,
 
 	Temples = {
 		{ fromPos = Position(32727, 31632, 7), toPos = Position(32736, 31639, 7), townId = TOWNS_LIST.AB_DENDRIEL },
 		{ fromPos = Position(32358, 31777, 7), toPos = Position(32364, 31787, 7), townId = TOWNS_LIST.CARLIN },
 		{ fromPos = Position(32642, 31921, 11), toPos = Position(32656, 31929, 11), townId = TOWNS_LIST.KAZORDOON },
-		{ fromPos = Position(32365, 32231, 7), toPos = Position(32374, 32243, 7), townId = TOWNS_LIST.THAIS },
+		{ fromPos = Position(32354, 32233, 7), toPos = Position(32372, 32246, 7), townId = TOWNS_LIST.THAIS },
 		{ fromPos = Position(32953, 32072, 7), toPos = Position(32963, 32081, 7), townId = TOWNS_LIST.VENORE },
 		{ fromPos = Position(33188, 32844, 8), toPos = Position(33201, 32857, 8), townId = TOWNS_LIST.ANKRAHMUN },
 		{ fromPos = Position(33208, 31803, 8), toPos = Position(33225, 31819, 8), townId = TOWNS_LIST.EDRON },
@@ -26,7 +26,7 @@ local config = {
 		{ fromPos = Position(32677, 31682, 7), toPos = Position(32684, 31690, 7), townId = TOWNS_LIST.AB_DENDRIEL },
 		{ fromPos = Position(32331, 31776, 7), toPos = Position(32339, 31787, 7), townId = TOWNS_LIST.CARLIN },
 		{ fromPos = Position(32644, 31903, 8), toPos = Position(32665, 31920, 8), townId = TOWNS_LIST.KAZORDOON },
-		{ fromPos = Position(32340, 32217, 7), toPos = Position(32355, 32232, 7), townId = TOWNS_LIST.THAIS },
+		{ fromPos = Position(32346, 32221, 7), toPos = Position(32364, 32231, 7), townId = TOWNS_LIST.THAIS },
 		{ fromPos = Position(32910, 32070, 7), toPos = Position(32930, 32082, 7), townId = TOWNS_LIST.VENORE },
 		{ fromPos = Position(33119, 32836, 7), toPos = Position(33133, 32850, 7), townId = TOWNS_LIST.ANKRAHMUN },
 		{ fromPos = Position(33160, 31794, 9), toPos = Position(33175, 31814, 8), townId = TOWNS_LIST.EDRON },

@@ -222,19 +222,19 @@
 	<house name="Alai Flats, Flat 11" houseid="2889" entryx="32382" entryy="32256" entryz="6" rent="80000" townid="8" size="17" clientid="0" beds="1" />
 	<house name="Alai Flats, Flat 12" houseid="2890" entryx="32377" entryy="32256" entryz="6" rent="25000" townid="8" size="17" clientid="0" beds="1" />
 	<house name="Alai Flats, Flat 13" houseid="2891" entryx="32377" entryy="32268" entryz="6" rent="50000" townid="8" size="17" clientid="0" beds="1" />
-	<house name="Alai Flats, Flat 14" houseid="2892" entryx="32386" entryy="32261" entryz="6" rent="80000" townid="8" size="19" clientid="0" beds="1" />
-	<house name="Alai Flats, Flat 15" houseid="2893" entryx="32386" entryy="32268" entryz="6" rent="100000" townid="8" size="29" clientid="0" beds="2" />
+	<house name="Alai Flats, Flat 14" houseid="2892" entryx="32386" entryy="32261" entryz="6" rent="80000" townid="8" size="20" clientid="0" beds="1" />
+	<house name="Alai Flats, Flat 15" houseid="2893" entryx="32386" entryy="32268" entryz="6" rent="100000" townid="8" size="30" clientid="0" beds="2" />
 	<house name="Alai Flats, Flat 16" houseid="2894" entryx="32386" entryy="32268" entryz="6" rent="100000" townid="8" size="30" clientid="0" beds="2" />
 	<house name="Alai Flats, Flat 17" houseid="2895" entryx="32382" entryy="32268" entryz="6" rent="80000" townid="8" size="20" clientid="0" beds="1" />
 	<house name="Alai Flats, Flat 18" houseid="2896" entryx="32377" entryy="32268" entryz="6" rent="50000" townid="8" size="20" clientid="0" beds="1" />
 	<house name="Alai Flats, Flat 21" houseid="2897" entryx="32382" entryy="32256" entryz="5" rent="50000" townid="8" size="17" clientid="0" beds="1" />
 	<house name="Alai Flats, Flat 22" houseid="2898" entryx="32377" entryy="32256" entryz="5" rent="50000" townid="8" size="17" clientid="0" beds="1" />
 	<house name="Alai Flats, Flat 23" houseid="2899" entryx="32377" entryy="32268" entryz="5" rent="25000" townid="8" size="17" clientid="0" beds="1" />
-	<house name="Alai Flats, Flat 28" houseid="2900" entryx="32377" entryy="32268" entryz="5" rent="80000" townid="8" size="19" clientid="0" beds="1" />
-	<house name="Alai Flats, Flat 27" houseid="2901" entryx="32382" entryy="32268" entryz="5" rent="80000" townid="8" size="19" clientid="0" beds="1" />
-	<house name="Alai Flats, Flat 26" houseid="2902" entryx="32386" entryy="32268" entryz="5" rent="100000" townid="8" size="29" clientid="0" beds="2" />
-	<house name="Alai Flats, Flat 25" houseid="2903" entryx="32386" entryy="32268" entryz="5" rent="100000" townid="8" size="29" clientid="0" beds="2" />
-	<house name="Alai Flats, Flat 24" houseid="2904" entryx="32386" entryy="32261" entryz="5" rent="80000" townid="8" size="20" clientid="0" beds="1" />
+	<house name="Alai Flats, Flat 28" houseid="2900" entryx="32377" entryy="32268" entryz="5" rent="80000" townid="8" size="20" clientid="0" beds="1" />
+	<house name="Alai Flats, Flat 27" houseid="2901" entryx="32382" entryy="32268" entryz="5" rent="80000" townid="8" size="20" clientid="0" beds="1" />
+	<house name="Alai Flats, Flat 26" houseid="2902" entryx="32386" entryy="32268" entryz="5" rent="100000" townid="8" size="30" clientid="0" beds="2" />
+	<house name="Alai Flats, Flat 25" houseid="2903" entryx="32386" entryy="32268" entryz="5" rent="100000" townid="8" size="30" clientid="0" beds="2" />
+	<house name="Alai Flats, Flat 24" houseid="2904" entryx="32386" entryy="32261" entryz="5" rent="80000" townid="8" size="21" clientid="0" beds="1" />
 	<house name="Beach Home Apartments, Flat 01" houseid="2905" entryx="32314" entryy="32245" entryz="7" rent="50000" townid="8" size="13" clientid="0" beds="1" />
 	<house name="Beach Home Apartments, Flat 02" houseid="2906" entryx="32314" entryy="32240" entryz="7" rent="80000" townid="8" size="13" clientid="0" beds="1" />
 	<house name="Beach Home Apartments, Flat 03" houseid="2907" entryx="32317" entryy="32235" entryz="7" rent="80000" townid="8" size="13" clientid="0" beds="1" />
@@ -269,7 +269,7 @@
 	<house name="Greenshore Village 3" houseid="2936" entryx="32264" entryy="32041" entryz="7" rent="50000" townid="8" size="30" clientid="0" beds="2" />
 	<house name="Greenshore Village 2" houseid="2939" entryx="32264" entryy="32042" entryz="7" rent="50000" townid="8" size="30" clientid="0" beds="2" />
 	<house name="Greenshore Village 6" houseid="2940" entryx="32258" entryy="32041" entryz="6" rent="150000" townid="8" size="79" clientid="0" beds="2" />
-	<house name="Harbour Place 1 (Shop)" houseid="2941" entryx="32336" entryy="32222" entryz="7" rent="800000" townid="8" size="43" clientid="0" beds="1" />
+	<house name="Harbour Place 1 (Shop)" houseid="2941" entryx="32336" entryy="32222" entryz="7" rent="800000" townid="8" size="31" clientid="0" beds="1" />
 	<house name="Harbour Place 2 (Shop)" houseid="2942" entryx="32336" entryy="32210" entryz="7" rent="600000" townid="8" size="25" clientid="0" beds="1" />
 	<house name="Harbour Place 3" houseid="2943" entryx="32331" entryy="32208" entryz="7" rent="800000" townid="8" size="87" clientid="0" beds="5" />
 	<house name="Harbour Place 4" houseid="2944" entryx="32332" entryy="32257" entryz="7" rent="80000" townid="8" size="17" clientid="0" beds="5" />
@@ -332,7 +332,7 @@
 	<house name="The City Wall 5a" houseid="3001" entryx="32416" entryy="32220" entryz="7" rent="50000" townid="8" size="13" clientid="0" beds="1" />
 	<house name="The City Wall 5c" houseid="3002" entryx="32416" entryy="32223" entryz="7" rent="50000" townid="8" size="13" clientid="0" beds="1" />
 	<house name="The City Wall 5e" houseid="3003" entryx="32416" entryy="32226" entryz="7" rent="50000" townid="8" size="13" clientid="0" beds="1" />
-	<house name="Warriors' Guildhall" houseid="3004" entryx="32348" entryy="32213" entryz="7" rent="5000000" guildhall="true" townid="8" size="306" clientid="0" beds="11" />
+	<house name="Warriors' Guildhall" houseid="3004" entryx="32348" entryy="32213" entryz="7" rent="5000000" guildhall="true" townid="8" size="307" clientid="0" beds="11" />
 	<house name="The Tibianic" houseid="3005" entryx="32277" entryy="32011" entryz="5" rent="500000" guildhall="true" townid="8" size="809" clientid="0" beds="22" />
 	<house name="Bloodhall" houseid="3006" entryx="32469" entryy="32170" entryz="7" rent="500000" guildhall="true" townid="8" size="321" clientid="0" beds="16" />
 	<house name="Fibula Clanhall" houseid="3007" entryx="32178" entryy="32373" entryz="7" rent="250000" guildhall="true" townid="8" size="178" clientid="0" beds="10" />
@@ -340,7 +340,7 @@
 	<house name="Halls of the Adventurers" houseid="3009" entryx="32396" entryy="32042" entryz="7" rent="250000" guildhall="true" townid="8" size="317" clientid="0" beds="18" />
 	<house name="Mercenary Tower" houseid="3010" entryx="32208" entryy="32437" entryz="7" rent="250000" guildhall="true" townid="8" size="619" clientid="0" beds="26" />
 	<house name="Snake Tower" houseid="3011" entryx="32435" entryy="32359" entryz="7" rent="500000" guildhall="true" townid="8" size="627" clientid="0" beds="21" />
-	<house name="Southern Thais Guildhall" houseid="3012" entryx="32401" entryy="32254" entryz="7" rent="1000000" guildhall="true" townid="8" size="348" clientid="0" beds="16" />
+	<house name="Southern Thais Guildhall" houseid="3012" entryx="32401" entryy="32254" entryz="7" rent="1000000" guildhall="true" townid="8" size="347" clientid="0" beds="16" />
 	<house name="Spiritkeep" houseid="3013" entryx="32265" entryy="32316" entryz="7" rent="500000" guildhall="true" townid="8" size="289" clientid="0" beds="23" />
 	<house name="Thais Clanhall" houseid="3014" entryx="32326" entryy="32272" entryz="7" rent="500000" guildhall="true" townid="8" size="188" clientid="0" beds="10" />
 	<house name="The Lair" houseid="3015" entryx="32993" entryy="32152" entryz="7" rent="200000" townid="9" size="259" clientid="0" beds="3" />

@@ -1,6 +1,8 @@
 local effects = {
-    { position = Position(32373, 32236, 7), text = 'NPCS' },
-    { position = Position(32365, 32236, 7), text = 'EVENTOS' },
+    { position = Position(32366, 32246, 7), text = 'Npc island', effect = 42 },
+    { position = Position(32375, 32243, 7), text = 'Trainers', effect = 42 },
+    { position = Position(32363, 32246, 7), text = 'Events', effect = 42 },
+    { position = Position(32365, 32233, 7), text = 'Weekly Reward (PRONTO)', effect = 32 }
 
     --{ position = Position(32364, 32242, 7), text = 'Vip !autoloot on/off' },
     --{ position = Position(32369, 32242, 7), text = "Join Discord" }

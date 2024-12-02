@@ -1439,7 +1439,7 @@ void Player::sendLootStats(const std::shared_ptr<Item> &item, uint8_t count) {
 		} else if (item->getID() == ITEM_CRYSTAL_COIN) {
 			value = count * 10000;
 		} else if (item->getID() == ITEM_NUGGET_COIN) {
-			value = count * 1000000;
+			value = count * 1000000ULL;
 		} else {
 			value = count;
 		}

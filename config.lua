@@ -374,7 +374,7 @@ pushWhenAttacking = false
 -- Note: If toggleDownloadMap is set to false, the mapDownloadUrl will not be used.
 -- Note: If a map with the same name already exists in the world folder, the map will not be downloaded, even if toggleDownloadMap is set to true.
 toggleDownloadMap = true
-mapDownloadUrl = "https://github.com/voidexiled/canary/releases/download/v1.0.0.5/otservbr.otbm"
+mapDownloadUrl = "https://github.com/voidexiled/canary/releases/download/v1.0.0.6/otservbr.otbm"
 mapName = "otservbr"
 mapAuthor = "OpenTibiaBR"
 
@@ -402,7 +402,7 @@ mysqlUser = "noctera_test"
 --mysqlUser = "root"
 mysqlPass = "z4me5cwh"
 mysqlDatabase = "noctera_db"
---mysqlDatabase = "test1"
+--mysqlDatabase = "test4"
 mysqlPort = 3306
 mysqlSock = ""
 passwordType = "sha1"

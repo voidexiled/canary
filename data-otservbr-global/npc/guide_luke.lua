@@ -62,7 +62,7 @@ end
 local configMarks = {
 	{ mark = "shops", position = Position(32367, 32197, 7), markId = MAPMARK_BAG, description = "Shops" },
 	{ mark = "depot", position = Position(32321, 32212, 7), markId = MAPMARK_LOCK, description = "Depot" },
-	{ mark = "temple", position = Position(32369, 32241, 7), markId = MAPMARK_TEMPLE, description = "Temple" },
+	{ mark = "temple", position = Position(32362, 32239, 7), markId = MAPMARK_TEMPLE, description = "Temple" },
 }
 
 local function creatureSayCallback(npc, creature, type, message)

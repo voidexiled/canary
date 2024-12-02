@@ -110,7 +110,8 @@ function rewardLevel.onAdvance(player, skill, oldLevel, newLevel)
         return true
     end
 
-    local vocationId = player:getVocation():getId()
+    local vocId = Vocation(player:getVocation():getId())
+    local vocationId = vocId:getPromotion()
     local playerStorage = storageBase + vocationId
 
     for vocations, rewards in pairs(vocationRewards) do

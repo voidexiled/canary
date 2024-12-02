@@ -1962,9 +1962,9 @@ ReturnValue Game::checkMoveItemToCylinder(const std::shared_ptr<Player> &player,
 				isValidMoveItem = true;
 			}
 
-			if (item->getID() == ITEM_GOLD_POUCH || item->getID() >= 49990) {
+			/*if (item->getID() == ITEM_GOLD_POUCH || item->getID() >= 49990) {
 				isValidMoveItem = true;
-			}
+			}*/
 
 			if (!isValidMoveItem) {
 				return RETURNVALUE_ITEMCANNOTBEMOVEDTHERE;
@@ -2737,8 +2737,8 @@ void Game::addMoney(const std::shared_ptr<Cylinder> &cylinder, uint64_t money, u
 		}
 	};
 
-	uint64_t nocteraCoins = money / 100000;
-	money -= nocteraCoins * 100000;
+	uint64_t nocteraCoins = money / 1000000ULL;
+	money -= nocteraCoins * 1000000ULL;
 	addCoins(ITEM_NUGGET_COIN, nocteraCoins);
 
 	uint32_t crystalCoins = money / 10000;

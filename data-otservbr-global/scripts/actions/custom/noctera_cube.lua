@@ -21,7 +21,7 @@ local config = {
         { name = "Rathleton", teleport = Position(33594, 31899, 6) },
         { name = "Roshamuul", teleport = Position(33513, 32363, 6) },
         { name = "Svargrond", teleport = Position(32212, 31132, 7) },
-        { name = "Thais", teleport = Position(32369, 32241, 7) },
+        { name = "Thais", teleport = Position(32362, 32239, 7) },
         { name = "Venore", teleport = Position(32957, 32076, 7) },
         { name = "Yalahar", teleport = Position(32787, 31276, 7) },
     }

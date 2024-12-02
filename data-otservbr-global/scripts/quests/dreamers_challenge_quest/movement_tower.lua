@@ -1,6 +1,6 @@
 local config = {
 	[3048] = { storageValue = 1, toPosition = Position(32360, 31782, 7) }, -- Carlin
-	[3049] = { storageValue = 1, toPosition = Position(32369, 32241, 7) }, -- Thais
+	[3049] = { storageValue = 1, toPosition = Position(32362, 32239, 7) }, -- Thais
 	[3050] = { storageValue = 1, toPosition = Position(32750, 32344, 14) }, -- Dream realm
 	[3051] = { storageValue = 2, toPosition = Position(32649, 31925, 11) }, -- Kazoordoon
 	[3052] = { storageValue = 2, toPosition = Position(32732, 31634, 7) }, -- Ab

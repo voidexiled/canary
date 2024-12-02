@@ -1774,7 +1774,7 @@
 		<npc name="Sherry Mcronald" x="0" y="0" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="32346" centery="32238" centerz="7" radius="2">
-		<npc name="Runtel Blackspark" x="-1" y="-1" z="7" spawntime="60" />
+		<npc name="Walter Jaeger" x="-1" y="-1" z="7" spawntime="60" />
 	</npc>
 	<npc centerx="33530" centery="32238" centerz="7" radius="1">
 		<npc name="Peaceful Pooka" x="0" y="0" z="7" spawntime="60" />

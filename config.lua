@@ -347,7 +347,7 @@ Setting this to false may pose risks; if a house is abandoned and contains a lar
 -- Periods: daily/weekly/monthly/yearly/never
 -- Base: sqm,rent,sqm+rent
 housePriceRentMultiplier = 0.0
-housePriceEachSQM = 2000
+housePriceEachSQM = 1600
 houseRentPeriod = "weekly"
 houseRentRate = 1.0
 houseOwnedByAccount = false

@@ -111,49 +111,49 @@ GameStore.Categories = { -- Premium Time
         offers = {
             {
                 icons = { "Frag_Remover_Doll.png" },
-                name = "frag remover doll",
+                name = "Frag remover doll",
                 price = 600,
                 itemtype = 50005,
                 description = "<i>The crimson reaper grants absolution, one claw swipe at a time.</i>\n\n{info} removes all frags and red/black skull too.\n{info} can only be used in protection zone.\n{info} can only be used when you have red skull or black skull.\n{transferableprice}",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
                 state = GameStore.States.STATE_NEW,
             },
-            -- {
-            --     icons = { "Addon_Doll.png" },
-            --     name = "Addon doll",
-            --     price = 870,
-            --     itemtype = 50003,
-            --     description = "<i>This playful jester holds the secrets of transformation. Just don't let it out of your sight.</i>\n\n{info} right click to use choose your new outfit.\n\n{info} to close the window press the 'cancel' button.",
-            --     type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-            --     state = GameStore.States.STATE_NEW,
-            -- },
-            -- {
-            --     icons = { "Mount_Doll.png" },
-            --     name = "Mount doll",
-            --     price = 870,
-            --     itemtype = 50004,
-            --     description = "<i>A reptilian effigy radiating power. It feels like it could spring to life at any moment.</i>\n\n{info} right click to use choose your new mount.\n\n{info} to close the window press the 'cancel' button.",
-            --     type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-            --     state = GameStore.States.STATE_NEW,
-            -- },
-            -- {
-            --     icons = { "Exclusive_Addon_Doll.png" },
-            --     name = "Exclusive addon doll",
-            --     price = 1200,
-            --     itemtype = 50007,
-            --     description = "<i>A fierce assassin caught mid-strike. Its twin blades seem to shimmer with deadly intent.</i>\n\n{info} right click to use choose your new exclusive outfit.\n\n{info} to close the window press the 'cancel' button.",
-            --     type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-            --     state = GameStore.States.STATE_NEW,
-            -- },
-            -- {
-            --     icons = { "Exclusive_Mount_Doll.png" },
-            --     name = "Exclusive mount doll",
-            --     price = 1200,
-            --     itemtype = 50008,
-            --     description = "<i>A token of unparalleled privilege, granting access to a mount like no other.</i>\n\n{info} right click to use choose your new exclusive mount.\n\n{info} to close the window press the 'cancel' button.",
-            --     type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
-            --     state = GameStore.States.STATE_NEW,
-            -- },
+            {
+                icons = { "Addon_Doll.png" },
+                name = "Addon doll",
+                price = 870,
+                itemtype = 50003,
+                description = "<i>This playful jester holds the secrets of transformation. Just don't let it out of your sight.</i>\n\n{info} right click to use choose your new outfit.\n\n{info} to close the window press the 'cancel' button.",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Mount_Doll.png" },
+                name = "Mount doll",
+                price = 870,
+                itemtype = 50004,
+                description = "<i>A reptilian effigy radiating power. It feels like it could spring to life at any moment.</i>\n\n{info} right click to use choose your new mount.\n\n{info} to close the window press the 'cancel' button.",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Exclusive_Addon_Doll.png" },
+                name = "Exclusive addon doll",
+                price = 1200,
+                itemtype = 50007,
+                description = "<i>A fierce assassin caught mid-strike. Its twin blades seem to shimmer with deadly intent.</i>\n\n{info} right click to use choose your new exclusive outfit.\n\n{info} to close the window press the 'cancel' button.",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
+            {
+                icons = { "Exclusive_Mount_Doll.png" },
+                name = "Exclusive mount doll",
+                price = 1200,
+                itemtype = 50008,
+                description = "<i>A token of unparalleled privilege, granting access to a mount like no other.</i>\n\n{info} right click to use choose your new exclusive mount.\n\n{info} to close the window press the 'cancel' button.",
+                type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
+                state = GameStore.States.STATE_NEW,
+            },
         }
     }, -- Features
     {
@@ -194,7 +194,7 @@ GameStore.Categories = { -- Premium Time
             },
 
         }
-    }, -- Foods
+    }, -- Consumables
 
 
     {
@@ -233,7 +233,7 @@ GameStore.Categories = { -- Premium Time
             },
 
         }
-    }, -- Exercise dummies
+    }, -- Consumables
 
     {
         icons = { "Category_PremiumTime.png" },
@@ -6258,17 +6258,17 @@ GameStore.Categories = { -- Premium Time
         rookgaard = true,
         subclasses = { "Tickets", "Exclusive Offers" }
     }, -- Tournament ~ Tickets
-    -- {
-    -- icons = { "Category_Tickets.png" },
-    -- parent = "Tournament",
-    -- name = "Tickets",
-    -- rookgaard = true,
-    -- offers = { {
-    --     icons = { "Tournament_Restricted.png" },
-    --     name = "Restricted Tournament Ticket",
-    --     price = 500
-    -- } }
-    --}, -- Tournament ~ Exclusive Offers
+     --[[ {
+     icons = { "Category_Tickets.png" },
+     parent = "Tournament",
+     name = "Tickets",
+     rookgaard = true,
+     offers = { {
+         icons = { "Tournament_Restricted.png" },
+         name = "Restricted Tournament Ticket",
+         price = 50000
+     } }
+    }, ]] -- Tournament ~ Exclusive Offers
     {
         icons = { "Category_ExclusiveOffers.png" },
         name = "Exclusive Offers",

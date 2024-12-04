@@ -22,6 +22,16 @@ local function getPositionDescription(position)
 	end
 end
 
+local dummies = Game.getDummies()
+
+local function isDummy(inspectedThing)
+	return dummies[inspectedThing.itemid] and dummies[inspectedThing.itemid] > 0
+end
+
+local function getDummyPercent(inspectedThing)
+	return dummies[inspectedThing.itemid]
+end
+
 local function handleItemDescription(inspectedThing, lookDistance)
 	local descriptionText = inspectedThing:getDescription(lookDistance)
 
@@ -31,6 +41,11 @@ local function handleItemDescription(inspectedThing, lookDistance)
 			return string.format("You see %s\nIt has %d refillings left.", descriptionText, itemCharges)
 		end
 	else
+		-- Dummy rate text
+		if isDummy(inspectedThing) then
+			local rate = getDummyPercent(inspectedThing)
+			return "You see " .. descriptionText .. "\nYou can train with " .. rate .. "% efficiency."
+		end
 		return "You see " .. descriptionText
 	end
 

@@ -240,7 +240,7 @@ GameStore.Categories = { -- Premium Time
         parent = "Noctera Shop",
         name = "Exercise dummies",
         rookgaard = true,
-        state = GameStore.States.STATE_NONE,
+        state = GameStore.States.STATE_NEW,
         offers =
         {
             {
@@ -250,7 +250,8 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 58463,
                 count = 1,
                 description = "<i>Channel the fiery energy of the Infernal Enchantress to elevate your combat mastery!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+                state = GameStore.States.STATE_NEW
             },
             {
                 icons = { "gilded_sovereign_dummy.png" },
@@ -259,7 +260,8 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 58403,
                 count = 1,
                 description = "<i>Train like royalty with the unmatched grandeur of the Gilded Sovereign Dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+                state = GameStore.States.STATE_NEW
             },
             {
                 icons = { "sanctified_protector_dummy.png" },
@@ -268,7 +270,8 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 58431,
                 count = 1,
                 description = "<i>Harness divine defense with the Sanctified Protector Dummy for skillful refinement!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+                state = GameStore.States.STATE_NEW
             },
 
             {
@@ -278,7 +281,8 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 58428,
                 count = 1,
                 description = "<i>Unleash the fiery wisdom of the Flameborn Archmage Dummy for dynamic training!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+                state = GameStore.States.STATE_NEW
             },
             {
                 icons = { "elemental_ascendant_dummy.png" },
@@ -287,7 +291,8 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 58435,
                 count = 1,
                 description = "<i>Master the elements with the raw energy of the Elemental Ascendant Dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+                state = GameStore.States.STATE_NEW
             },
             {
                 icons = { "infernal_enchantress_dummy.png" },
@@ -296,7 +301,8 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 58106,
                 count = 1,
                 description = "<i>Channel the fiery energy of the Infernal Enchantress to elevate your combat mastery!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+                state = GameStore.States.STATE_NEW
             },
             {
                 icons = { "frostbound_guardian_dummy.png" },
@@ -305,7 +311,8 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 58427,
                 count = 1,
                 description = "<i>Embrace the chilling might of the Frostbound Guardian Dummy for intense skill refinement!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+                state = GameStore.States.STATE_NEW
             },
 
             {
@@ -315,7 +322,8 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 58424,
                 count = 1,
                 description = "<i>Step into the abyss of training with the enigmatic Voidcaster Effigy Dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+                state = GameStore.States.STATE_NEW
             },
             {
                 icons = { "harvest_sentinel_dummy.png" },
@@ -324,7 +332,8 @@ GameStore.Categories = { -- Premium Time
                 itemtype = 58543,
                 count = 1,
                 description = "<i>Train with the eerie yet dependable Harvest Sentinel Dummy to sharpen your edge!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+                state = GameStore.States.STATE_NEW
             }
         }
     },
@@ -6258,7 +6267,7 @@ GameStore.Categories = { -- Premium Time
         rookgaard = true,
         subclasses = { "Tickets", "Exclusive Offers" }
     }, -- Tournament ~ Tickets
-     --[[ {
+    --[[ {
      icons = { "Category_Tickets.png" },
      parent = "Tournament",
      name = "Tickets",

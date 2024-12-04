@@ -132,7 +132,7 @@ magicLevelStages = {
 		multiplier = 6,
 	},
 	{
-		minlevel = 121,
+		minlevel = 111,
 		multiplier = 1.5,
 	},
 }

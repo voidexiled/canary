@@ -238,85 +238,94 @@ GameStore.Categories = { -- Premium Time
     {
         icons = { "Category_PremiumTime.png" },
         parent = "Noctera Shop",
-        name = "Exercise dummy",
+        name = "Exercise dummies",
         rookgaard = true,
         state = GameStore.States.STATE_NONE,
-        offers = 
-        { 
+        offers =
         {
-            icons = { "celestial_exercise_dummy.png" },
-            name = "celestial exercise dummy",
-            price = 350,
-            itemtype = 58463,
-            count = 1,
-            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
-        },
-        {
-            icons = { "Swordman_exercise_dummy.png" },
-            name = "Swordman exercise dummy",
-            price = 350,
-            itemtype = 58403,
-            count = 1,
-            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
-        },
-        {
-            icons = { "Angel_exercise_dummy.png" },
-            name = "Angel exercise dummy",
-            price = 350,
-            itemtype = 58431,
-            count = 1,
-            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
-        },
+            {
+                icons = { "seraphic_exercise_dummy.png" },
+                name = "seraphic sentinel dummy",
+                price = 450,
+                itemtype = 58463,
+                count = 1,
+                description = "<i>Channel the fiery energy of the Infernal Enchantress to elevate your combat mastery!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+            },
+            {
+                icons = { "gilded_sovereign_dummy.png" },
+                name = "gilded sovereign dummy",
+                price = 450,
+                itemtype = 58403,
+                count = 1,
+                description = "<i>Train like royalty with the unmatched grandeur of the Gilded Sovereign Dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+            },
+            {
+                icons = { "sanctified_protector_dummy.png" },
+                name = "sanctified protector dummy",
+                price = 450,
+                itemtype = 58431,
+                count = 1,
+                description = "<i>Harness divine defense with the Sanctified Protector Dummy for skillful refinement!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+            },
 
-        {
-            icons = { "MageFerumbrin_exercise_dummy.png" },
-            name = "MageFerumbrin exercise dummy",
-            price = 350,
-            itemtype = 58428,
-            count = 1,
-            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
-        },
-        {
-            icons = { "Adan_exercise_dummy.png" },
-            name = "Adan exercise dummy",
-            price = 350,
-            itemtype = 58435,
-            count = 1,
-            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
-        },
-        {
-            icons = { "Chaotic_exercise_dummy.png" },
-            name = "Chaotic exercise dummy",
-            price = 350,
-            itemtype = 58106,
-            count = 1,
-            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
-        },
-        {
-            icons = { "Iceman exercise dummy.png" },
-            name = "Iceman exercise dummy",
-            price = 350,
-            itemtype = 58427,
-            count = 1,
-            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
-        },
+            {
+                icons = { "flameborn_archmage_dummy.png" },
+                name = "flameborn archmage dummy",
+                price = 450,
+                itemtype = 58428,
+                count = 1,
+                description = "<i>Unleash the fiery wisdom of the Flameborn Archmage Dummy for dynamic training!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+            },
+            {
+                icons = { "elemental_ascendant_dummy.png" },
+                name = "elemental ascendant dummy",
+                price = 450,
+                itemtype = 58435,
+                count = 1,
+                description = "<i>Master the elements with the raw energy of the Elemental Ascendant Dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+            },
+            {
+                icons = { "infernal_enchantress_dummy.png" },
+                name = "infernal enchantress dummy",
+                price = 450,
+                itemtype = 58106,
+                count = 1,
+                description = "<i>Channel the fiery energy of the Infernal Enchantress to elevate your combat mastery!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+            },
+            {
+                icons = { "frostbound_guardian_dummy.png" },
+                name = "frostbound guardian dummy",
+                price = 450,
+                itemtype = 58427,
+                count = 1,
+                description = "<i>Embrace the chilling might of the Frostbound Guardian Dummy for intense skill refinement!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+            },
 
-        {
-            icons = { "Mage_exercise_dummy.png" },
-            name = "Mage exercise dummy",
-            price = 350,
-            itemtype = 58424,
-            count = 1,
-            description = "<i>Pick up your daily reward comfortably in your own four walls!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{useicon} use it to open the reward wall\n{backtoinbox}",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
-        } 
+            {
+                icons = { "voidcaster_effigy_dummy.png" },
+                name = "voidcaster effigy dummy",
+                price = 450,
+                itemtype = 58424,
+                count = 1,
+                description = "<i>Step into the abyss of training with the enigmatic Voidcaster Effigy Dummy!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+            },
+            {
+                icons = { "harvest_sentinel_dummy.png" },
+                name = "harvest sentinel dummy",
+                price = 450,
+                itemtype = 58543,
+                count = 1,
+                description = "<i>Train with the eerie yet dependable Harvest Sentinel Dummy to sharpen your edge!</i>\n\n{house}\n{box}\n{storeinbox}\n{usablebyall}\n{info} can only be used by one character at a time\n{useicon} use one of the exercise weapons on this dummy\n{backtoinbox}",
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE
+            }
         }
     },
 
@@ -6249,16 +6258,16 @@ GameStore.Categories = { -- Premium Time
         rookgaard = true,
         subclasses = { "Tickets", "Exclusive Offers" }
     }, -- Tournament ~ Tickets
-   -- {
-       -- icons = { "Category_Tickets.png" },
-       -- parent = "Tournament",
-       -- name = "Tickets",
-       -- rookgaard = true,
-       -- offers = { {
-       --     icons = { "Tournament_Restricted.png" },
-       --     name = "Restricted Tournament Ticket",
-       --     price = 500
-       -- } }
+    -- {
+    -- icons = { "Category_Tickets.png" },
+    -- parent = "Tournament",
+    -- name = "Tickets",
+    -- rookgaard = true,
+    -- offers = { {
+    --     icons = { "Tournament_Restricted.png" },
+    --     name = "Restricted Tournament Ticket",
+    --     price = 500
+    -- } }
     --}, -- Tournament ~ Exclusive Offers
     {
         icons = { "Category_ExclusiveOffers.png" },

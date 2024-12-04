@@ -80342,39 +80342,40 @@ Granted by TibiaGoals.com"/>
 		<attribute key="description" value="A dazzling coin of gold and gems, holding the promise of fortune and surprises."/>
 		<attribute key="weight" value="120"/>
 	</item>
-		<!-- NEW Dummys -->
 	
-	<item id="58462" article="an" name="celestial exercise dummy">
-		
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	
+	<!-- NEW Dummys -->
+	
+	<item id="58462" article="the" name="seraphic sentinel dummy">	
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="A radiant guardian said to channel the wisdom of the skies into every strike."/>
 		<attribute key="rotateto" value="58463"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>		
 	</item>
-	<item id="58463" article="an" name="celestial exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58463" article="the" name="seraphic sentinel dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="A radiant guardian said to channel the wisdom of the skies into every strike."/>
 		<attribute key="rotateto" value="58462"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-	<item id="58106" article="an" name="Chaotic exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58106" article="the" name="infernal enchantress dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="Her fiery aura whispers of chaos, her strikes a promise of annihilation."/>
 		<attribute key="rotateto" value="58107"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-	<item id="58107" article="an" name="Chaotic exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58107" article="the" name="infernal enchantress dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="Her fiery aura whispers of chaos, her strikes a promise of annihilation."/>
 		<attribute key="rotateto" value="58106"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
@@ -80382,18 +80383,18 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
-	<item id="58403" article="an" name="Swordman exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58403" article="the" name="gilded sovereign dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="This royal champion stands unyielding, with a blade said to shine brighter than the stars."/>
 		<attribute key="rotateto" value="58404"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-	<item id="58404" article="an" name="Swordman exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58404" article="the" name="gilded sovereign dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="This royal champion stands unyielding, with a blade said to shine brighter than the stars."/>
 		<attribute key="rotateto" value="58403"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
@@ -80401,18 +80402,18 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
-	<item id="58424" article="an" name="Mage exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58424" article="the" name="voidcaster effigy dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="A conduit of forbidden magic, its presence hums with unspoken dread."/>
 		<attribute key="rotateto" value="58425"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-	<item id="58425" article="an" name="Mage exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58425" article="the" name="voidcaster effigy dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="A conduit of forbidden magic, its presence hums with unspoken dread."/>
 		<attribute key="rotateto" value="58424"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
@@ -80420,18 +80421,18 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
-	<item id="58426" article="an" name="Iceman exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58426" article="the" name="fostbound guardian dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="Encased in icy wrath, this warrior burns cold with an eternal flame."/>
 		<attribute key="rotateto" value="58427"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-	<item id="58427" article="an" name="Iceman exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58427" article="the" name="fostbound guardian dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="Encased in icy wrath, this warrior burns cold with an eternal flame."/>
 		<attribute key="rotateto" value="58426"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
@@ -80439,18 +80440,18 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
-	<item id="58428" article="an" name="MageFerumbrin exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58428" article="the" name="flameborn archmage dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="Cloaked in wildfire, this mage wields the ancient fury of infernal power."/>
 		<attribute key="rotateto" value="58429"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-	<item id="58429" article="an" name="MageFerumbrin exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58429" article="the" name="flameborn archmage dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="Cloaked in wildfire, this mage wields the ancient fury of infernal power."/>
 		<attribute key="rotateto" value="58428"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
@@ -80458,18 +80459,18 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
-	<item id="58430" article="an" name="Angel exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58430" article="the" name="sanctified protector dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="Shrouded in mystery, this figure radiates divine justice with every shimmer of its shield."/>
 		<attribute key="rotateto" value="58431"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-	<item id="58431" article="an" name="Angel exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58431" article="the" name="sanctified protector dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="Shrouded in mystery, this figure radiates divine justice with every shimmer of its shield."/>
 		<attribute key="rotateto" value="58430"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
@@ -80477,18 +80478,18 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
-	<item id="58434" article="an" name="Adan exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58434" article="the" name="elemental ascendant dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="Surrounded by swirling stones and crackling energy, it embodies the force of untamed nature."/>
 		<attribute key="rotateto" value="58435"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-	<item id="58435" article="an" name="Adan exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58435" article="the" name="elemental ascendant dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="Surrounded by swirling stones and crackling energy, it embodies the force of untamed nature."/>
 		<attribute key="rotateto" value="58434"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
@@ -80496,25 +80497,25 @@ Granted by TibiaGoals.com"/>
 		</attribute>
 	</item>
 
-	<item id="58543" article="an" name="Scarecrow exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58543" article="the" name="harvest sentinel dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="A silent guardian of the fields, its eerie grin has seen many seasons of toil and triumph."/>
 		<attribute key="rotateto" value="58544"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-	<item id="58544" article="an" name="Scarecrow exercise dummy">
-		<attribute key="primarytype" value="statues"/>
-		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
+	<item id="58544" article="the" name="harvest sentinel dummy">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="description" value="A silent guardian of the fields, its eerie grin has seen many seasons of toil and triumph."/>
 		<attribute key="rotateto" value="58543"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="type" value="dummy">
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-
+<!--
 	<item id="58681" article="an" name="Vampire exercise dummy">
 		<attribute key="primarytype" value="statues"/>
 		<attribute key="description" value="You can train your skills by using training weapons with this exercise dummy."/>
@@ -80533,7 +80534,7 @@ Granted by TibiaGoals.com"/>
 			<attribute key="rate" value="135"/>
 		</attribute>
 	</item>
-
+-->
 
 	<!-- NEW Backpacks -->
 

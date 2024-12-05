@@ -44,7 +44,7 @@ monster.flags = {
 	hostile = true,
 	convinceable = false,
 	pushable = false,
-	rewardBoss = false,
+	rewardBoss = true,
 	illusionable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -86,8 +86,8 @@ monster.loot = {
 	{ name = "falcon battleaxe", chance = 200 },
 	{ name = "falcon longsword", chance = 200 },
 	{ name = "falcon mace", chance = 210 },
-	{ name = "falcon plate", chance = 100 },
-	{ name = "falcon shield", chance = 100 },
+	{ name = "falcon plate", chance = 170 },
+	{ name = "falcon shield", chance = 200 },
 }
 
 monster.attacks = {

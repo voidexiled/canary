@@ -21,11 +21,11 @@ return {
 
             items = { {
                 id = 49999,
-                count = 100,
+                count = 5,
                 chance = 0.1,
                 rare = true
             }, {
-                id = 43898,
+                id = 43895,
                 count = 1,
                 chance = 0.3,
                 rare = true
@@ -35,27 +35,27 @@ return {
                 chance = 0.6,
                 rare = true
             }, {
-                id = 19082,
-                count = 2,
-                chance = 9
-            }, {
-                id = 19082,
+                id = 3397,
                 count = 1,
                 chance = 9
             }, {
-                id = 49999,
-                count = 5,
-                chance = 9
-            }, {
-                id = 49999,
-                count = 2,
-                chance = 9
-            }, {
-                id = 50000,
+                id = 3552,
                 count = 1,
                 chance = 9
             }, {
-                id = 5898,
+                id = 3035,
+                count = 20,
+                chance = 9
+            }, {
+                id = 16105,
+                count = 1,
+                chance = 9
+            }, {
+                id = 16110,
+                count = 1,
+                chance = 9
+            }, {
+                id = 16111,
                 count = 1,
                 chance = 9
             }, {
@@ -63,15 +63,51 @@ return {
                 count = 1,
                 chance = 9
             }, {
-                id = 50001,
+                id = 3731,
+                count = 5,
+                chance = 8
+            }, {
+                id = 27449,
+                count = 5,
+                chance = 1
+            }, {
+                id = 27450,
+                count = 5,
+                chance = 1
+            }, {
+                id = 27451,
+                count = 5,
+                chance = 1
+            }, {
+                id = 27453,
+                count = 5,
+                chance = 1
+            }, {
+                id = 27454,
+                count = 5,
+                chance = 1
+            }, {
+                id = 27456,
+                count = 5,
+                chance = 1
+            }, {
+                id = 27458,
+                count = 5,
+                chance = 1
+            }, {
+                id = 27455,
+                count = 5,
+                chance = 1
+            }, {
+                id = 27457,
+                count = 5,
+                chance = 1
+            }, {
+                id = 281,
                 count = 1,
                 chance = 9
             }, {
-                id = 3278,
-                count = 1,
-                chance = 9
-            }, {
-                id = 5903,
+                id = 3271,
                 count = 1,
                 chance = 9
             }, {

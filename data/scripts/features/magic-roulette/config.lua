@@ -61,11 +61,11 @@ return {
             }, {
                 id = 3079,
                 count = 1,
-                chance = 9
+                chance = 8
             }, {
                 id = 3731,
                 count = 5,
-                chance = 8
+                chance = 1
             }, {
                 id = 27449,
                 count = 5,

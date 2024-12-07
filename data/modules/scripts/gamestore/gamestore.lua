@@ -105,7 +105,7 @@ GameStore.Categories = { -- Premium Time
     {
         icons = { "Category_PremiumTime.png" },
         parent = "Noctera Shop",
-        name = "Dolls",
+        name = "Backpacks",
         rookgaard = true,
         state = GameStore.States.STATE_NEW,
         offers = {

@@ -112,7 +112,7 @@ GameStore.Categories = { -- Premium Time
             {
                 icons = { "Christmas_Backpack.png" },
                 name = "christmas backpack",
-                price = 600,
+                price = 450,
                 itemtype = 58814,
                 description = "<i>The crimson reaper grants absolution, one claw swipe at a time.</i>\n\n{info} removes all frags and red/black skull too.\n{info} can only be used in protection zone.\n{info} can only be used when you have red skull or black skull.\n{transferableprice}",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
@@ -121,7 +121,7 @@ GameStore.Categories = { -- Premium Time
             {
                 icons = { "Pikachu_Backpack.png" },
                 name = "pikachu backpack",
-                price = 870,
+                price = 420,
                 itemtype = 58017,
                 description = "<i>This playful jester holds the secrets of transformation. Just don't let it out of your sight.</i>\n\n{info} right click to use choose your new outfit.\n\n{info} to close the window press the 'cancel' button.",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
@@ -130,7 +130,7 @@ GameStore.Categories = { -- Premium Time
             {
                 icons = { "Dragon_Ball_Backpack.png" },
                 name = "dragon ball backpack",
-                price = 870,
+                price = 420,
                 itemtype = 58015,
                 description = "<i>A reptilian effigy radiating power. It feels like it could spring to life at any moment.</i>\n\n{info} right click to use choose your new mount.\n\n{info} to close the window press the 'cancel' button.",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
@@ -139,7 +139,7 @@ GameStore.Categories = { -- Premium Time
             {
                 icons = { "Magician_Backpack.png" },
                 name = "magician backpack",
-                price = 1200,
+                price = 420,
                 itemtype = 58895,
                 description = "<i>A fierce assassin caught mid-strike. Its twin blades seem to shimmer with deadly intent.</i>\n\n{info} right click to use choose your new exclusive outfit.\n\n{info} to close the window press the 'cancel' button.",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
@@ -148,7 +148,7 @@ GameStore.Categories = { -- Premium Time
             {
                 icons = { "Soulwar_Backpack.png" },
                 name = "soulwar backpack",
-                price = 1200,
+                price = 420,
                 itemtype = 58097,
                 description = "<i>A token of unparalleled privilege, granting access to a mount like no other.</i>\n\n{info} right click to use choose your new exclusive mount.\n\n{info} to close the window press the 'cancel' button.",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
@@ -157,7 +157,7 @@ GameStore.Categories = { -- Premium Time
             {
                 icons = { "Cow_Backpack.png" },
                 name = "cow backpack",
-                price = 1200,
+                price = 420,
                 itemtype = 58892,
                 description = "<i>A token of unparalleled privilege, granting access to a mount like no other.</i>\n\n{info} right click to use choose your new exclusive mount.\n\n{info} to close the window press the 'cancel' button.",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
@@ -166,7 +166,7 @@ GameStore.Categories = { -- Premium Time
             {
                 icons = { "Green_Backpack.png" },
                 name = "green backpack",
-                price = 1200,
+                price = 420,
                 itemtype = 58893,
                 description = "<i>A token of unparalleled privilege, granting access to a mount like no other.</i>\n\n{info} right click to use choose your new exclusive mount.\n\n{info} to close the window press the 'cancel' button.",
                 type = GameStore.OfferTypes.OFFER_TYPE_ITEM,
@@ -721,7 +721,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Axe.png" },
             name = "Lasting Exercise Axe",
-            price = 250,
+            price = 290,
             itemtype = 35286,
             charges = 14400,
             description = "<i>Use it to train your axe fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your axe fighting skill\n{info} usable 14400 times a piece",
@@ -729,7 +729,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Bow.png" },
             name = "Lasting Exercise Bow",
-            price = 250,
+            price = 290,
             itemtype = 35288,
             charges = 14400,
             description = "<i>Use it to train your distance fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your distance fighting skill\n{info} usable 14400 times a piece",
@@ -737,7 +737,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Club.png" },
             name = "Lasting Exercise Club",
-            price = 250,
+            price = 290,
             itemtype = 35287,
             charges = 14400,
             description = "<i>Use it to train your club fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your club fighting skill\n{info} usable 14400 times a piece",
@@ -745,7 +745,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Rod.png" },
             name = "Lasting Exercise Rod",
-            price = 250,
+            price = 290,
             itemtype = 35289,
             charges = 14400,
             description = "<i>Use it to train your magic level on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your magic level\n{info} usable 14400 times a piece",
@@ -753,7 +753,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Sword.png" },
             name = "Lasting Exercise Sword",
-            price = 250,
+            price = 290,
             itemtype = 35285,
             charges = 14400,
             description = "<i>Use it to train your sword fighting skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your sword fighting skill\n{info} usable 14400 times a piece",
@@ -761,7 +761,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Wand.png" },
             name = "Lasting Exercise Wand",
-            price = 250,
+            price = 290,
             itemtype = 35290,
             charges = 14400,
             description = "<i>Use it to train your magic level on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your magic level\n{info} usable 14400 times a piece",
@@ -769,7 +769,7 @@ GameStore.Categories = { -- Premium Time
         }, {
             icons = { "Lasting_Exercise_Shield.png" },
             name = "Lasting Exercise Shield",
-            price = 250,
+            price = 290,
             itemtype = 44067,
             charges = 14400,
             description = "<i>Use it to train your shielding skill on an exercise dummy!</i>\n\n{character}\n{storeinbox}\n{info} use it on an exercise dummy to train your shielding skill\n{info} usable 14400 times a piece",

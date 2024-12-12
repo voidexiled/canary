@@ -99,7 +99,7 @@ GameStore.Categories = { -- Premium Time
         icons = { "Category_PremiumTime.png" },
         name = "Noctera Shop",
         rookgaard = true,
-        subclasses = { "Dolls", "Features" },
+        subclasses = { "Backpacks", "Features", "Foods", "Exercise dummies" },
         state = GameStore.States.STATE_NEW,
     },
     {
@@ -222,8 +222,6 @@ GameStore.Categories = { -- Premium Time
 
         }
     }, -- Consumables
-
-
     {
         icons = { "Category_PremiumTime.png" },
         parent = "Noctera Shop",
@@ -364,8 +362,6 @@ GameStore.Categories = { -- Premium Time
             }
         }
     },
-
-
     {
         icons = { "Category_Consumables.png" },
         name = "Consumables",
@@ -6292,7 +6288,7 @@ GameStore.Categories = { -- Premium Time
         icons = { "Category_Tournament.png" },
         name = "Tournament",
         rookgaard = true,
-        subclasses = { "Tickets", "Exclusive Offers" }
+        subclasses = { "Exclusive Offers" }
     }, -- Tournament ~ Tickets
     --[[ {
      icons = { "Category_Tickets.png" },

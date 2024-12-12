@@ -1,7 +1,7 @@
 local config = {
 	items = {
 		{ id = 28557, charges = 1000 },
-		{ id = 28552, charges = 1000 },
+		{ id = 28555, charges = 1000 },
 		{ id = 28554, charges = 1000 },
 		{ id = 28556, charges = 1000 },
 		{ id = 28552, charges = 1000 },
